@@ -5,7 +5,7 @@ function Headerbar() {
     return (
       <div className="headerbar">
           <div className='logo'>
-            <img src='src\automotora\components\logo_transparent.png' alt='logo automotora'></img>
+            <img src='./src/assets/logo/logo_transparent.png' alt='logo'></img>
           </div>
           <div></div>
           <div className='opciones'>Menu de opciones</div>

@@ -1,2 +1,42 @@
+@font-face{
+    font-family: ProximaNovaAltBold;
+    src: url("../../fonts/proxima_ssv/Proxima\ Nova\ Alt\ Bold.otf");
+}
+@font-face{
+    font-family: ProximaNovaAltLight;
+    src: url("../../fonts/proxima_ssv/Proxima\ Nova\ Alt\ Light.otf");
+}
+@font-face{
+    font-family: ProximaNovaAltThin;
+    src: url("../../fonts/proxima_ssv/Proxima\ Nova\ Alt\ Thin.otf");
+}
+@font-face{
+    font-family: ProximaNovaBlack;
+    src: url("../../fonts/proxima_ssv/Proxima\ Nova\ Black.otf");
+}
+@font-face{
+    font-family: ProximanovaBold;
+    src: url("../../fonts/proxima_ssv/Proxima\ Nova\ Bold.otf");
+}
+@font-face{
+    font-family: ProximaNovaExtraBold;
+    src: url("../../fonts/proxima_ssv/Proxima\ Nova\ Extrabold.otf");
+}
+@font-face{
+    font-family: ProximaNovaThin;
+    src: url("../../fonts/proxima_ssv/Proxima\ Nova\ Thin.otf");
+}
+@font-face{
+    font-family: ProximaNovaRegular;
+    src: url("../../fonts/proxima_ssv/ProximaNova-Regular.otf");
+}
+$PN_REGULAR: ProximaNovaRegular;
+$PN_THIN: ProximaNovaThin;
+$PN_EXTRABOLD:ProximaNovaExtraBold;
+$PN_BOLD:ProximaNovaBold;
+$PN_BLACK:ProximaNovaBlack;
+$PN_ALT_THIN:ProximaNovaAltThin;
+$PN_ALT_LIGHT:ProximaNovaAlthLight;
+$PN_ALT_BOLD:ProximaNovaAltBold;
 $BAR_COLOR: rgb(0, 45, 117);
 $SHADOW:0px 10px 5px -5px rgba(179,179,179,1);

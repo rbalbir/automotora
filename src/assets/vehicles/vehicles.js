@@ -2,14 +2,21 @@ const vehicles = [
     {
         brand:"Chevrolet",
         model:"Sail",
-        price:"",
+        price:"99999",
         data: {
             km:"",
             year:"",
             fuel:"Nafta",
             equip:[],
         },
-        imgs:[]
+        imgs:[
+            "/chevrolet/sail/front.jpg",
+            "/chevrolet/sail/frontleft.jpg",
+            "/chevrolet/sail/rearright.jpg",
+            "/chevrolet/sail/rear.jpg",
+            "/chevrolet/sail/frontint.jpg",
+            "/chevrolet/sail/rearint.jpg"
+        ]
     },
     {
         brand:"Volkswagen",

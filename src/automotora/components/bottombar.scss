@@ -1,11 +1,12 @@
 @import "./constants.scss";
 .bottombar{
-    border-top: 1px solid rgba(179,179,179,1);
+    border-top: 5px solid #1b1b1b;
     display: flex;
     justify-content: space-between;
     padding-left: 5px;
     padding-right: 5px;
-    background: $BAR_COLOR;
+    background: #1b1b1b;
+    padding-top: 0.5rem;
     .map{
 
     }

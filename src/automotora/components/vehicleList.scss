@@ -11,9 +11,10 @@
         border-radius: 5px;
         border: 1px solid lightgray;
         padding-left: 2rem;
-        -webkit-box-shadow: 2px 16px 17px 0px rgba(138,138,138,1);
-        -moz-box-shadow: 2px 16px 17px 0px rgba(138,138,138,1);
-        box-shadow: 2px 16px 17px 0px rgba(138,138,138,1);
+        /* box-shadow: 2px 16px 17px 0px #8a8a8a; */
+        background-color: black;
+        color: white;
+        margin-top: 4rem;
     }
     .vehicleList{
         display: grid;

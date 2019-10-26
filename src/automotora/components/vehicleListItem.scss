@@ -1,39 +1,41 @@
 @import "./constants.scss";
-.vehicleListItem{
-//    background-image: url("src/assets/vehicles/vehicleList/chevrolet/sail/front.jpg");
-    border: 1px solid;
-    max-width: 23rem;
-    min-width: 20rem;
-    max-height: 23rem;
-    min-height: 20rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-right: 30px;
-    margin-bottom: 30px;
-    .name{
-        color: white;
+.link{
+    text-decoration: none;
+    .vehicleListItem{
+        border: 1px solid;
+        max-width: 23rem;
+        min-width: 20rem;
+        max-height: 23rem;
+        min-height: 20rem;
         display: flex;
         flex-direction: column;
-        margin-top: 16rem;
-        background-color: #000000ba;
-        width: 100%;
-        height: 63px;
-        .brand{
-            margin-top: 0.7rem;
-            margin-right: 13rem;
-            font-family: $PN_BOLD;
-            font-size: 20px;
-            width: 20%;
+        justify-content: center;
+        align-items: center;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        .name{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            margin-top: 16rem;
+            background-color: #000000ba;
+            width: 100%;
+            height: 63px;
+            .brand{
+                margin-top: 0.7rem;
+                margin-right: 13rem;
+                font-family: $PN_BOLD;
+                font-size: 20px;
+                width: 20%;
+            }
+            .model{
+                margin-right: 16.5rem;
+                width: 40%;
+                font-family: $PN_THIN;
+            }
         }
-        .model{
-            margin-right: 16.5rem;
-            width: 40%;
-            font-family: $PN_THIN;
+        .price{
+            
         }
-    }
-    .price{
-        
     }
 }

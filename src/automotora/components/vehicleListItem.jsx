@@ -3,17 +3,22 @@ import React from "react";
 import vehicles from "../../assets/vehicles/vehicles.js";
 
 function VehicleList(props) {
-    const dir = "src/assets/vehicles/vehicleList"+props.vehicle.imgs[0];
-    console.log("dir", dir);
+    const divStyle = {
+        'background-image': `url(${props.vehicle.img})`,
+        'background-size': 'contain',
+        'background-repeat': 'no-repeat',
+        'background-position': 'center center',
+    }
     return (
-      <div className="vehicleListItem">
-          <img src={dir}></img>
-          <div className="name">
-              <div className="brand">{props.vehicle.brand}</div>
-              <div className="model">{props.vehicle.model}</div>
-              <div className="price">{props.vehicle.price}</div>
-          </div>
-      </div>
+        <a className="link" href={props.vehicle.fbLink}>
+            <div style={divStyle} className="vehicleListItem">
+                <div className="name">
+                    <div className="brand">{props.vehicle.brand}</div>
+                    <div className="model">{props.vehicle.model}</div>
+                    <div className="price">{props.vehicle.price}</div>
+                </div>
+            </div>
+        </a>
     );
 }
   

@@ -1,8 +1,9 @@
+@import "./constants.scss";
 .body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #e0e0e0;
+    
     .subbody{
         display: flex;
         justify-content: center;

@@ -1,8 +1,8 @@
 @import "./constants.scss";
 .link{
     text-decoration: none;
+    color: black;
     .vehicleListItem{
-        border: 1px solid;
         max-width: 23rem;
         min-width: 20rem;
         max-height: 23rem;
@@ -13,6 +13,11 @@
         align-items: center;
         margin-right: 30px;
         margin-bottom: 30px;
+        border-radius: 1rem;
+        border: 1px solid;
+        -webkit-box-shadow: 2px 16px 17px 0px rgba(138,138,138,1);
+        -moz-box-shadow: 2px 16px 17px 0px rgba(138,138,138,1);
+        box-shadow: 2px 16px 17px 0px rgba(138,138,138,1);
         .name{
             color: white;
             display: flex;
@@ -21,6 +26,7 @@
             background-color: #000000ba;
             width: 100%;
             height: 63px;
+            border-radius: 0rem 0rem 1rem 1rem;
             .brand{
                 margin-top: 0.7rem;
                 margin-right: 13rem;

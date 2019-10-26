@@ -2,7 +2,7 @@ import "./vehicleListItem.scss";
 import React from "react";
 import vehicles from "../../assets/vehicles/vehicles.js";
 
-function VehicleList(props) {
+function VehicleListItem(props) {
     const divStyle = {
         'background-image': `url(${props.vehicle.img})`,
         'background-size': 'contain',
@@ -22,4 +22,4 @@ function VehicleList(props) {
     );
 }
   
-export default VehicleList;
+export default VehicleListItem;

@@ -1,5 +1,23 @@
-.vehicleList{
-    display: grid;
-    grid-template-columns: 23rem 23rem 23rem;
-    margin: 20px;
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    .searchInput{
+        width: 100%;
+        margin: 20px;
+        height: 38px;
+        border-radius: 5px;
+        border: 1px solid lightgray;
+        padding-left: 2rem;
+        -webkit-box-shadow: 2px 16px 17px 0px rgba(138,138,138,1);
+        -moz-box-shadow: 2px 16px 17px 0px rgba(138,138,138,1);
+        box-shadow: 2px 16px 17px 0px rgba(138,138,138,1);
+    }
+    .vehicleList{
+        display: grid;
+        grid-template-columns: 23rem 23rem 23rem;
+        margin: 20px;
+    }
 }

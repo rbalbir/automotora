@@ -3,45 +3,48 @@
     text-decoration: none;
     color: black;
     .vehicleListItem{
-        max-width: 23rem;
-        min-width: 20rem;
-        max-height: 23rem;
-        min-height: 20rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-right: 30px;
-        margin-bottom: 30px;
         border-radius: 1rem;
         border: 1px solid;
+        width: 100%;
+        height: 100%;
         -webkit-box-shadow: 2px 16px 17px 0px #1b1b1b;
         -moz-box-shadow: 2px 16px 17px 0px #1b1b1b;
         box-shadow: 2px 16px 17px 0px #1b1b1b;
-        .name{
-            color: white;
-            display: flex;
-            flex-direction: column;
-            margin-top: 16rem;
-            background-color: #000000ba;
+        .desc{
             width: 100%;
-            height: 63px;
-            border-radius: 0rem 0rem 1rem 1rem;
-            .brand{
-                margin-top: 0.7rem;
-                margin-right: 13rem;
+            .price{
+                color: white;
                 font-family: $PN_BOLD;
-                font-size: 20px;
-                width: 20%;
+                background-color: #000000ba;
             }
-            .model{
-                margin-right: 16.5rem;
-                width: 40%;
-                font-family: $PN_THIN;
+            .name{
+                color: white;
+                display: flex;
+                flex-direction: column;
+                margin-top: 16rem;
+                background-color: #000000ba;
+                width: 100%;
+                height: 63px;
+                border-radius: 0rem 0rem 1rem 1rem;
+                .brand{
+                    margin-top: 0.7rem;
+                    margin-right: 13rem;
+                    font-family: $PN_BOLD;
+                    font-size: 20px;
+                    width: 100%;
+                }
+                .model{
+                    margin-right: 16.5rem;
+                    width: 100%;
+                    font-family: $PN_THIN;
+                }
             }
         }
-        .price{
-            
-        }
+        
+
     }
 }

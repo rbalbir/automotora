@@ -481,19 +481,6 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/107603400603732/photos/a.107727857257953/117551449608927/?type=3&__tn__=-R'
     },
     {
-        brand:"Suzuki",
-        model:"Ciaz",
-        price:"",
-        data: {
-            km:"",
-            year:"",
-            fuel:"",
-            equip:[],
-        },
-        img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/69861978_118877126143026_6002287877868748800_n.jpg?_nc_cat=108&_nc_oc=AQlE1lfPAO_MJik48SSaffT0c0L7ehxz9eDZulwPTglrrStslSHPvJUS5-AHzLh-EZk&_nc_ht=scontent.fmvd4-1.fna&oh=9cbdc0f94b277a4458ec45aefeb27051&oe=5E20ECF4',
-        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=118877162809689&id=107603400603732&__tn__=-R'
-    },
-    {
         brand:"Mitsubishi",
         model:"L200 Sportero",
         price:"",
@@ -609,7 +596,59 @@ const vehicles = [
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/69045703_118934786137260_1432196684967837696_n.jpg?_nc_cat=111&_nc_oc=AQnLR1NDS5XqAco1itA1npyLlVMn3_be_Q8MWkLcQ-9iTOuXp4IYy-dSxXdj1Y4gD3Q&_nc_ht=scontent.fmvd4-1.fna&oh=4c03afc9323fbadb8760efa43df0d613&oe=5E16C33E',
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=118934829470589&id=107603400603732&__tn__=-R'
-    }
+    },
+    {
+        brand:"Hyndai",
+        model:"H1 Diesel",
+        price:"",
+        data: {
+            km:"",
+            year:"",
+            fuel:"",
+            equip:[],
+        },
+        img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/72710532_144692700228135_1402326763677155328_n.jpg?_nc_cat=102&_nc_oc=AQn5KHNPQ89PvZun6D-ytaRJefn2ccEbG-Qunr_p-fRFSUdjZsKTvwxJulJmTrZ81xU&_nc_ht=scontent.fmvd4-1.fna&oh=ad5d7ec33b9ba1a92de203d7f2800053&oe=5E55FA5D',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=144692863561452&id=107603400603732&__tn__=-R'
+    },
+    {
+        brand:"Faw",
+        model:"Doble cabina",
+        price:"",
+        data: {
+            km:"",
+            year:"",
+            fuel:"",
+            equip:[],
+        },
+        img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/73342919_144691070228298_5038229129082699776_n.jpg?_nc_cat=101&_nc_oc=AQmcCAuf9kbchQ47UlYYCzmL581wGBFCoxwXWn_iRZ-nXhRAyIp30nw7B_ohPNqNT88&_nc_ht=scontent.fmvd4-1.fna&oh=223b52b4250a6872ea302e1245cb2c02&oe=5E1A2A12',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=144691160228289&id=107603400603732&__tn__=-R'
+    },
+    {
+        brand:"Mitsubishi",
+        model:"Lancer GLXI",
+        price:"",
+        data: {
+            km:"",
+            year:"",
+            fuel:"",
+            equip:[],
+        },
+        img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/75627553_144700680227337_2006675627691737088_n.jpg?_nc_cat=102&_nc_oc=AQmrQDj22N5KG0mJ_OVita5op-6xzmWcl_Ekh9XyMqE7QDGJmg5ShOZcuNI8dlNSWPc&_nc_ht=scontent.fmvd4-1.fna&oh=0d5474d55fa64c729145b8f14f486f02&oe=5E215500',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=144700880227317&id=107603400603732&__xts__[0]=68.ARA1HPBEafDt0AKnz80YTJvgQIB6PGOn5oG4eiU2AMtcBCg-HQzN3dDGnyElUtb3oXh_JjdWseXddgRs4YuiTolDPEhKWKFILBQ6_69Rkkxa9zV43rFbVyIv2Ad5F_NxMUCS6m36ckiz3ldAZMCgLYBWlAnip2An44n-h-0D63oWBN2wzRZdBZigTW6Haf0M18TETvV83VfopOpWL8JmKHlBpBc5GacdQPSDjIymesACXTLfb8wNPdPYobtraPEAnKl6jxnBIViM7O02_sUjKO50J02yR5UUrtp-OODs3IBzcOpxr6yJrQuyMWsdtKa0b9c0HdhjMxawJsIZZl3B_BA&__tn__=-R'
+    },
+    {
+        brand:"Subaru",
+        model:"Impreza Automatico",
+        price:"",
+        data: {
+            km:"",
+            year:"",
+            fuel:"",
+            equip:[],
+        },
+        img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/75462434_144699730227432_1788255443810779136_n.jpg?_nc_cat=107&_nc_oc=AQm95gnN5EdeLZYkG1wQawzukHAuMyVaLtflt9Kj_Xu52NxyPDCqZRLw21YWtbn2QPY&_nc_ht=scontent.fmvd4-1.fna&oh=7036251a244d6acca49544534b110daf&oe=5E5C3CB7',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=144699750227430&id=107603400603732&__tn__=-R'
+    },
     /*{
         brand:"",
         model:"",

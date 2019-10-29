@@ -12,10 +12,12 @@ function VehicleListItem(props) {
     return (
         <a className="link" href={props.vehicle.fbLink}>
             <div style={divStyle} className="vehicleListItem">
-                <div className="name">
-                    <div className="brand">{props.vehicle.brand}</div>
-                    <div className="model">{props.vehicle.model}</div>
-                    <div className="price">{props.vehicle.price}</div>
+                <div className="desc">
+                    <div className="name">
+                        <div className="brand">{props.vehicle.brand}</div>
+                        <div className="model">{props.vehicle.model}</div>
+                    </div>
+                    <div className="price">{`USD ${props.vehicle.price}`}</div>
                 </div>
             </div>
         </a>

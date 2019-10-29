@@ -7,37 +7,47 @@
     padding-right: 5px;
     background: #1b1b1b;
     padding-top: 0.5rem;
+    
     .map{
 
     }
     .contactInfo{
         
-    }
-    .logo{
+        .logo{
 
+        }
+        .socialMedia{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 12rem;
+            width: 9rem;
+            .ig{
+                background-image: url(http://pngimg.com/uploads/instagram/instagram_PNG9.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+                width: 44px;
+                height: 44px;
+            }
+            .fb{
+                background-image: url(http://www.araseec.es/wp-content/uploads/2017/05/a942d422a6560574ce26d3897e4fd6b3_-facebook-logo-on-pinterest-facebook-logo_1147-1147-1024x1024.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+                width: 40px;
+                height: 40px;
+            }
+            .wp{
+                background-image: url(https://www.freepnglogos.com/uploads/whatsapp-logo-png-31.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+                width: 40px;
+                height: 40px;
+            }
+        }
     }
-    .ig{
-        background-image: url(http://pngimg.com/uploads/instagram/instagram_PNG9.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        width: 44px;
-        height: 44px;
-    }
-    .fb{
-        background-image: url(http://www.araseec.es/wp-content/uploads/2017/05/a942d422a6560574ce26d3897e4fd6b3_-facebook-logo-on-pinterest-facebook-logo_1147-1147-1024x1024.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        width: 40px;
-        height: 40px;
-    }
-    .wp{
-        background-image: url(https://www.freepnglogos.com/uploads/whatsapp-logo-png-31.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        width: 40px;
-        height: 40px;
-    }
+
 }

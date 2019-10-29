@@ -1,9 +1,14 @@
 import "./vehicleList.scss";
 import React, {useState} from "react";
 import vehicles from "../../assets/vehicles/vehicles.js";
+import rents from "../../assets/vehicles/rents.js"
 import VehicleListItem from "./vehicleListItem.jsx";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
 function VehicleList() {
-  const [filteredVehicles, setFilteredVehicles] = useState(vehicles);
+  const [filteredVehicles, setFilteredVehicles] = useState(
+    vehicles.sort((a, b) => (a.brand > b.brand ? 1 : -1))
+  );
   const [filterValue, setFilterValue] = useState('');
 
   const filterVehicle = (event) => {
@@ -26,6 +31,7 @@ function VehicleList() {
         placeholder="Busque por marca o modelo de vehiculo" 
         className="searchInput"
         onChange={filterVehicle} />
+      <div className="title">Ventas y Permutas</div>
       <div className="vehicleList">
         {
           filteredVehicles.map((value, index) => {
@@ -33,6 +39,20 @@ function VehicleList() {
           })
         }
       </div>
+      <div className="title">Alquileres</div>
+      <div className="vehicleList">
+        {rents.map((value, index) =>{
+          return (
+              <div className={`item${index}`} key={index}>
+                <div className="desc">
+                  <div className="brand">{value.brand}</div>
+                  <dic className="model">{value.model}</dic>
+                  <dic className="specs">{value.specs}</dic>
+                </div>
+              </div>
+            );
+        })}
+        </div>
     </div>
   );
 }

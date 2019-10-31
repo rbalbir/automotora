@@ -2,12 +2,12 @@ const vehicles = [
     {
         brand:"Chevrolet",
         model:"Sail",
-        price:"99999",
+        price:"10500",
         data: {
-            km:"",
-            year:"",
+            km:"45000",
+            year:"2015",
             fuel:"Nafta",
-            equip:[],
+            equip:["A/C","D/H"],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/72827602_137415977622474_3371854089649389568_n.jpg?_nc_cat=100&_nc_oc=AQlo9eM-o0wMJ6x9eCe3-5amSLWlwoLofQtvODNj1Y5RBUFVkczz4qUY3oFzs89G8aY&_nc_ht=scontent.fmvd4-1.fna&oh=2ed3a61a6a2daff09e1a0e574a2e0c88&oe=5E28C5C4',
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=137416320955773&id=107603400603732&__xts__%5B0%5D=68.ARDRi1oQN4JZy8j3dr5R5t_hn6sJr317_I0N7vYMFbneNTmIf80T71wbGWKl7h0wvt64mbdQ_jfRNrCRuKRgjxmDVSCTl8dDx_3O5MJSw8oFSu1TC4VBC46fxEBHgm_749tw1q4Q6RCJUilFgzaKCs4N2FzrdR3UdWWNbwMZSbJHKFva7zRNM6DvKDTQIPn27N0n4ySFbcCfjZjXfK9ILnW6CfGHAVulEYaddWM-CZUmdiiqdiOUP__--UriYzSTRrN_2HXLbh_1Efp-YJKBPGGLYUwhEzuLOilSFeXTGFxcr4rHEvfN3uefUhCEDU4ufpVzHq9xqa51khqYEF_xKVY&__tn__=-R'
@@ -15,12 +15,12 @@ const vehicles = [
     {
         brand:"Citroen",
         model:"ZX Diesel",
-        price:"",
+        price:"4800",
         data: {
             km:"",
-            year:"",
-            fuel:"",
-            equip:[],
+            year:"1997",
+            fuel:"Diesel",
+            equip:["A/C","D/H"],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/75462465_143949203635818_3096166323672055808_n.jpg?_nc_cat=102&_nc_oc=AQnGHJ48k1zzGZfL_FZchhLiGGguNqO-rPOiEtqzl1Mzt63GWsgRiAwhYGhVzBtGevg&_nc_ht=scontent.fmvd4-1.fna&oh=6a26719296edd0b1ba3b1f0a5cf8594b&oe=5E18686C',
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=143949380302467&id=107603400603732&__tn__=-R'
@@ -28,12 +28,12 @@ const vehicles = [
     {
         brand:"Volkswagen",
         model:"Saveiro G5",
-        price:"",
+        price:"10500",
         data: {
             km:"",
-            year:"",
-            fuel:"",
-            equip:[],
+            year:"2012",
+            fuel:"Nafta",
+            equip:["A/C","D/H"],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/73482853_143071457056926_319131192672649216_n.jpg?_nc_cat=100&_nc_oc=AQmyg4nP6EVJtzGJanI893puEIPk0nC307cBc-0JvWtKWjfdoT9PXmo-KHL9mYozjAE&_nc_ht=scontent.fmvd4-1.fna&oh=146057128ac5a4fb51336e4166842d12&oe=5E61812B',
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=143071473723591&id=107603400603732&__tn__=-R'
@@ -41,12 +41,12 @@ const vehicles = [
     {
         brand:"Volkswagen",
         model:"Gol G2",
-        price:"",
+        price:"5500",
         data: {
             km:"",
             year:"",
             fuel:"",
-            equip:[],
+            equip:["Std"],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/74368460_142966957067376_2598619299010576384_n.jpg?_nc_cat=107&_nc_oc=AQk2osfxFhXRLyV8olW0v4cKPiZI5JRUAxhlv6qYWlr_wtEu6dNQlZUK0h3ddAac8GY&_nc_ht=scontent.fmvd4-1.fna&oh=fe676393f4fd13c02b253e95fba30ffb&oe=5E5FE73C',
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=142967127067359&id=107603400603732&__tn__=-R'
@@ -54,12 +54,12 @@ const vehicles = [
     {
         brand:"Renault",
         model:"19",
-        price:"",
+        price:"3900",
         data: {
             km:"",
             year:"",
             fuel:"",
-            equip:[],
+            equip:["Std"],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/73533050_142966787067393_6370625716282720256_n.jpg?_nc_cat=111&_nc_oc=AQm-mUCKQymRTo896NLnhppkObEbZ2wcX29bIvw7TUNPKkEB9tRabpPSGhUGnFCECvI&_nc_ht=scontent.fmvd4-1.fna&oh=2c78a43714b55c18b145fc389fc6656e&oe=5E60922C',
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=142966840400721&id=107603400603732&__tn__=-R'
@@ -67,12 +67,12 @@ const vehicles = [
     {
         brand:"Chevrolet",
         model:"Corsa II",
-        price:"",
+        price:"7900",
         data: {
             km:"",
             year:"",
-            fuel:"",
-            equip:[],
+            fuel:"Nafta",
+            equip:["A/C", "D/H"],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/73105946_138701627493909_7972913560122556416_n.jpg?_nc_cat=105&_nc_oc=AQm7kYFMsx5ZTMnDRxNwPlaCGtKjemrQUbKSEJoQawtVhfH-LkGY2Cpg8UztGPSZwDM&_nc_ht=scontent.fmvd4-1.fna&oh=d1763305306a3136d9d519f6a1facae6&oe=5E517BAF',
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=138701747493897&id=107603400603732&__tn__=-R'
@@ -80,38 +80,38 @@ const vehicles = [
     {
         brand:"Kia",
         model:"Carnival Diesel Automatica",
-        price:"",
+        price:"12900",
         data: {
             km:"",
-            year:"",
-            fuel:"",
-            equip:[],
+            year:"2001",
+            fuel:"Diesel",
+            equip:["Superfull"],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/71954533_137416467622425_514216535766597632_n.jpg?_nc_cat=111&_nc_oc=AQnnZiTk3dezCUoYWkpom4Totkl3f-p_XjMODLXL9dlPkJQsdZcHG5rpckd2uOJb2k0&_nc_ht=scontent.fmvd4-1.fna&oh=68f9cdc27e53b682e657785b749d8264&oe=5E5CD6B9',
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=137416637622408&id=107603400603732&__tn__=-R'
     },
     {
         brand:"Hyundai",
-        model:"H100",
-        price:"",
+        model:"H100 Diesel",
+        price:"8900",
         data: {
             km:"",
             year:"",
-            fuel:"",
-            equip:[],
+            fuel:"Diesel",
+            equip:["Full", "12 pasajeros"],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/71927528_137115384319200_6640835333078384640_n.jpg?_nc_cat=100&_nc_oc=AQlX5j6tcTjOLDz-vXgqB_y2pwq-ndQJrGXBx2HPx5gX0L2-_PW3XmQalG_GNY6VVO4&_nc_ht=scontent.fmvd4-1.fna&oh=5b788ac4600b5c6989e1be13ed502d40&oe=5E1760C4',
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=137115464319192&id=107603400603732&__tn__=-R'
     },
     {
         brand:"Citroen",
-        model:"Berlingo",
-        price:"",
+        model:"Berlingo Furgon Nafta",
+        price:"6000",
         data: {
             km:"",
             year:"",
-            fuel:"",
-            equip:[],
+            fuel:"Nafta",
+            equip:["Std"],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/71170497_133274698036602_1445040939285348352_n.jpg?_nc_cat=101&_nc_oc=AQmNNMTbhQYDP9KDUAdUXdpHgVn-4iYyHU3eA6KI9FZY2ChzGRwtrmpj5OJOLoyQpLo&_nc_ht=scontent.fmvd4-1.fna&oh=6740ca96adc44ce17f9682ae51f830ed&oe=5E561AB7',
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=133274814703257&id=107603400603732&__tn__=-R'
@@ -119,38 +119,25 @@ const vehicles = [
     {
         brand:"Renault",
         model:"Sandero",
-        price:"",
+        price:"10990",
         data: {
             km:"",
-            year:"",
-            fuel:"",
-            equip:[],
+            year:"2016",
+            fuel:"Nafta",
+            equip:["Full"],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/71100677_133274361369969_614088647251066880_n.jpg?_nc_cat=102&_nc_oc=AQnL8x1bYVAtoHeloWMbLClk4rfaJK7H2EVbRBruV9LMJoz_Fbr0Nu5q0xC3fZkPJ9c&_nc_ht=scontent.fmvd4-1.fna&oh=7ae6d4818d862a74e032e6251ffa28f3&oe=5E27B3B8',
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=133274464703292&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Volkswagen",
-        model:"Saveiro G2",
-        price:"",
-        data: {
-            km:"",
-            year:"",
-            fuel:"",
-            equip:[],
-        },
-        img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/71060314_132965994734139_6753693097793683456_n.jpg?_nc_cat=106&_nc_oc=AQnvlbnNqcYM5YkHQ2bxQFqcnCHxBF2jUb6-3Mr2np5zxYK0b10lgbaoJOZ5zHg0XS4&_nc_ht=scontent.fmvd4-1.fna&oh=03e2cc6a1219b135ea0e3781bd5271f8&oe=5E2592C8',
-        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=132966058067466&id=107603400603732&__tn__=-R'
-    },
-    {
         brand:"Fiat",
         model:"Palio",
-        price:"",
+        price:"5300",
         data: {
             km:"",
             year:"",
-            fuel:"",
-            equip:[],
+            fuel:"Nafta",
+            equip:["Std"],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/71110786_132475944783144_3259001221196808192_n.jpg?_nc_cat=111&_nc_oc=AQl_x-ftDluABkD7FCG08CyGbXMGeLr9hKeCcc86U7ARJnN7XdI0Bt6gfVIGQAV0g9I&_nc_ht=scontent.fmvd4-1.fna&oh=52d97a20f5c622e846ca52a8f03e87b4&oe=5E16E294',
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=132476101449795&id=107603400603732&__tn__=-R'
@@ -158,12 +145,12 @@ const vehicles = [
     {
         brand:"Hyundai",
         model:"HB20",
-        price:"",
+        price:"15500",
         data: {
-            km:"",
-            year:"",
-            fuel:"",
-            equip:[],
+            km:"13000",
+            year:"2017",
+            fuel:"Nafta",
+            equip:["Full"],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/70725500_132052134825525_8027266070605725696_n.jpg?_nc_cat=109&_nc_oc=AQmp1cG6mptQlW8X07b_ELtut-PnHPx6UyGjj0v-pSbLt6s-2Nl6sZ-i2SIGgAvLkHY&_nc_ht=scontent.fmvd4-1.fna&oh=72771498ef224d6821bb1843785b62b4&oe=5E554284',
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=132052198158852&id=107603400603732&__tn__=-R'
@@ -174,9 +161,9 @@ const vehicles = [
         price:"",
         data: {
             km:"",
-            year:"",
-            fuel:"",
-            equip:[],
+            year:"2008",
+            fuel:"Nafta",
+            equip:["Full"],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/70623265_131687438195328_5308303497358213120_n.jpg?_nc_cat=106&_nc_oc=AQm3Olo_kXjYLrEC8BhYl2MnbSmdHILwYkUommJHAceRzEL-wz73YTSwnIaRn_IyEiU&_nc_ht=scontent.fmvd4-1.fna&oh=38e659d986a3e39330ff58db2ac27a22&oe=5E516937',
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=131687458195326&id=107603400603732&__tn__=-R'
@@ -188,8 +175,8 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
-            equip:[],
+            fuel:"Nafta",
+            equip:["Full"],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/71962366_131687151528690_7021330312646885376_n.jpg?_nc_cat=110&_nc_oc=AQnXl9H7oNQcQnbcG5Qm7GVAkp7tR2knOaeIQnjepKEZ2-HknTA8VksdSVL1-YdIaDc&_nc_ht=scontent.fmvd4-1.fna&oh=20a2e9326b636acf8652c2f4ed47de86&oe=5E1B57CF',
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=131687261528679&id=107603400603732&__tn__=-R'
@@ -219,19 +206,6 @@ const vehicles = [
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/70808883_131248214905917_2425634315728584704_n.jpg?_nc_cat=108&_nc_oc=AQn_N6L8fu2UzJeKaIjrfMY9oeHtmy8k427z-COVEj0_eQoHkFjkRr6aW4qxHIxt4r8&_nc_ht=scontent.fmvd4-1.fna&oh=6a50274631da9245328292a772da93a9&oe=5E59FDF7',
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=131248354905903&id=107603400603732&__tn__=-R'
-    },
-    {
-        brand:"Renault",
-        model:"Kangoo",
-        price:"",
-        data: {
-            km:"",
-            year:"",
-            fuel:"",
-            equip:[],
-        },
-        img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/70918601_131244711572934_6057992336682516480_n.jpg?_nc_cat=107&_nc_oc=AQl_nSNvQYhgn5gfk0Ugu3QXaguWA7onOvVIQiWX7ulRmHX98KURKRSK310jemwtv_0&_nc_ht=scontent.fmvd4-1.fna&oh=08b7fa7d4afe49f7c15993292b9ae772&oe=5E25E932',
-        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=131244811572924&id=107603400603732&__tn__=-R'
     },
     {
         brand:"Ford",
@@ -353,12 +327,12 @@ const vehicles = [
     {
         brand:"Volkswagen",
         model:"Saveiro G3",
-        price:"",
+        price:"7900",
         data: {
             km:"",
             year:"",
-            fuel:"",
-            equip:[],
+            fuel:"Nafta",
+            equip:["Std"],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/69675620_118942422803163_2708856953286688768_n.jpg?_nc_cat=107&_nc_oc=AQmM7Ahr6KatkMI_wyIs-Rn6EMAUiqY0VlwB7Owr3IMsjubb7KEeScgy8oG5rzbHr0A&_nc_ht=scontent.fmvd4-1.fna&oh=8b6f9acb94f28ba6f65b638748fa240f&oe=5E197FE1',
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=118942482803157&id=107603400603732&__tn__=-R'
@@ -649,6 +623,45 @@ const vehicles = [
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/75462434_144699730227432_1788255443810779136_n.jpg?_nc_cat=107&_nc_oc=AQm95gnN5EdeLZYkG1wQawzukHAuMyVaLtflt9Kj_Xu52NxyPDCqZRLw21YWtbn2QPY&_nc_ht=scontent.fmvd4-1.fna&oh=7036251a244d6acca49544534b110daf&oe=5E5C3CB7',
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=144699750227430&id=107603400603732&__tn__=-R'
     },
+    {
+        brand:"Citroen",
+        model:"AX",
+        price:"3000",
+        data: {
+            km:"",
+            year:"",
+            fuel:"",
+            equip:[],
+        },
+        img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/73497783_146158820081523_7318263993347342336_n.jpg?_nc_cat=101&_nc_oc=AQlKzRPUV4-T_7kUD2ntmPdT9OkFeKlC9GeqfKDAwRZn4noOVCKLbO7kIHJBnjQOaWk&_nc_ht=scontent.fmvd4-1.fna&oh=41d745924848a9bb4ef10c049f966da3&oe=5E1868E9',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=146159130081492&id=107603400603732&__tn__=-R'
+    },
+    {
+        brand:"Nissan",
+        model:"NP300 Frontier",
+        price:"12900",
+        data: {
+            km:"",
+            year:"",
+            fuel:"",
+            equip:[],
+        },
+        img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/76689072_145839526780119_1768663233230536704_n.jpg?_nc_cat=110&_nc_oc=AQnoqM6Mzx5z4ubxdxUtUFU6-lrMnZ1Dfrz4KDD7JN6o4ZrfFKX1lKd5FfI3U2hR5QU&_nc_ht=scontent.fmvd4-1.fna&oh=ed7fef66b4017955791187f42ae1506e&oe=5E1B91F3',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=145839710113434&id=107603400603732&__tn__=-R'
+    },
+    {
+        brand:"Citroen",
+        model:"Saxo Diesel",
+        price:"",
+        data: {
+            km:"",
+            year:"",
+            fuel:"",
+            equip:[],
+        },
+        img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/76769683_145766526787419_6108737486953906176_n.jpg?_nc_cat=111&_nc_oc=AQlHgTI_JiZzhi1caKBzo9vU1doeRE8ANOGft8Isz0BJ2hCoagTVTwetW-s0s9Sjdak&_nc_ht=scontent.fmvd4-1.fna&oh=9fe4ec83f7b5d27eb951ee82d3d8a01e&oe=5E52E170',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=145766656787406&id=107603400603732&__tn__=-R'
+    }
     /*{
         brand:"",
         model:"",

@@ -27,19 +27,6 @@ const vehicles = [
     },
     {
         brand:"Volkswagen",
-        model:"Saveiro G5",
-        price:"10500",
-        data: {
-            km:"",
-            year:"2012",
-            fuel:"Nafta",
-            equip:["A/C","D/H"],
-        },
-        img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/73482853_143071457056926_319131192672649216_n.jpg?_nc_cat=100&_nc_oc=AQmyg4nP6EVJtzGJanI893puEIPk0nC307cBc-0JvWtKWjfdoT9PXmo-KHL9mYozjAE&_nc_ht=scontent.fmvd4-1.fna&oh=146057128ac5a4fb51336e4166842d12&oe=5E61812B',
-        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=143071473723591&id=107603400603732&__tn__=-R'
-    },
-    {
-        brand:"Volkswagen",
         model:"Gol G2",
         price:"5500",
         data: {
@@ -167,19 +154,6 @@ const vehicles = [
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/70623265_131687438195328_5308303497358213120_n.jpg?_nc_cat=106&_nc_oc=AQm3Olo_kXjYLrEC8BhYl2MnbSmdHILwYkUommJHAceRzEL-wz73YTSwnIaRn_IyEiU&_nc_ht=scontent.fmvd4-1.fna&oh=38e659d986a3e39330ff58db2ac27a22&oe=5E516937',
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=131687458195326&id=107603400603732&__tn__=-R'
-    },
-    {
-        brand:"Suzuki",
-        model:"Grand Vitara Automatica",
-        price:"",
-        data: {
-            km:"",
-            year:"",
-            fuel:"Nafta",
-            equip:["Full"],
-        },
-        img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/71962366_131687151528690_7021330312646885376_n.jpg?_nc_cat=110&_nc_oc=AQnXl9H7oNQcQnbcG5Qm7GVAkp7tR2knOaeIQnjepKEZ2-HknTA8VksdSVL1-YdIaDc&_nc_ht=scontent.fmvd4-1.fna&oh=20a2e9326b636acf8652c2f4ed47de86&oe=5E1B57CF',
-        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=131687261528679&id=107603400603732&__tn__=-R'
     },
     {
         brand:"Volkwagen",
@@ -483,12 +457,12 @@ const vehicles = [
     {
         brand:"Chevrolet",
         model:"Spark L",
-        price:"",
+        price:"7500",
         data: {
             km:"",
-            year:"",
+            year:"2011",
             fuel:"",
-            equip:[],
+            equip:["Semifull"],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/69167067_118880886142650_790328077577093120_n.jpg?_nc_cat=108&_nc_oc=AQn0fMYR8kQagD5RFqUaOU-P92qFnK6NmQM6cbHQ5ws2bjEIwxKOUJvMBzdt8NnHiUs&_nc_ht=scontent.fmvd4-1.fna&oh=5ac9b59569e6f8b96fa65af24115a60a&oe=5E55FFF3',
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=118880926142646&id=107603400603732&__tn__=-R'
@@ -624,19 +598,6 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=144699750227430&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Citroen",
-        model:"AX",
-        price:"3000",
-        data: {
-            km:"",
-            year:"",
-            fuel:"",
-            equip:[],
-        },
-        img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/73497783_146158820081523_7318263993347342336_n.jpg?_nc_cat=101&_nc_oc=AQlKzRPUV4-T_7kUD2ntmPdT9OkFeKlC9GeqfKDAwRZn4noOVCKLbO7kIHJBnjQOaWk&_nc_ht=scontent.fmvd4-1.fna&oh=41d745924848a9bb4ef10c049f966da3&oe=5E1868E9',
-        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=146159130081492&id=107603400603732&__tn__=-R'
-    },
-    {
         brand:"Nissan",
         model:"NP300 Frontier",
         price:"12900",
@@ -661,6 +622,32 @@ const vehicles = [
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/76769683_145766526787419_6108737486953906176_n.jpg?_nc_cat=111&_nc_oc=AQlHgTI_JiZzhi1caKBzo9vU1doeRE8ANOGft8Isz0BJ2hCoagTVTwetW-s0s9Sjdak&_nc_ht=scontent.fmvd4-1.fna&oh=9fe4ec83f7b5d27eb951ee82d3d8a01e&oe=5E52E170',
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=145766656787406&id=107603400603732&__tn__=-R'
+    },
+    {
+        brand:"Fiat",
+        model:"Premio SL",
+        price:"",
+        data: {
+            km:"",
+            year:"",
+            fuel:"",
+            equip:[],
+        },
+        img:'https://scontent.fmvd2-1.fna.fbcdn.net/v/t1.0-9/73524657_146404806723591_7678493736665350144_n.jpg?_nc_cat=111&_nc_oc=AQm7_AjhxZ1SiiWtqRvft1poQU56y7OuqkFcKRSEf0KqVhuEgLPNySc0lAtR7VKxjzQ&_nc_ht=scontent.fmvd2-1.fna&oh=77e89609d2b1d28ad3094a68a85f3ca0&oe=5E4AA1CE',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=146404890056916&id=107603400603732&__tn__=-R'
+    },
+    {
+        brand:"BMW",
+        model:"328i",
+        price:"",
+        data: {
+            km:"",
+            year:"",
+            fuel:"",
+            equip:[],
+        },
+        img:'https://scontent.fmvd2-1.fna.fbcdn.net/v/t1.0-9/75380301_146460876717984_7404486913513488384_n.jpg?_nc_cat=107&_nc_oc=AQnAXVLnwjlcVG6vfmkxoMWvuJkqRZ4iPnroIvKPPuV08KNJcrwf8dXowGiAsx8_gWU&_nc_ht=scontent.fmvd2-1.fna&oh=e43b44545c46a603d83cad46608f5ed5&oe=5E1AE8B5',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=146460980051307&id=107603400603732&__tn__=-R'
     }
     /*{
         brand:"",

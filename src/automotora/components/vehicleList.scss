@@ -10,6 +10,17 @@
         color: white;
         font-family: $PN_EXTRABOLD;
         font-size: 30px;
+        border: 1px solid lightgray;
+        width: 96%;
+        border-radius: 5px;
+        margin-top: 4rem;
+        margin-bottom: 2.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background-color: #1b1b1b;
+        -webkit-box-shadow: 2px 16px 17px 0px #1b1b1b;
+        -moz-box-shadow: 2px 16px 17px 0px #1b1b1b;
+        box-shadow: 2px 16px 17px 0px #1b1b1b;
     }
     .searchInput{
         width: 100%;
@@ -23,6 +34,9 @@
         color: white;
         margin-top: 4rem;
         font-family: $PN_REGULAR;
+        .searchInput{
+            border: none;
+        }
     }
     .vehicleList{
         display: grid;
@@ -30,6 +44,269 @@
         margin: 20px;
         grid-column-gap: 70px;
         grid-row-gap: 30px;
+        visibility: visible;
+        opacity: 1;
+        -webkit-transition: display 1s linear;
+        -moz-transition: display 1s linear;
+        -ms-transition: display 1s linear;
+        -o-transition: display 1s linear;
+        transition: display 1s linear;
+    }
+    
+    .displayNone{
+        visibility: hidden;
+        opacity: 0;
+        display: none;
+        width: 100%;
+        -webkit-transition: display 1s linear;
+        -moz-transition: display 1s linear;
+        -ms-transition: display 1s linear;
+        -o-transition: display 1s linear;
+        transition: display 1s linear;
+    }
+    .item0{
+        background-image: url(https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/69548390_118939279470144_7211037403203502080_n.jpg?_nc_cat=107&_nc_oc=AQlU7lSQRNmqR27pBuMJp1VHSdtNEODZQRD831VU1TnKhPPU7mEcvrO6P7fg6E3K8IA&_nc_ht=scontent.fmvd4-1.fna&oh=11825e550e9b80a9a1d6ec48b5dae16e&oe=5E229F95);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        border-radius: 30px;
+        .desc{
+            display: flex;
+            flex-direction: column;
+            margin-top: 15rem;
+            background-color: #000000ba;
+            color: white;
+            height: 5rem;
+            justify-content: center;
+            .brand{
+                font-family: $PN_EXTRABOLD;
+                font-size: 20px;
+            }
+            .model{
+                font-family: $PN_BOLD;
+            }
+            .specs{
+                font-family: $PN_REGULAR;
+                font-size: 12px;
+            }
+        }
+    }
+    .item1{
+        background-image: url(https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/69107191_118939299470142_1152448555693113344_n.jpg?_nc_cat=103&_nc_oc=AQlPcdiRYBvWoGyEkU5CLq5ZUu8Azi7dnGtjvJ9MrtmErCDEotJJLGbuksko6ORZJxY&_nc_ht=scontent.fmvd4-1.fna&oh=7d8be85e31ba2809f80f47b1c0f03b84&oe=5E56A13B);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        border-radius: 30px;
+        .desc{
+            display: flex;
+            flex-direction: column;
+            margin-top: 15rem;
+            background-color: #000000ba;
+            color: white;
+            height: 5rem;
+            justify-content: center;
+            .brand{
+                font-family: $PN_EXTRABOLD;
+                font-size: 20px;
+            }
+            .model{
+                font-family: $PN_BOLD;
+            }
+            .specs{
+                font-family: $PN_REGULAR;
+                font-size: 12px;
+            }
+        }
+    }
+    .item2{
+        background-image: url(https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/73148412_146215616742510_8667543117735395328_n.jpg?_nc_cat=109&_nc_oc=AQm2KkTn2-OtmTj2csOZaDL8m48JuwA-HrpNJnyJSxHbJXDar98fgB4A9IfN6Ka0a_M&_nc_ht=scontent.fmvd4-1.fna&oh=3aaa5c20edc97ed9f2ea937577253968&oe=5E1B55EA);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        border-radius: 30px;
+        .desc{
+            display: flex;
+            flex-direction: column;
+            margin-top: 15rem;
+            background-color: #000000ba;
+            color: white;
+            height: 5rem;
+            justify-content: center;
+            .brand{
+                font-family: $PN_EXTRABOLD;
+                font-size: 20px;
+            }
+            .model{
+                font-family: $PN_BOLD;
+            }
+            .specs{
+                font-family: $PN_REGULAR;
+                font-size: 12px;
+            }
+        }
+    }
+    .item3{
+        background-image: url(https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/75394746_146215636742508_2387141019230535680_n.jpg?_nc_cat=108&_nc_oc=AQnI1lQf9zpKAdW83I-7btwGQxzFQ6FzZNnh8LvvVQqVripPdSkCNlBERQ5Joi2B540&_nc_ht=scontent.fmvd4-1.fna&oh=6f7ab01bdc2e647034e9d9e76054a449&oe=5E4E3D4C);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        border-radius: 30px;
+        .desc{
+            display: flex;
+            flex-direction: column;
+            margin-top: 15rem;
+            background-color: #000000ba;
+            color: white;
+            height: 5rem;
+            justify-content: center;
+            .brand{
+                font-family: $PN_EXTRABOLD;
+                font-size: 20px;
+            }
+            .model{
+                font-family: $PN_BOLD;
+            }
+            .specs{
+                font-family: $PN_REGULAR;
+                font-size: 12px;
+            }
+        }
+    }
+    .item4{
+        background-image: url(https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/72528985_146215543409184_443248463262515200_n.jpg?_nc_cat=102&_nc_oc=AQk_A30Mh04xxGTe62xRzfn1NBpPr8NWGw6uZGUw9YooDsL7vRx3z0e4ArTxX3RFJyQ&_nc_ht=scontent.fmvd4-1.fna&oh=d1cfb8e2ff1b0b18712b08f1fe595374&oe=5E51D1B1);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        border-radius: 30px;
+        .desc{
+            display: flex;
+            flex-direction: column;
+            margin-top: 15rem;
+            background-color: #000000ba;
+            color: white;
+            height: 5rem;
+            justify-content: center;
+            .brand{
+                font-family: $PN_EXTRABOLD;
+                font-size: 20px;
+            }
+            .model{
+                font-family: $PN_BOLD;
+            }
+            .specs{
+                font-family: $PN_REGULAR;
+                font-size: 12px;
+            }
+        }
+    }
+    .item5{
+        background-image: url(https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/75496075_146215580075847_6452887220608040960_n.jpg?_nc_cat=108&_nc_oc=AQnxkKTFWseI8VyaUdY7NRRrGh0UErRdVQ56qUViuhqnEqXwR65fzOMYLvUvKTJbxV4&_nc_ht=scontent.fmvd4-1.fna&oh=9021ba0ef566bddf5963643e249b7985&oe=5E1763DF);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        border-radius: 30px;
+        .desc{
+            display: flex;
+            flex-direction: column;
+            margin-top: 15rem;
+            background-color: #000000ba;
+            color: white;
+            height: 5rem;
+            justify-content: center;
+            .brand{
+                font-family: $PN_EXTRABOLD;
+                font-size: 20px;
+            }
+            .model{
+                font-family: $PN_BOLD;
+            }
+            .specs{
+                font-family: $PN_REGULAR;
+                font-size: 12px;
+            }
+        }
+    }
+    .item6{
+        background-image: url(https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/74604454_146215520075853_2986126242186526720_n.jpg?_nc_cat=107&_nc_oc=AQkUT2KIjrc8MMUYCw1EoYd38B9wjNQryLz8PtYa_JmK0NKIUjUamL1mwqECyz4_-kQ&_nc_ht=scontent.fmvd4-1.fna&oh=73d22737e1cdf3302815d7408f7d99f9&oe=5E6165CD);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        border-radius: 30px;
+        .desc{
+            display: flex;
+            flex-direction: column;
+            margin-top: 15rem;
+            background-color: #000000ba;
+            color: white;
+            height: 5rem;
+            justify-content: center;
+            .brand{
+                font-family: $PN_EXTRABOLD;
+                font-size: 20px;
+            }
+            .model{
+                font-family: $PN_BOLD;
+            }
+            .specs{
+                font-family: $PN_REGULAR;
+                font-size: 12px;
+            }
+        }
+    }
+}
+.listMobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    .titleMobile{
+        color: white;
+        font-family: ProximaNovaExtraBold;
+        font-size: 20px;
+        border: 1px solid lightgray;
+        width: 80%;
+        border-radius: 5px;
+        margin-top: 1rem;
+        margin-bottom: 2.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background-color: #1b1b1b;
+        box-shadow: 2px 16px 17px 0px #1b1b1b;
+    }
+    .searchInputMobile{
+        width: 80%;
+        margin: 20px;
+        height: 38px;
+        border-radius: 5px;
+        border: 1px solid lightgray;
+        padding-left: 2rem;
+        /* box-shadow: 2px 16px 17px 0px #8a8a8a; */
+        background-color: black;
+        color: white;
+        /* margin-top: 4rem; */
+        font-family: ProximaNovaRegular;
+        .searchInput{
+            border:none;
+        }
+    }
+    .vehicleListMobile{
+        display: grid;
+        grid-template-columns: 10rem 10rem;
+        grid-row-gap: 30px;
+        grid-column-gap: 35px;
+    }
+    
+    .displayNone{
+        visibility: hidden;
+        opacity: 0;
+        display: none;
+        width: 100%;
+        -webkit-transition: display 1s linear;
+        -moz-transition: display 1s linear;
+        -ms-transition: display 1s linear;
+        -o-transition: display 1s linear;
+        transition: display 1s linear;
     }
     .item0{
         background-image: url(https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/69548390_118939279470144_7211037403203502080_n.jpg?_nc_cat=107&_nc_oc=AQlU7lSQRNmqR27pBuMJp1VHSdtNEODZQRD831VU1TnKhPPU7mEcvrO6P7fg6E3K8IA&_nc_ht=scontent.fmvd4-1.fna&oh=11825e550e9b80a9a1d6ec48b5dae16e&oe=5E229F95);
@@ -223,3 +500,4 @@
     
 
 }
+

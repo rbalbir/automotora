@@ -10,8 +10,8 @@ function VehicleListItem(props) {
         'background-position': 'center center',
     }
     return (
-        <a className="link" href={props.vehicle.fbLink}>
-            <div style={divStyle} className="vehicleListItem">
+        <a className={props.mobile ? "linkMobile" : "link"} href={props.vehicle.fbLink}>
+            <div style={divStyle} className={props.mobile ? "vehicleListItemMobile" : "vehicleListItem"}>
                 <div className="desc">
                     <div className="name">
                         <div className="brand">{props.vehicle.brand}</div>

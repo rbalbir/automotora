@@ -5,7 +5,10 @@ import rents from "../../assets/vehicles/rents.js"
 import VehicleListItem from "./vehicleListItem.jsx";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-function VehicleList() {
+import Emoji from 'a11y-react-emoji'
+function VehicleList(props) {
+  const [displaySales, setDisplaySales] = useState(false);
+  const [displayRents, setDisplayRents] = useState(false);
   const [filteredVehicles, setFilteredVehicles] = useState(
     vehicles.sort((a, b) => (a.brand > b.brand ? 1 : -1))
   );
@@ -25,22 +28,22 @@ function VehicleList() {
   };
 
   return (
-    <div className="list">
+    <div className={props.mobile ? "listMobile" : "list"}>
       <input 
         type="text" 
-        placeholder="Busque por marca o modelo de vehiculo" 
-        className="searchInput"
+        placeholder="Busque por marca o modelo de vehiculo"
+        className={props.mobile ? "searchInputMobile" : "searchInput"}
         onChange={filterVehicle} />
-      <div className="title">Ventas y Permutas</div>
-      <div className="vehicleList">
+      <div className={props.mobile ?"titleMobile":"title"} onClick={() => {setDisplaySales(!displaySales)}}>Ventas y Permutas</div>
+      <div className={displaySales ? (props.mobile ? "vehicleListMobile" :"vehicleList") : "displayNone"}>
         {
           filteredVehicles.map((value, index) => {
-              return <VehicleListItem vehicle={value} key={index}/>
+              return <VehicleListItem mobile={props.mobile} vehicle={value} key={index}/>
           })
         }
       </div>
-      <div className="title">Alquileres</div>
-      <div className="vehicleList">
+      <div className={props.mobile ?"titleMobile":"title"} onClick={() => {setDisplayRents(!displayRents)}}>Alquileres</div>
+      <div className={displayRents ? (props.mobile ? "vehicleListMobile" :"vehicleList") : "displayNone"}>
         {rents.map((value, index) =>{
           return (
               <div className={`item${index}`} key={index}>

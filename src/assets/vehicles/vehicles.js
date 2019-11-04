@@ -648,6 +648,71 @@ const vehicles = [
         },
         img:'https://scontent.fmvd2-1.fna.fbcdn.net/v/t1.0-9/75380301_146460876717984_7404486913513488384_n.jpg?_nc_cat=107&_nc_oc=AQnAXVLnwjlcVG6vfmkxoMWvuJkqRZ4iPnroIvKPPuV08KNJcrwf8dXowGiAsx8_gWU&_nc_ht=scontent.fmvd2-1.fna&oh=e43b44545c46a603d83cad46608f5ed5&oe=5E1AE8B5',
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=146460980051307&id=107603400603732&__tn__=-R'
+    },
+    {
+        brand:"Mazda",
+        model:"Tribute V6",
+        price:"10500",
+        data: {
+            km:"",
+            year:"2001",
+            fuel:"Nafta",
+            equip:["Full"],
+        },
+        img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/74685212_147668766597195_3041472964584275968_n.jpg?_nc_cat=106&_nc_oc=AQnJSyPrzQq3e8vJx603H9NcED1AYYqHSjv16oosHge6pJ-wIOos7h3srrzv7PIjpQc&_nc_ht=scontent.fmvd4-1.fna&oh=84a99a68bc2ff8637ec8763e9bffd2bb&oe=5E5ECB02',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=147668839930521&id=107603400603732&__tn__=-R'
+    },
+    {
+        brand:"Honda",
+        model:"Civic EXS",
+        price:"11900",
+        data: {
+            km:"",
+            year:"2009",
+            fuel:"Nafta",
+            equip:["Full"],
+        },
+        img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/74205733_147668619930543_2479109338623377408_n.jpg?_nc_cat=106&_nc_oc=AQlMmKcWpoNpL71iSyh1y_ZJ7WuKAuhYtdWqXSypzSoa5iQN21t1IN6BwYDXOBuiDJ8&_nc_ht=scontent.fmvd4-1.fna&oh=9cbfb850e51c1e8bcbaaa2514c29bb4a&oe=5E61EAEC',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=147668706597201&id=107603400603732&__tn__=-R'
+    },
+    {
+        brand:"Ford",
+        model:"Ranger XLT 3.2 Diesel",
+        price:"29500",
+        data: {
+            km:"",
+            year:"2014",
+            fuel:"Diesel",
+            equip:["Full"],
+        },
+        img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/75199760_147668436597228_8659066720603865088_n.jpg?_nc_cat=102&_nc_oc=AQmVK0dvA2PfvAxgTN5mFEObEDiBuufMOYp_i4qPZGZNMNQAMS8bfc5sI8gzqAr8Ajc&_nc_ht=scontent.fmvd4-1.fna&oh=980172be58488b11e077987e2f2a9d65&oe=5E4F56AB',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=147668489930556&id=107603400603732&__tn__=-R'
+    },
+    {
+        brand:"Chevrolet",
+        model:"Montana",
+        price:"7000",
+        data: {
+            km:"",
+            year:"2008",
+            fuel:"Nafta",
+            equip:["Full"],
+        },
+        img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/75305233_147668099930595_1762719634148032512_n.jpg?_nc_cat=107&_nc_oc=AQkIIXedPs8e_1zGjqyLlcvWd7QR7ajlUt0uIcwp_dehKTQGRSgTsZYfnp6vAw-Oijw&_nc_ht=scontent.fmvd4-1.fna&oh=7a346830298712abec6cbe263f87f446&oe=5E5783B2',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=147668319930573&id=107603400603732&__tn__=-R'
+    },
+    {
+        brand:"Hyundai",
+        model:"H1 para 12 pasajeros",
+        price:"10900",
+        data: {
+            km:"",
+            year:"2007",
+            fuel:"Diesel",
+            equip:[],
+        },
+        img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/75233815_147667969930608_2556839974573965312_n.jpg?_nc_cat=105&_nc_oc=AQnU3dMKL-DCSNJufMxdBdW2MdAiRg1r3TGnK9ZbXqZqPwhzMs6YhX5NvpXkIP_isGc&_nc_ht=scontent.fmvd4-1.fna&oh=575c90995066c64080522869a818a46a&oe=5E1800BA',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=147668053263933&id=107603400603732&__tn__=-R'
     }
     /*{
         brand:"",

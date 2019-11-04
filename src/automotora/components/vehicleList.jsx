@@ -6,6 +6,8 @@ import VehicleListItem from "./vehicleListItem.jsx";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import Emoji from 'a11y-react-emoji'
+import Select from "react-dropdown-select";
+
 function VehicleList(props) {
   const [displaySales, setDisplaySales] = useState(false);
   const [displayRents, setDisplayRents] = useState(false);
@@ -13,7 +15,7 @@ function VehicleList(props) {
     vehicles.sort((a, b) => (a.brand > b.brand ? 1 : -1))
   );
   const [filterValue, setFilterValue] = useState('');
-
+  const [fuelFilter, setFuelFilter] = useState('');
   const filterVehicle = (event) => {
     setFilterValue(event.target.value);
     if((event.target.value.length === 0) || (event.target.value ==="") || (typeof event.target.value === "undefined")){
@@ -26,7 +28,7 @@ function VehicleList(props) {
       setFilteredVehicles(filtered);
     }
   };
-
+  console.log(fuelFilter);
   return (
     <div className={props.mobile ? "listMobile" : "list"}>
       <input 
@@ -35,6 +37,7 @@ function VehicleList(props) {
         className={props.mobile ? "searchInputMobile" : "searchInput"}
         onChange={filterVehicle} />
       <div className={props.mobile ?"titleMobile":"title"} onClick={() => {setDisplaySales(!displaySales)}}>Ventas y Permutas</div>
+      
       <div className={displaySales ? (props.mobile ? "vehicleListMobile" :"vehicleList") : "displayNone"}>
         {
           filteredVehicles.map((value, index) => {

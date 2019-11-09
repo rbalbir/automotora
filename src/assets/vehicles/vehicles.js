@@ -32,7 +32,7 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
+            fuel: "Nafta",
             equip:["Std"],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/74368460_142966957067376_2598619299010576384_n.jpg?_nc_cat=107&_nc_oc=AQk2osfxFhXRLyV8olW0v4cKPiZI5JRUAxhlv6qYWlr_wtEu6dNQlZUK0h3ddAac8GY&_nc_ht=scontent.fmvd4-1.fna&oh=fe676393f4fd13c02b253e95fba30ffb&oe=5E5FE73C',
@@ -45,7 +45,7 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
+            fuel: "Nafta",
             equip:["Std"],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/73533050_142966787067393_6370625716282720256_n.jpg?_nc_cat=111&_nc_oc=AQm-mUCKQymRTo896NLnhppkObEbZ2wcX29bIvw7TUNPKkEB9tRabpPSGhUGnFCECvI&_nc_ht=scontent.fmvd4-1.fna&oh=2c78a43714b55c18b145fc389fc6656e&oe=5E60922C',
@@ -162,7 +162,7 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
+            fuel: "Nafta",
             equip:[],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/70978483_131674411529964_1170762648430575616_n.jpg?_nc_cat=109&_nc_oc=AQnam9IcK9rGQKy28ReeX6hemtZiSS6k-s3QrKdNcXU0daLBQmfGefNF1IhC9ujpz0I&_nc_ht=scontent.fmvd4-1.fna&oh=7c6b35e5f39020e6d3728221aaf802d8&oe=5E1F46D4',
@@ -175,7 +175,7 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
+            fuel: "Nafta",
             equip:[],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/70808883_131248214905917_2425634315728584704_n.jpg?_nc_cat=108&_nc_oc=AQn_N6L8fu2UzJeKaIjrfMY9oeHtmy8k427z-COVEj0_eQoHkFjkRr6aW4qxHIxt4r8&_nc_ht=scontent.fmvd4-1.fna&oh=6a50274631da9245328292a772da93a9&oe=5E59FDF7',
@@ -188,7 +188,7 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
+            fuel: "Nafta",
             equip:[],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/70240401_129025555128183_1173720059831386112_n.jpg?_nc_cat=100&_nc_oc=AQmy6_GxfWog2azr3suSrZkCrupAbjkWBEs-10kW7afVEx9BuEGfl7SbeuMCbhsMu-w&_nc_ht=scontent.fmvd4-1.fna&oh=70831f65c084e4806cd5f0cf97bbb9cc&oe=5E235F69',
@@ -201,7 +201,7 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
+            fuel: "Nafta",
             equip:[],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/70406336_128755151821890_6752391864436916224_n.jpg?_nc_cat=107&_nc_oc=AQmnWJO_0aLQgaW7yqJwIKglghZezeG6fUh2X3wWwSn_AnzXqa77DT9DTVrZ3yGOEAg&_nc_ht=scontent.fmvd4-1.fna&oh=f62bab9c1e79dc6e8fca4f801b78c49a&oe=5E601F7B',
@@ -214,7 +214,7 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
+            fuel: "Nafta",
             equip:[],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/70779351_128682041829201_1197161995627921408_n.jpg?_nc_cat=106&_nc_oc=AQlDShZPwk1QENgY3CzLBCZRhZsgRkdXitt_G54Jzei6tIk7dQlOIvMqhFhcTN8gj8g&_nc_ht=scontent.fmvd4-1.fna&oh=18c419bcee679487afcc0243dce1bb7c&oe=5E606932',
@@ -227,7 +227,7 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
+            fuel: "Nafta",
             equip:[],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/70903578_128681841829221_6969016618844160000_n.jpg?_nc_cat=108&_nc_oc=AQneAIqqrZM27mJgUp14_ZP15icoJRItp2Ams_jrG1YfB2FG4Xb1m4dCn0ChOVha7YQ&_nc_ht=scontent.fmvd4-1.fna&oh=3a26fde86c6ac9b3b62af12dc09adac5&oe=5E58EE01',
@@ -240,7 +240,7 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
+            fuel: "Nafta",
             equip:[],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/70682430_125518015478937_8673257262485078016_n.jpg?_nc_cat=102&_nc_oc=AQke5vxJ2CayFf557Wd0fzXTHHH7ticKBSBIbYeo-jlxTcZ4vOBjZJK6Ybv560mSJS8&_nc_ht=scontent.fmvd4-1.fna&oh=9c33ad02e74f2e3c0dabfc6c0109f49e&oe=5E2470DA',
@@ -253,7 +253,7 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
+            fuel: "Nafta",
             equip:[],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/69854457_125510525479686_720428571461419008_n.jpg?_nc_cat=106&_nc_oc=AQmNyHtlWAUvQ9fGRDOkSv6IYPcTizENpjDusExw62IwsYwps0hshPRNvGMYgMZYFXs&_nc_ht=scontent.fmvd4-1.fna&oh=725b58570a62a973561d2516083cd791&oe=5E25B072',
@@ -266,7 +266,7 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
+            fuel: "Nafta",
             equip:[],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/70329059_125491592148246_2631319775548014592_n.jpg?_nc_cat=102&_nc_oc=AQmuZ45KATe6ECLj1RXpMZadCSpxQomrX86Q77LvfJ58TFmfHpb_gF80Uz5DpAqbz0M&_nc_ht=scontent.fmvd4-1.fna&oh=e114e5f357349ad21c0992c544092f70&oe=5E58D74A',
@@ -279,8 +279,8 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
-            equip:[],
+            fuel:"Diesel",
+            equip:["Extrafull"],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/69685535_122959775734761_5198844572192473088_n.jpg?_nc_cat=100&_nc_oc=AQkK2kTq0q5QR-nWzmmGWcNDa5DR1O_2uWmerp5ljjt6Xxesa8bqikstgV543NOgRGM&_nc_ht=scontent.fmvd4-1.fna&oh=86a4dc988f598294b904b5a90c18a128&oe=5E23559C',
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=122959882401417&id=107603400603732&__tn__=-R'
@@ -292,7 +292,7 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
+            fuel: "Nafta",
             equip:[],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/69038255_118943219469750_6812587450293026816_n.jpg?_nc_cat=100&_nc_oc=AQkl-ihptijI6CBarlE-T2xxDpNj_VAhnxMUg8KuFqTXTmn7PtDtFD9zDTi4WM7ER1M&_nc_ht=scontent.fmvd4-1.fna&oh=c8ec9ae5c68f0a6d709d00f37aacaa7f&oe=5E27C189',
@@ -318,7 +318,7 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
+            fuel: "Nafta",
             equip:[],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/69880044_118938192803586_712738776115314688_n.jpg?_nc_cat=103&_nc_oc=AQm6f51pVqC95sI7r_q6iWHAObajLlLwSyXOelBMjtvpAMIMcGY9dGKn-PpolBwUDUw&_nc_ht=scontent.fmvd4-1.fna&oh=e6b65cc13ff9f8e694ff05c475e05e74&oe=5E21C8E5',
@@ -331,7 +331,7 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
+            fuel: "Nafta",
             equip:[],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/69635778_118937332803672_3676110376056913920_n.jpg?_nc_cat=108&_nc_oc=AQna2MqMMYlOW4hALd42VpShTIcrlDysAVSzcF9-Lq6Qm-u3rvD_som4ECotiDGjI0Q&_nc_ht=scontent.fmvd4-1.fna&oh=4fa72454f730d9edaed542d71c828d80&oe=5E188105',
@@ -344,7 +344,7 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
+            fuel: "Nafta",
             equip:[],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/69318714_118936692803736_4388004396529614848_n.jpg?_nc_cat=104&_nc_oc=AQkUS3c6vKPkwxdzflJFuVzJC7wHncN_q-nRQ-NPewOe_NDmIRd6CQWjWZMP9SrjwI0&_nc_ht=scontent.fmvd4-1.fna&oh=e539b77f2b623f675237305094849190&oe=5E5330CB',
@@ -357,7 +357,7 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
+            fuel: "Nafta",
             equip:[],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/68785497_110332176997521_3308429830847987712_n.jpg?_nc_cat=102&_nc_oc=AQnTE5-jZkHdytwaA47SeifqefDweHuLZdC_nAFWPBI2Bp2y08XGnBBqzYXCzbiUy1o&_nc_ht=scontent.fmvd4-1.fna&oh=2204defea97f12837b80c87f65e0cecb&oe=5E1EA644',
@@ -370,8 +370,8 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
-            equip:[],
+            fuel:"Full",
+            equip:["Extrafull"],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/68724024_107734293923976_5303960198795231232_n.jpg?_nc_cat=107&_nc_oc=AQnVGoEvUuO8B7mBKWTFpoFRIlF6OI8VRy07mRn9KZg7xc13R-NfMSMqslIn4hVqc3E&_nc_ht=scontent.fmvd4-1.fna&oh=4941a3200a90fbeb1faf613724a8180b&oe=5E55900C',
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=107734687257270&id=107603400603732&__tn__=-R'
@@ -383,7 +383,7 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
+            fuel: "Nafta",
             equip:[],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/68832639_107732350590837_3226455651244834816_n.jpg?_nc_cat=111&_nc_oc=AQkuS0D4QQqcOofIZ8OfQusSLZFvUjMKW5lIpmxSpuHVgUIk6bfqnGpFZFlz0wdRGcw&_nc_ht=scontent.fmvd4-1.fna&oh=4f4079014a6ec8a7016db6fc20e30918&oe=5E564D96',
@@ -396,8 +396,8 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
-            equip:[],
+            fuel:"Diesel",
+            equip:["Full"],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/69309579_117548942942511_7544604955915583488_n.jpg?_nc_cat=108&_nc_oc=AQnepjo40D-C-ri1dE2X5ENHUPXSfrCyexiaknyk92ysNAOMmZ0IitaxHL7qAPL0zWM&_nc_ht=scontent.fmvd4-1.fna&oh=c054298b8a3fe3febab151a0729c23d1&oe=5E1E99DC',
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=117549016275837&id=107603400603732&__tn__=-R'
@@ -409,7 +409,7 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
+            fuel: "Nafta",
             equip:[],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/69858617_118780632819342_3213964052397031424_n.jpg?_nc_cat=110&_nc_oc=AQkBpiODInwuDSynUnlUAuQozxJ4jupgIAUFEcwkrsyu6HDq0uPMfE08cBSSN_JEP3w&_nc_ht=scontent.fmvd4-1.fna&oh=304a15cd261e88402c01a12c2d340d4d&oe=5E552623',
@@ -422,8 +422,8 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
-            equip:[],
+            fuel:"Fuel",
+            equip:["Full"],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/69252846_117551452942260_6268575493738463232_n.jpg?_nc_cat=101&_nc_oc=AQnfyY6-GjGmGedkunlihFCz5vpk4l_7cbTdyDI6k_1JRGZR7LpT_cITlsnBwrDQ7hs&_nc_ht=scontent.fmvd4-1.fna&oh=e465cdfebb9c32c3f99487f6d1c59dab&oe=5E2518F3',
         fbLink: 'https://www.facebook.com/107603400603732/photos/a.107727857257953/117551449608927/?type=3&__tn__=-R'
@@ -435,7 +435,7 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
+            fuel: "Nafta",
             equip:[],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/69249265_118878736142865_7413328709282693120_n.jpg?_nc_cat=103&_nc_oc=AQk6OeRuvBIuoRJKF6n5s4Gwg6zrBi7L9g0LUgD17Lgw6YVYrKZmHkIIkOCht0hD1GM&_nc_ht=scontent.fmvd4-1.fna&oh=b2a60f0f283fe3d3c568943e5b4c3c0d&oe=5E55F195',
@@ -448,7 +448,7 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
+            fuel: "Nafta",
             equip:[],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/69504120_118879216142817_5521392772126343168_n.jpg?_nc_cat=102&_nc_oc=AQlpE00IA7ZNSQgRZ7GKQP4i3tk2lgr9O0Jj7lSf3WJ4zTg3DDybSZcPQgxcV8CX4tc&_nc_ht=scontent.fmvd4-1.fna&oh=af29d82c8a536b270e561456ce6c76e0&oe=5E5FF01A',
@@ -461,7 +461,7 @@ const vehicles = [
         data: {
             km:"",
             year:"2011",
-            fuel:"",
+            fuel: "Nafta",
             equip:["Semifull"],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/69167067_118880886142650_790328077577093120_n.jpg?_nc_cat=108&_nc_oc=AQn0fMYR8kQagD5RFqUaOU-P92qFnK6NmQM6cbHQ5ws2bjEIwxKOUJvMBzdt8NnHiUs&_nc_ht=scontent.fmvd4-1.fna&oh=5ac9b59569e6f8b96fa65af24115a60a&oe=5E55FFF3',
@@ -474,7 +474,7 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
+            fuel: "Nafta",
             equip:[],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/69016926_118911622806243_6810423607114596352_n.jpg?_nc_cat=107&_nc_oc=AQmDkaqphisZeJlz940OevNOAM8pNf38cMLa7OD3tmyy5L_W7SAYdjOVtG9nXwuNQ-w&_nc_ht=scontent.fmvd4-1.fna&oh=009de50dc1bf548b934857d600a93432&oe=5E6065D9',
@@ -487,7 +487,7 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
+            fuel: "Nafta",
             equip:[],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/68886327_118912126139526_667062945678622720_n.jpg?_nc_cat=109&_nc_oc=AQkyToFPyb9Zf7DI4kwF8KgaF0nKdnmkKKQVCDbmzoDDCY4Au7pppEC2ebZJ39qb9Fo&_nc_ht=scontent.fmvd4-1.fna&oh=638d09fd85c15c5a4f6141d7bcc78740&oe=5E26D58A',
@@ -500,7 +500,7 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
+            fuel: "Nafta",
             equip:[],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/69406166_118912436139495_57372744370618368_n.jpg?_nc_cat=102&_nc_oc=AQmkE1tSAA5m9aYVOl7c6T7tprYGi8ndiBTPdMN4Sp7RVcEqX6t1GGviXEBeBVAv3Bk&_nc_ht=scontent.fmvd4-1.fna&oh=9c9a22456ed4c37cf0f22dac11e6c0fc&oe=5E62AE72',
@@ -513,7 +513,7 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
+            fuel: "Nafta",
             equip:[],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/69242060_118933822804023_6573456178196512768_n.jpg?_nc_cat=101&_nc_oc=AQkyun4ScvnlPOzXFFAyeXM50ALt-Dg0DXdhS9Fl_2mqRrLsEHgHk0m_3YnOzBLEC3U&_nc_ht=scontent.fmvd4-1.fna&oh=93a5c66d26555a2589c891bd90092392&oe=5E19D4B3',
@@ -526,7 +526,7 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
+            fuel: "Nafta",
             equip:[],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/69280594_118934246137314_1883506337988476928_n.jpg?_nc_cat=101&_nc_oc=AQldipPNtFYVvdNIjAV-yTbQfdGDs93ETU_dG9Adbe5fSPxzP6Ix0ZNoleng3YhlX60&_nc_ht=scontent.fmvd4-1.fna&oh=b7437907eecbd1695a9ed5487e400f02&oe=5E573874',
@@ -539,7 +539,7 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
+            fuel: "Nafta",
             equip:[],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/69045703_118934786137260_1432196684967837696_n.jpg?_nc_cat=111&_nc_oc=AQnLR1NDS5XqAco1itA1npyLlVMn3_be_Q8MWkLcQ-9iTOuXp4IYy-dSxXdj1Y4gD3Q&_nc_ht=scontent.fmvd4-1.fna&oh=4c03afc9323fbadb8760efa43df0d613&oe=5E16C33E',
@@ -552,7 +552,7 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
+            fuel:"Diesel",
             equip:[],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/72710532_144692700228135_1402326763677155328_n.jpg?_nc_cat=102&_nc_oc=AQn5KHNPQ89PvZun6D-ytaRJefn2ccEbG-Qunr_p-fRFSUdjZsKTvwxJulJmTrZ81xU&_nc_ht=scontent.fmvd4-1.fna&oh=ad5d7ec33b9ba1a92de203d7f2800053&oe=5E55FA5D',
@@ -565,7 +565,7 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
+            fuel: "Nafta",
             equip:[],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/73342919_144691070228298_5038229129082699776_n.jpg?_nc_cat=101&_nc_oc=AQmcCAuf9kbchQ47UlYYCzmL581wGBFCoxwXWn_iRZ-nXhRAyIp30nw7B_ohPNqNT88&_nc_ht=scontent.fmvd4-1.fna&oh=223b52b4250a6872ea302e1245cb2c02&oe=5E1A2A12',
@@ -578,7 +578,7 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
+            fuel: "Nafta",
             equip:[],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/75627553_144700680227337_2006675627691737088_n.jpg?_nc_cat=102&_nc_oc=AQmrQDj22N5KG0mJ_OVita5op-6xzmWcl_Ekh9XyMqE7QDGJmg5ShOZcuNI8dlNSWPc&_nc_ht=scontent.fmvd4-1.fna&oh=0d5474d55fa64c729145b8f14f486f02&oe=5E215500',
@@ -591,7 +591,7 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
+            fuel: "Nafta",
             equip:[],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/75462434_144699730227432_1788255443810779136_n.jpg?_nc_cat=107&_nc_oc=AQm95gnN5EdeLZYkG1wQawzukHAuMyVaLtflt9Kj_Xu52NxyPDCqZRLw21YWtbn2QPY&_nc_ht=scontent.fmvd4-1.fna&oh=7036251a244d6acca49544534b110daf&oe=5E5C3CB7',
@@ -604,7 +604,7 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
+            fuel: "Nafta",
             equip:[],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/76689072_145839526780119_1768663233230536704_n.jpg?_nc_cat=110&_nc_oc=AQnoqM6Mzx5z4ubxdxUtUFU6-lrMnZ1Dfrz4KDD7JN6o4ZrfFKX1lKd5FfI3U2hR5QU&_nc_ht=scontent.fmvd4-1.fna&oh=ed7fef66b4017955791187f42ae1506e&oe=5E1B91F3',
@@ -617,8 +617,8 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
-            equip:[],
+            fuel:"Full",
+            equip:["Std"],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/76769683_145766526787419_6108737486953906176_n.jpg?_nc_cat=111&_nc_oc=AQlHgTI_JiZzhi1caKBzo9vU1doeRE8ANOGft8Isz0BJ2hCoagTVTwetW-s0s9Sjdak&_nc_ht=scontent.fmvd4-1.fna&oh=9fe4ec83f7b5d27eb951ee82d3d8a01e&oe=5E52E170',
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=145766656787406&id=107603400603732&__tn__=-R'
@@ -630,7 +630,7 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
+            fuel: "Nafta",
             equip:[],
         },
         img:'https://scontent.fmvd2-1.fna.fbcdn.net/v/t1.0-9/73524657_146404806723591_7678493736665350144_n.jpg?_nc_cat=111&_nc_oc=AQm7_AjhxZ1SiiWtqRvft1poQU56y7OuqkFcKRSEf0KqVhuEgLPNySc0lAtR7VKxjzQ&_nc_ht=scontent.fmvd2-1.fna&oh=77e89609d2b1d28ad3094a68a85f3ca0&oe=5E4AA1CE',
@@ -643,7 +643,7 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
+            fuel: "Nafta",
             equip:[],
         },
         img:'https://scontent.fmvd2-1.fna.fbcdn.net/v/t1.0-9/75380301_146460876717984_7404486913513488384_n.jpg?_nc_cat=107&_nc_oc=AQnAXVLnwjlcVG6vfmkxoMWvuJkqRZ4iPnroIvKPPuV08KNJcrwf8dXowGiAsx8_gWU&_nc_ht=scontent.fmvd2-1.fna&oh=e43b44545c46a603d83cad46608f5ed5&oe=5E1AE8B5',
@@ -703,17 +703,108 @@ const vehicles = [
     },
     {
         brand:"Hyundai",
-        model:"H1 para 12 pasajeros",
+        model:"H1",
         price:"10900",
         data: {
             km:"",
             year:"2007",
             fuel:"Diesel",
-            equip:[],
+            equip:["Para 12 pasajeros"],
         },
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/75233815_147667969930608_2556839974573965312_n.jpg?_nc_cat=105&_nc_oc=AQnU3dMKL-DCSNJufMxdBdW2MdAiRg1r3TGnK9ZbXqZqPwhzMs6YhX5NvpXkIP_isGc&_nc_ht=scontent.fmvd4-1.fna&oh=575c90995066c64080522869a818a46a&oe=5E1800BA',
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=147668053263933&id=107603400603732&__tn__=-R'
-    }
+    },
+    {
+        brand:"Honda",
+        model:"Civic",
+        price:"7000",
+        data: {
+            km:"",
+            year:"1997",
+            fuel:"Nafta",
+            equip:["Full"],
+        },
+        img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/76648939_148286983202040_8843841590976839680_n.jpg?_nc_cat=108&_nc_oc=AQnTxyvzpbkmS2OBBTDDs_cVH4Dwo-gZM3-LJHltLg4ZD4QLrVnlyHq0Y63dxf12tq0&_nc_ht=scontent.fmvd4-1.fna&oh=1de06bc55cfb4d756737daf2f0f6eb08&oe=5E61E319',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=148287009868704&id=107603400603732&__tn__=-R'
+    },
+    {
+        brand:"Peugeot",
+        model:"Partner",
+        price:"8000",
+        data: {
+            km:"",
+            year:"2007",
+            fuel:"Nafta",
+            equip:["A/C","D/H", "Habilitada para 5 pasajeros"],
+        },
+        img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/75453574_148637449833660_1935451953093935104_n.jpg?_nc_cat=110&_nc_oc=AQmIQHkMuRdHlgJc0PSjw6dpj_COETrXQRg7r-XWyYa67yK08WpGXSqjjORbOMu4pn8&_nc_ht=scontent.fmvd4-1.fna&oh=a611662ce5caaf9e921c7cea8cca0509&oe=5E5A2E4E',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=148637539833651&id=107603400603732&__tn__=-R'
+    },
+    {
+        brand:"Chevrolet",
+        model:"Meriva GL",
+        price:"7900",
+        data: {
+            km:"",
+            year:"2008",
+            fuel:"Nafta",
+            equip:["Full"],
+        },
+        img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/75196321_149282026435869_5845130536267284480_n.jpg?_nc_cat=101&_nc_oc=AQkBws_ZeLAMigjAFzPf2lXXenmAu4ZRlYv_rMGxRCuJO-vyTIqKOSZrwPkUMjcxTTU&_nc_ht=scontent.fmvd4-1.fna&oh=14a4f3c46b2f2a011d78ea47a6a4e466&oe=5E5A1161',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=149282089769196&id=107603400603732&__tn__=-R'
+    },
+    {
+        brand:"Nissan",
+        model:"NP300",
+        price:"31000",
+        data: {
+            km:"",
+            year:"2016",
+            fuel:"Diesel",
+            equip:["A/C","D/H", "4x2"],
+        },
+        img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/73333387_149398606424211_6064587134411472896_n.jpg?_nc_cat=106&_nc_oc=AQlGDZMr4LAaUuy_mAkGvzs0p2b0rWK1y6g6nISz8b8B1zp3oaAUZrS7nMSqNJVYmYk&_nc_ht=scontent.fmvd4-1.fna&oh=bb865b617428952dcc96fef02e0f5d98&oe=5E449F5B',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=149398703090868&id=107603400603732&__tn__=-R'
+    },
+    {
+        brand:"Volkswagen",
+        model:"Gol G1",
+        price:"4200",
+        data: {
+            km:"",
+            year:"1993",
+            fuel:"Nafta",
+            equip:["STD","1.8"],
+        },
+        img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/75349021_149451376418934_4365850925152075776_n.jpg?_nc_cat=110&_nc_oc=AQkdLgcVj0esxffG7Mxtu5cA4BVdkiEWz87UT1lLwjtNyuCiGx5SeB2UNHFaYEwDgxU&_nc_ht=scontent.fmvd4-1.fna&oh=646beceadecd9e9862ab580866a6ad89&oe=5E3FCBD7',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=149451489752256&id=107603400603732&__tn__=-R'
+    },
+    {
+        brand:"Ford",
+        model:"Ka",
+        price:"4800",
+        data: {
+            km:"",
+            year:"1998",
+            fuel:"Nafta",
+            equip:[],
+        },
+        img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/s960x960/75462506_148200439877361_3748348002238988288_o.jpg?_nc_cat=103&_nc_oc=AQnGuVAkW5I_vhZtUHJTDjWL0jRtti5IqO2UvXpYk9fJxYZLSBzhlPIQ2oN5bXDbODA&_nc_ht=scontent.fmvd4-1.fna&oh=b25765799665846e31c013a05b926e91&oe=5E50067E',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=148200549877350&id=107603400603732&__tn__=-R'
+    },
+    {
+        brand:"Fiat",
+        model:"Palio",
+        price:"10500",
+        data: {
+            km:"",
+            year:"2014",
+            fuel:"Nafta",
+            equip:["Full"],
+        },
+        img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/74451033_147898506574221_5301314722279194624_n.jpg?_nc_cat=108&_nc_oc=AQmrxQO2OJn4GK-nM7rV3IhIJpl0UQp0NSjngwHDso_JSmO8dBsCRydfpbCeNAs5AiQ&_nc_ht=scontent.fmvd4-1.fna&oh=ae5ac54f7a963a8d20dbc7dc33bf6139&oe=5E57D863',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=147898589907546&id=107603400603732&__tn__=-R'
+    },
     /*{
         brand:"",
         model:"",
@@ -721,7 +812,7 @@ const vehicles = [
         data: {
             km:"",
             year:"",
-            fuel:"",
+            fuel: "Nafta",
             equip:[],
         },
         img:'',

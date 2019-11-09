@@ -6,7 +6,8 @@ import VehicleListItem from "./vehicleListItem.jsx";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import Emoji from 'a11y-react-emoji'
-import Select from "react-dropdown-select";
+import Dropdown from 'react-dropdown'
+import 'react-dropdown/style.css'
 
 function VehicleList(props) {
   const [displaySales, setDisplaySales] = useState(false);
@@ -28,14 +29,36 @@ function VehicleList(props) {
       setFilteredVehicles(filtered);
     }
   };
-  console.log(fuelFilter);
+  const fuelOptions = ["Todos", "Nafta", "Diesel", "Hidrido", "Electrico"];
+  const fuelType = (event) => {
+    setFuelFilter(event.value);
+    if(event.value === "Todos"){
+      setFilteredVehicles(vehicles.sort((a, b) => (a.brand > b.brand ? 1 : -1)));
+    } else {
+      const filtered = vehicles.filter(v =>
+        v.data.fuel.toLowerCase() === (event.value.toLowerCase()),
+      );
+      filtered.sort((a, b) => (a.brand > b.brand ? 1 : -1));
+      setFilteredVehicles(filtered);
+    }
+  }
   return (
     <div className={props.mobile ? "listMobile" : "list"}>
-      <input 
-        type="text" 
-        placeholder="Busque por marca o modelo de vehiculo"
-        className={props.mobile ? "searchInputMobile" : "searchInput"}
-        onChange={filterVehicle} />
+      <div className={props.mobile ? "filtersMobile" : "filters"}>
+        <input 
+          type="text" 
+          placeholder="Busque por marca o modelo de vehiculo"
+          className={props.mobile ? "searchInputMobile" : "searchInput"}
+          onChange={filterVehicle} />
+        <div className={props.mobile ? "dropdownMobile" : "dropdown"}>
+          <div className={props.mobile ? "textMobile" : "text"}>Tipo de combustible</div>
+          <Dropdown 
+            className={props.mobile ? "fuelSelectorMobile" : "fuelSelector"}
+            options={fuelOptions} 
+            onChange={fuelType} 
+            value={fuelOptions[0]}/>
+        </div>
+      </div>
       <div className={props.mobile ?"titleMobile":"title"} onClick={() => {setDisplaySales(!displaySales)}}>Ventas y Permutas</div>
       
       <div className={displaySales ? (props.mobile ? "vehicleListMobile" :"vehicleList") : "displayNone"}>

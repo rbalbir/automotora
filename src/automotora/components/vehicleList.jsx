@@ -42,6 +42,15 @@ function VehicleList(props) {
       setFilteredVehicles(filtered);
     }
   }
+
+  const priceRangeValues = [{value:{min:0, max:1500}, label:"0-1500"},
+                            {value:{min:1500, max:4000},label:"1500-4000"},
+                            {value:{min:4000, max:7000},label:"4000-7000"},
+                            {value:{min:7000, max:12000},label:"7000-12000"},
+                            {value:{min:12000, max:Number.MAX_SAFE_INTEGER},label:"Más de 12000"}];
+  const priceRange = (event) => {
+    console.log(event);
+  }
   return (
     <div className={props.mobile ? "listMobile" : "list"}>
       <div className={props.mobile ? "filtersMobile" : "filters"}>
@@ -57,6 +66,11 @@ function VehicleList(props) {
             options={fuelOptions} 
             onChange={fuelType} 
             value={fuelOptions[0]}/>
+          <Dropdown 
+            className={props.mobile ? "priceSelectorMobile" : "priceSelector"}
+            options={priceRangeValues} 
+            onChange={priceRange} 
+            value={priceRangeValues[0]}/>
         </div>
       </div>
       <div className={props.mobile ?"titleMobile":"title"} onClick={() => {setDisplaySales(!displaySales)}}>Ventas y Permutas</div>

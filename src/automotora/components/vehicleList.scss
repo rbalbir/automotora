@@ -6,6 +6,14 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    .message{
+        color: white;
+        font-family: $PN_THIN;
+        margin-top: 24px;
+        font-size: 20px;
+        text-align: center;
+        font-style: italic;
+    }
     .filters{
         justify-content: space-evenly;
         align-items: center;
@@ -20,15 +28,16 @@
             align-items: center;
             .text{
                 color: white;
-                font-family: ProximaNovaRegular;
+                font-family: $PN_REGULAR;
                 margin-right: 10px;
+                margin-left: 10px;
             }
             .fuelSelector{
                 .Dropdown-control{
                     color: white;
                     background-color: black;
                     border: none;
-                    font-family: ProximaNovaRegular;
+                    font-family: $PN_REGULAR;
                 }
                 /* width: 100%; */
                 /* margin: 20px; */
@@ -40,11 +49,11 @@
                 background-color: black;
                 color: white;
                 /* margin-top: 4rem; */
-                font-family: ProximaNovaRegular;
+                font-family: $PN_REGULAR;
             }
         }
         .searchInput{
-            /* width: 100%; */
+            width: 50%; 
             /* margin: 20px; */
             height: 38px;
             border-radius: 5px;
@@ -54,7 +63,7 @@
             background-color: black;
             color: white;
             /* margin-top: 4rem; */
-            font-family: ProximaNovaRegular;
+            font-family: $PN_REGULAR;
             .searchInput{
                 border: none;
             }
@@ -298,9 +307,17 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    .messageMobile{
+        color: white;
+        font-family: $PN_THIN;
+        margin-top: 24px;
+        font-size: 15px;
+        text-align: center;
+        font-style: italic;
+    }
     .titleMobile{
         color: white;
-        font-family: ProximaNovaExtraBold;
+        font-family: $PN_EXTRABOLD;
         font-size: 20px;
         border: 1px solid lightgray;
         width: 80%;
@@ -320,17 +337,22 @@
         margin-top: 1rem;
         margin-left: 3px;
         margin-right: 3px;
+        flex-direction: column;
         .dropdownMobile{
             display: flex;
             justify-content: space-between;
             align-items: center;
+            flex-direction: column;
             .textMobile{
                 color: white;
                 /* margin-top: 4rem; */
-                font-family: ProximaNovaRegular;
+                font-family: $PN_REGULAR;
                 margin-right: 10px;
+                margin-top: 10px;
+                margin-bottom: 5px;
             }
             .fuelSelectorMobile{
+                width: 100%;
                 height: 38px;
                 border-radius: 5px;
                 border: 1px solid lightgray;
@@ -339,12 +361,12 @@
                 background-color: black;
                 color: white;
                 /* margin-top: 4rem; */
-                font-family: ProximaNovaRegular;
+                font-family: $PN_REGULAR;
                 .Dropdown-control{
                     color: white;
                     background-color: black;
                     border: none;
-                    font-family: ProximaNovaRegular;
+                    font-family: $PN_REGULAR;
                 }   
             }
         }
@@ -358,7 +380,8 @@
             background-color: black;
             color: white;
             /* margin-top: 4rem; */
-            font-family: ProximaNovaRegular;
+            font-family: $PN_REGULAR;
+            width: 100%;
             .searchInput{
                 border:none;
             }

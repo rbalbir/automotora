@@ -2,7 +2,7 @@ const vehicles = [
     {
         brand:"Chevrolet",
         model:"Sail",
-        price:"10500",
+        price:10500,
         data: {
             km:"45000",
             year:"2015",
@@ -15,7 +15,7 @@ const vehicles = [
     {
         brand:"Citroen",
         model:"ZX Diesel",
-        price:"4800",
+        price:4800,
         data: {
             km:"",
             year:"1997",
@@ -28,7 +28,7 @@ const vehicles = [
     {
         brand:"Volkswagen",
         model:"Gol G2",
-        price:"5500",
+        price:5500,
         data: {
             km:"",
             year:"",
@@ -41,7 +41,7 @@ const vehicles = [
     {
         brand:"Renault",
         model:"19",
-        price:"3900",
+        price:3900,
         data: {
             km:"",
             year:"",
@@ -54,7 +54,7 @@ const vehicles = [
     {
         brand:"Chevrolet",
         model:"Corsa II",
-        price:"7900",
+        price:7900,
         data: {
             km:"",
             year:"",
@@ -67,7 +67,7 @@ const vehicles = [
     {
         brand:"Kia",
         model:"Carnival Diesel Automatica",
-        price:"12900",
+        price:12900,
         data: {
             km:"",
             year:"2001",
@@ -80,7 +80,7 @@ const vehicles = [
     {
         brand:"Hyundai",
         model:"H100 Diesel",
-        price:"8900",
+        price:8900,
         data: {
             km:"",
             year:"",
@@ -93,7 +93,7 @@ const vehicles = [
     {
         brand:"Citroen",
         model:"Berlingo Furgon Nafta",
-        price:"6000",
+        price:6000,
         data: {
             km:"",
             year:"",
@@ -106,7 +106,7 @@ const vehicles = [
     {
         brand:"Renault",
         model:"Sandero",
-        price:"10990",
+        price:10990,
         data: {
             km:"",
             year:"2016",
@@ -119,7 +119,7 @@ const vehicles = [
     {
         brand:"Fiat",
         model:"Palio",
-        price:"5300",
+        price:5300,
         data: {
             km:"",
             year:"",
@@ -132,7 +132,7 @@ const vehicles = [
     {
         brand:"Hyundai",
         model:"HB20",
-        price:"15500",
+        price:15500,
         data: {
             km:"13000",
             year:"2017",
@@ -145,7 +145,7 @@ const vehicles = [
     {
         brand:"Nissan",
         model:"Tiida Automatico",
-        price:"",
+        price:0,
         data: {
             km:"",
             year:"2008",
@@ -158,7 +158,7 @@ const vehicles = [
     {
         brand:"Volkwagen",
         model:"Amarok",
-        price:"",
+        price:17500,
         data: {
             km:"",
             year:"",
@@ -171,7 +171,7 @@ const vehicles = [
     {
         brand:"Vokwagen",
         model:"Gol G2",
-        price:"",
+        price:5500,
         data: {
             km:"",
             year:"",
@@ -184,7 +184,7 @@ const vehicles = [
     {
         brand:"Ford",
         model:"Ranger 2.3 Nafta",
-        price:"",
+        price:14500,
         data: {
             km:"",
             year:"",
@@ -197,7 +197,7 @@ const vehicles = [
     {
         brand:"Nissan",
         model:"Note",
-        price:"",
+        price:14500,
         data: {
             km:"",
             year:"",
@@ -210,7 +210,7 @@ const vehicles = [
     {
         brand:"Mercedes Benz",
         model:"E300",
-        price:"",
+        price:36900,
         data: {
             km:"",
             year:"",
@@ -223,7 +223,7 @@ const vehicles = [
     {
         brand:"Fiat",
         model:"Strada",
-        price:"",
+        price:0,
         data: {
             km:"",
             year:"",
@@ -236,7 +236,7 @@ const vehicles = [
     {
         brand:"Hyundai",
         model:"Accent Hatchback",
-        price:"",
+        price:0,
         data: {
             km:"",
             year:"",
@@ -249,7 +249,7 @@ const vehicles = [
     {
         brand:"Nissan",
         model:"Frontier NP300 Nafta",
-        price:"",
+        price:11500,
         data: {
             km:"",
             year:"",
@@ -262,7 +262,7 @@ const vehicles = [
     {
         brand:"Peugeot",
         model:"Bipper",
-        price:"",
+        price:7900,
         data: {
             km:"",
             year:"",
@@ -275,7 +275,7 @@ const vehicles = [
     {
         brand:"BMW",
         model:"530d Diesel",
-        price:"",
+        price:19500,
         data: {
             km:"",
             year:"",
@@ -288,7 +288,7 @@ const vehicles = [
     {
         brand:"Geely",
         model:"Emgrand",
-        price:"",
+        price:9000,
         data: {
             km:"",
             year:"",
@@ -301,7 +301,7 @@ const vehicles = [
     {
         brand:"Volkswagen",
         model:"Saveiro G3",
-        price:"7900",
+        price:7900,
         data: {
             km:"",
             year:"",
@@ -314,7 +314,7 @@ const vehicles = [
     {
         brand:"Citroen",
         model:"ZX Vulcan",
-        price:"",
+        price:6500,
         data: {
             km:"",
             year:"",
@@ -327,7 +327,7 @@ const vehicles = [
     {
         brand:"Ford",
         model:"Escort MK3",
-        price:"",
+        price:3000,
         data: {
             km:"",
             year:"",
@@ -340,7 +340,7 @@ const vehicles = [
     {
         brand:"Hyundai",
         model:"Scoupe",
-        price:"",
+        price:6000,
         data: {
             km:"",
             year:"",
@@ -353,7 +353,7 @@ const vehicles = [
     {
         brand:"Volkwagen",
         model:"Vento GLI",
-        price:"",
+        price:24500,
         data: {
             km:"",
             year:"",
@@ -366,7 +366,7 @@ const vehicles = [
     {
         brand:"Ford",
         model:"Ranger Limited 3.0 Diesel",
-        price:"",
+        price:14500,
         data: {
             km:"",
             year:"",
@@ -379,7 +379,7 @@ const vehicles = [
     {
         brand:"Chevrolet",
         model:"Camaro RS",
-        price:"",
+        price:48900,
         data: {
             km:"",
             year:"",
@@ -392,7 +392,7 @@ const vehicles = [
     {
         brand:"Volkwagen",
         model:"Quantum Diesel",
-        price:"",
+        price:4500,
         data: {
             km:"",
             year:"",
@@ -405,7 +405,7 @@ const vehicles = [
     {
         brand:"Peugeot",
         model:"308",
-        price:"",
+        price:12000,
         data: {
             km:"",
             year:"",
@@ -418,7 +418,7 @@ const vehicles = [
     {
         brand:"Ford",
         model:"Ranger Limited 3.0 Diesel",
-        price:"",
+        price:13000,
         data: {
             km:"",
             year:"",
@@ -431,7 +431,7 @@ const vehicles = [
     {
         brand:"Mitsubishi",
         model:"L200 Sportero",
-        price:"",
+        price:19000,
         data: {
             km:"",
             year:"",
@@ -444,7 +444,7 @@ const vehicles = [
     {
         brand:"BMW",
         model:"328i E36",
-        price:"",
+        price:15900,
         data: {
             km:"",
             year:"",
@@ -457,7 +457,7 @@ const vehicles = [
     {
         brand:"Chevrolet",
         model:"Spark L",
-        price:"7500",
+        price:7500,
         data: {
             km:"",
             year:"2011",
@@ -470,7 +470,7 @@ const vehicles = [
     {
         brand:"Peugeot",
         model:"208 1.2 Fase II",
-        price:"",
+        price:12500,
         data: {
             km:"",
             year:"",
@@ -483,7 +483,7 @@ const vehicles = [
     {
         brand:"Tata",
         model:"Ecoline",
-        price:"",
+        price:4800,
         data: {
             km:"",
             year:"",
@@ -496,7 +496,7 @@ const vehicles = [
     {
         brand:"Ford",
         model:"Taunus",
-        price:"",
+        price:4000,
         data: {
             km:"",
             year:"",
@@ -509,7 +509,7 @@ const vehicles = [
     {
         brand:"Peugeot",
         model:"3008",
-        price:"",
+        price:14900,
         data: {
             km:"",
             year:"",
@@ -522,7 +522,7 @@ const vehicles = [
     {
         brand:"Alfa Romeo",
         model:"146ti",
-        price:"9500",
+        price:9500,
         data: {
             km:"",
             year:"",
@@ -535,7 +535,7 @@ const vehicles = [
     {
         brand:"BMW",
         model:"550i F18",
-        price:"",
+        price:0,
         data: {
             km:"",
             year:"",
@@ -548,10 +548,10 @@ const vehicles = [
     {
         brand:"Hyndai",
         model:"H1 Diesel",
-        price:"",
+        price:17900,
         data: {
             km:"",
-            year:"",
+            year:"2009",
             fuel:"Diesel",
             equip:[],
         },
@@ -561,7 +561,7 @@ const vehicles = [
     {
         brand:"Faw",
         model:"Doble cabina",
-        price:"",
+        price:0,
         data: {
             km:"",
             year:"",
@@ -574,7 +574,7 @@ const vehicles = [
     {
         brand:"Mitsubishi",
         model:"Lancer GLXI",
-        price:"",
+        price:9000,
         data: {
             km:"",
             year:"",
@@ -587,7 +587,7 @@ const vehicles = [
     {
         brand:"Subaru",
         model:"Impreza Automatico",
-        price:"",
+        price:7000,
         data: {
             km:"",
             year:"",
@@ -600,7 +600,7 @@ const vehicles = [
     {
         brand:"Nissan",
         model:"NP300 Frontier",
-        price:"12900",
+        price:12900,
         data: {
             km:"",
             year:"",
@@ -613,7 +613,7 @@ const vehicles = [
     {
         brand:"Citroen",
         model:"Saxo Diesel",
-        price:"",
+        price:5500,
         data: {
             km:"",
             year:"",
@@ -626,10 +626,10 @@ const vehicles = [
     {
         brand:"Fiat",
         model:"Premio SL",
-        price:"",
+        price:4500,
         data: {
             km:"",
-            year:"",
+            year:"1992",
             fuel: "Nafta",
             equip:[],
         },
@@ -639,10 +639,10 @@ const vehicles = [
     {
         brand:"BMW",
         model:"328i",
-        price:"",
+        price:45900,
         data: {
             km:"",
-            year:"",
+            year:"2013",
             fuel: "Nafta",
             equip:[],
         },
@@ -652,7 +652,7 @@ const vehicles = [
     {
         brand:"Mazda",
         model:"Tribute V6",
-        price:"10500",
+        price:10500,
         data: {
             km:"",
             year:"2001",
@@ -665,7 +665,7 @@ const vehicles = [
     {
         brand:"Honda",
         model:"Civic EXS",
-        price:"11900",
+        price:11900,
         data: {
             km:"",
             year:"2009",
@@ -678,7 +678,7 @@ const vehicles = [
     {
         brand:"Ford",
         model:"Ranger XLT 3.2 Diesel",
-        price:"29500",
+        price:29500,
         data: {
             km:"",
             year:"2014",
@@ -691,7 +691,7 @@ const vehicles = [
     {
         brand:"Chevrolet",
         model:"Montana",
-        price:"7000",
+        price:7000,
         data: {
             km:"",
             year:"2008",
@@ -704,7 +704,7 @@ const vehicles = [
     {
         brand:"Hyundai",
         model:"H1",
-        price:"10900",
+        price:10900,
         data: {
             km:"",
             year:"2007",
@@ -717,7 +717,7 @@ const vehicles = [
     {
         brand:"Honda",
         model:"Civic",
-        price:"7000",
+        price:7000,
         data: {
             km:"",
             year:"1997",
@@ -730,7 +730,7 @@ const vehicles = [
     {
         brand:"Peugeot",
         model:"Partner",
-        price:"8000",
+        price:8000,
         data: {
             km:"",
             year:"2007",
@@ -743,7 +743,7 @@ const vehicles = [
     {
         brand:"Chevrolet",
         model:"Meriva GL",
-        price:"7900",
+        price:7900,
         data: {
             km:"",
             year:"2008",
@@ -756,7 +756,7 @@ const vehicles = [
     {
         brand:"Nissan",
         model:"NP300",
-        price:"31000",
+        price:31000,
         data: {
             km:"",
             year:"2016",
@@ -769,7 +769,7 @@ const vehicles = [
     {
         brand:"Volkswagen",
         model:"Gol G1",
-        price:"4200",
+        price:4200,
         data: {
             km:"",
             year:"1993",
@@ -782,7 +782,7 @@ const vehicles = [
     {
         brand:"Ford",
         model:"Ka",
-        price:"4800",
+        price:4800,
         data: {
             km:"",
             year:"1998",
@@ -795,7 +795,7 @@ const vehicles = [
     {
         brand:"Fiat",
         model:"Palio",
-        price:"10500",
+        price:10500,
         data: {
             km:"",
             year:"2014",
@@ -808,7 +808,7 @@ const vehicles = [
     /*{
         brand:"",
         model:"",
-        price:"",
+        price:,
         data: {
             km:"",
             year:"",

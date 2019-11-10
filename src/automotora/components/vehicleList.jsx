@@ -86,7 +86,7 @@ function VehicleList(props) {
         </div>
       </div>
       <div className={props.mobile ?"titleMobile":"title"} onClick={() => {setDisplaySales(!displaySales)}}>Ventas y Permutas</div>
-      <div className={props.mobile ? "messageMobile" : "message"}>{message}</div>
+      <div className={displaySales ? (props.mobile ? "messageMobile" : "message"): "displayNone"}>{message}</div>
       <div className={displaySales ? (props.mobile ? "vehicleListMobile" :"vehicleList") : "displayNone"}>
         {
           filteredVehicles.map((value, index) => {
@@ -94,7 +94,7 @@ function VehicleList(props) {
           })
         }
       </div>
-      <div className={props.mobile ? "messageMobile" : "message"}>{message}</div>
+      <div className={displaySales ? (props.mobile ? "messageMobile" : "message"): "displayNone"}>{message}</div>
       <div className={props.mobile ?"titleMobile":"title"} onClick={() => {setDisplayRents(!displayRents)}}>Alquileres</div>
       <div className={displayRents ? (props.mobile ? "vehicleListMobile" :"vehicleList") : "displayNone"}>
         {rents.map((value, index) =>{

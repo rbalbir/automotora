@@ -19,6 +19,7 @@ function VehicleList(props) {
   const [filterValue, setFilterValue] = useState('');
   const [fuelFilter, setFuelFilter] = useState('Todos');
   const [priceRangeValue, setPriceRangeValue] = useState("Todos");
+
   const filterVehicle = (event) => {
     setFilterValue(event.target.value);
     if((event.target.value.length === 0) || (event.target.value ==="") || (typeof event.target.value === "undefined")){
@@ -62,6 +63,7 @@ function VehicleList(props) {
     setPriceRangeValue(event.label);
     setMessage(`Rango de precio actual: USD ${priceRangeValue} , Tipo de combustible actual: ${fuelFilter}, Marca/Modelo actual: ${filterValue}`);
   }
+
   return (
     <div className={props.mobile ? "listMobile" : "list"}>
       <div className={props.mobile ? "filtersMobile" : "filters"}>

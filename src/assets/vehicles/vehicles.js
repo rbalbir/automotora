@@ -156,7 +156,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=131687458195326&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Volkwagen",
+        brand:"Volkswagen",
         model:"Amarok",
         price:17500,
         data: {
@@ -169,7 +169,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=131674524863286&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Vokwagen",
+        brand:"Volkswagen",
         model:"Gol G2",
         price:5500,
         data: {
@@ -351,7 +351,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=118936746137064&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Volkwagen",
+        brand:"Volkswagen",
         model:"Vento GLI",
         price:24500,
         data: {
@@ -390,7 +390,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=107733407257398&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Volkwagen",
+        brand:"Volkswagen",
         model:"Quantum Diesel",
         price:4500,
         data: {
@@ -805,6 +805,58 @@ const vehicles = [
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/74451033_147898506574221_5301314722279194624_n.jpg?_nc_cat=108&_nc_oc=AQmrxQO2OJn4GK-nM7rV3IhIJpl0UQp0NSjngwHDso_JSmO8dBsCRydfpbCeNAs5AiQ&_nc_ht=scontent.fmvd4-1.fna&oh=ae5ac54f7a963a8d20dbc7dc33bf6139&oe=5E57D863',
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=147898589907546&id=107603400603732&__tn__=-R'
     },
+    {
+        brand:"Peugeot",
+        model:"306 Break",
+        price:6500,
+        data: {
+            km:"",
+            year:"2001",
+            fuel: "Nafta",
+            equip:["Full"],
+        },
+        img:'https://scontent.fmvd1-1.fna.fbcdn.net/v/t1.0-9/75388234_152457662784972_3932010729485369344_n.jpg?_nc_cat=103&_nc_oc=AQmDyGuAuDORhD2gVNyC_o9ojLT_gQhjmg_-EKMS2wZhC1KqMHqHLbV8YwCQVeedYdI&_nc_ht=scontent.fmvd1-1.fna&oh=f44670a231e4dc54188b70152a59d10b&oe=5E55BA79',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=152457836118288&id=107603400603732&__tn__=-R'
+    },
+    {
+        brand:"Nissan",
+        model:"March",
+        price:9900,
+        data: {
+            km:"",
+            year:"2013",
+            fuel: "Nafta",
+            equip:["Full"],
+        },
+        img:'https://scontent.fmvd1-1.fna.fbcdn.net/v/t1.0-9/75439389_152099679487437_4466719816941568000_n.jpg?_nc_cat=109&_nc_eui2=AeFxCitIy7LyKpT8iKdgfpjnHzBWGZzQ5wF41KRu4KQjWE83mAa8WWs_dAlxRcWvRP2WEkc4Io1-m5KOEswWbqqafcYXE_kl6Al_TZPZMOf2ig&_nc_oc=AQmCOcPdSrPJBgDcR4Y8JeSYyOb5Wb43_ydYut7IGbIlSeB7FKlhvVqXWjnqqaxGMUc&_nc_ht=scontent.fmvd1-1.fna&oh=16c7cd385c38edacddedcf3876d48e0d&oe=5E59A410',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=152099772820761&id=107603400603732&__tn__=-R'
+    },
+    {
+        brand:"ZX Auto",
+        model:"Grand Tiger",
+        price:8900,
+        data: {
+            km:"",
+            year:"2011",
+            fuel: "Nafta",
+            equip:["Full"],
+        },
+        img:'https://scontent.fmvd1-1.fna.fbcdn.net/v/t1.0-9/75486124_151648509532554_2126252559503982592_n.jpg?_nc_cat=108&_nc_eui2=AeGJrqWBOt9rmliv6fE-85skf_NC78qrBI5NieL1BYeZvjViEzJcWQdyX89WJETzbE5kH_tY6ZuICiTCIUPivDXZNUGfBL0z1WaBc-eMB3tehQ&_nc_oc=AQlOQ15mn8FZrC8sT8w0hvxhvsHqiEQtowT_eWgnf7xraUYzR3x736VI7fzV8RhSSjk&_nc_ht=scontent.fmvd1-1.fna&oh=bca265b976b859fbe8e5063b9112590a&oe=5E4A7737',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=151648732865865&id=107603400603732&__tn__=-R'
+    },
+    {
+        brand:"Fiat",
+        model:"Uno Fire",
+        price:4500,
+        data: {
+            km:"",
+            year:"1995",
+            fuel: "Nafta",
+            equip:[],
+        },
+        img:'https://scontent.fmvd1-1.fna.fbcdn.net/v/t1.0-9/72717710_150526252978113_7732887831021879296_n.jpg?_nc_cat=109&_nc_eui2=AeGV_iWO7SiiSGgkKj-jFJyqYsqVvPMMERq0gxHH_vmVRhrXPz2v0u3QwPPGd4XD8kCm2QjB0xdiNWPxc6dg_vtYzUX-8X3HhrCcA4RA8w-pxw&_nc_oc=AQn4VO-8gZyH8PsPexH9d4MgVdsWehPykrr3m0FbMmfSvvgrRCm-xbygYvkALLMhL8U&_nc_ht=scontent.fmvd1-1.fna&oh=1cb854c06201c4760bd16089fc71bc58&oe=5E8360B0',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=150526322978106&id=107603400603732&__tn__=-R'
+    }
     /*{
         brand:"",
         model:"",

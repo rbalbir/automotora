@@ -856,7 +856,46 @@ const vehicles = [
         },
         img:'https://scontent.fmvd1-1.fna.fbcdn.net/v/t1.0-9/72717710_150526252978113_7732887831021879296_n.jpg?_nc_cat=109&_nc_eui2=AeGV_iWO7SiiSGgkKj-jFJyqYsqVvPMMERq0gxHH_vmVRhrXPz2v0u3QwPPGd4XD8kCm2QjB0xdiNWPxc6dg_vtYzUX-8X3HhrCcA4RA8w-pxw&_nc_oc=AQn4VO-8gZyH8PsPexH9d4MgVdsWehPykrr3m0FbMmfSvvgrRCm-xbygYvkALLMhL8U&_nc_ht=scontent.fmvd1-1.fna&oh=1cb854c06201c4760bd16089fc71bc58&oe=5E8360B0',
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=150526322978106&id=107603400603732&__tn__=-R'
-    }
+    },
+    {
+        brand:"Nissan",
+        model:"X-Trail Automatica",
+        price:14500,
+        data: {
+            km:"145000",
+            year:"2008",
+            fuel: "Nafta",
+            equip:["Full"],
+        },
+        img:'https://scontent.fmvd1-1.fna.fbcdn.net/v/t1.0-9/78287920_154078272622911_331804150809493504_n.jpg?_nc_cat=107&_nc_ohc=VtH23hOnqpIAQnBjrxv3Hz8QTxjFoPqY7-du5g1yTwEeRwdaalWxWq6jg&_nc_ht=scontent.fmvd1-1.fna&oh=7931dce113e28870502fec3a9f4fd447&oe=5E8744F5',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=154078395956232&id=107603400603732&__tn__=-R'
+    },
+    {
+        brand:"Chevrolet",
+        model:"Celta LT",
+        price:8000,
+        data: {
+            km:"130000",
+            year:"2013",
+            fuel: "Nafta",
+            equip:[],
+        },
+        img:'https://scontent.fmvd1-1.fna.fbcdn.net/v/t1.0-9/73071764_153921919305213_6223548263493009408_n.jpg?_nc_cat=105&_nc_ohc=vOHIWkPCUR0AQmkTSCEIbVuT6R-bma2gHC03fKBmUvocgWGNqlCY6p8pw&_nc_ht=scontent.fmvd1-1.fna&oh=72a9a85384a07b8d1db2b3cc0228d235&oe=5E860444',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=153922125971859&id=107603400603732&__tn__=-R'
+    },
+    {
+        brand:"Suzuki",
+        model:"Celerio Ga",
+        price:10300,
+        data: {
+            km:"43000",
+            year:"2017",
+            fuel: "Nafta",
+            equip:[],
+        },
+        img:'https://scontent.fmvd1-1.fna.fbcdn.net/v/t1.0-9/77270475_153209952709743_4397760994563063808_n.jpg?_nc_cat=104&_nc_ohc=8hnkboTxtDUAQm6YORcCyzVo5y_SeY9DfSCj2-GqNhyWprRuDZHKuP_NQ&_nc_ht=scontent.fmvd1-1.fna&oh=cbc33ed46a848fc8e3a62cf49d03ebd0&oe=5E807294',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=153210052709733&id=107603400603732&__tn__=-R'
+    },
     /*{
         brand:"",
         model:"",

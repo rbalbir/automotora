@@ -104,8 +104,8 @@ function VehicleList(props) {
               <div className={`item${index}`} key={index}>
                 <div className="desc">
                   <div className="brand">{value.brand}</div>
-                  <dic className="model">{value.model}</dic>
-                  <dic className="specs">{value.specs}</dic>
+                  <div className="model">{value.model}</div>
+                  <div className="specs">{value.specs}</div>
                 </div>
               </div>
             );

@@ -1,16 +1,25 @@
 import "./vehicleListItem.scss";
 import React from "react";
 import vehicles from "../../assets/vehicles/vehicles.js";
+import MoreInfoModal from './vehicleListItemModal';
+import ReactDOM from 'react-dom';
 
 function VehicleListItem(props) {
+    const renderModal = () => {
+        ReactDOM.render(
+            <MoreInfoModal vehicle={props.vehicle}/>,
+            document.createElement('div')
+        );
+    }
     const divStyle = {
-        'background-image': `url(${props.vehicle.img})`,
-        'background-size': 'contain',
-        'background-repeat': 'no-repeat',
-        'background-position': 'center center',
+        'backgroundImage': `url(${props.vehicle.img})`,
+        'backgroundSize': 'contain',
+        'backgroundRepeat': 'no-repeat',
+        'backgroundPosition': 'center center',
     }
     return (
-        <a className={props.mobile ? "linkMobile" : "link"} href={props.vehicle.fbLink}>
+        //<a className={props.mobile ? "linkMobile" : "link"} href={props.vehicle.fbLink}/>
+        <div onClick={renderModal} className={props.mobile ? "linkMobile" : "link"}>
             <div style={divStyle} className={props.mobile ? "vehicleListItemMobile" : "vehicleListItem"}>
                 <div className="desc">
                     <div className="name">
@@ -20,7 +29,7 @@ function VehicleListItem(props) {
                     <div className="price">{`USD ${props.vehicle.price}`}</div>
                 </div>
             </div>
-        </a>
+        </div>
     );
 }
   

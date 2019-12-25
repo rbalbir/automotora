@@ -1,0 +1,90 @@
+.overlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.65);
+  }
+  .modal {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    right: 0;
+    /* bottom: 40px; */
+    max-width: 26rem;
+    border: 1px solid #cccccc;
+    background: white;
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+    background: white;
+    margin-top: 10%;
+    &.appear {
+      -webkit-animation: appear 1s; /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: appear 1s; /* Firefox < 16 */
+      -ms-animation: appear 1s; /* Internet Explorer */
+      -o-animation: appear 1s; /* Opera < 12.1 */
+      animation: appear 1s;
+    }
+    &.desappear {
+      -moz-animation: desappear 1s; /* Firefox < 16 */
+      -ms-animation: desappear 1s; /* Internet Explorer */
+      -o-animation: desappear 1s; /* Opera < 12.1 */
+      animation: desappear 1s;
+    }
+    &.overlay {
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+      background-color: rgba(0, 0, 0, 0.65);
+    }
+    .genericModal {
+      width: 100%;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      .modalHeader{
+        width: 100%;
+        border-bottom: 3px solid lightgray;
+        padding-bottom: 1rem;
+        display: flex;
+        justify-content: space-between;
+        .modalTitle{
+            font-weight: bold;
+        }
+        .closeBtn{
+            border: none !important;
+            background: none !important;
+        }
+      }
+      .modalBody{
+        width: 70%;
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .dataInfo{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid lightgrey;
+            padding-bottom: 5px;
+            margin-bottom: 5px;
+        }
+        .link{
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            display: flex;
+            justify-content: center;
+            background: rgb(0, 162, 255);
+            padding: 4px;
+            color: white;
+            border-radius: 30px;
+        }
+      }
+    }
+  }

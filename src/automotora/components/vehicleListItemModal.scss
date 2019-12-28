@@ -8,10 +8,8 @@
   }
   .modal {
     position: absolute;
-    top: 25%;
-    left: 40%;
-    right: 0;
-    /* bottom: 40px; */
+    margin: 15% auto auto 33% !important;
+    min-width: 26rem !important;
     max-width: 26rem;
     border: 1px solid #cccccc;
     background: white;
@@ -20,7 +18,6 @@
     outline: none;
     padding: 20px;
     background: white;
-    margin-top: 10%;
     &.appear {
       -webkit-animation: appear 1s; /* Safari, Chrome and Opera > 12.1 */
       -moz-animation: appear 1s; /* Firefox < 16 */

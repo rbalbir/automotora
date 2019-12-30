@@ -7,7 +7,7 @@ import ReactDOM from 'react-dom';
 function VehicleListItem(props) {
     const renderModal = () => {
         ReactDOM.render(
-            <MoreInfoModal vehicle={props.vehicle}/>,
+            <MoreInfoModal mobile={props.mobile} vehicle={props.vehicle}/>,
             document.createElement('div')
         );
     }

@@ -1,6 +1,7 @@
+import brands from "./brands"
 const vehicles = [
     {
-        brand:"Chevrolet",
+        brand:brands.CHE,
         model:"Sail",
         price:10500,
         data: {
@@ -13,7 +14,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=137416320955773&id=107603400603732&__xts__%5B0%5D=68.ARDRi1oQN4JZy8j3dr5R5t_hn6sJr317_I0N7vYMFbneNTmIf80T71wbGWKl7h0wvt64mbdQ_jfRNrCRuKRgjxmDVSCTl8dDx_3O5MJSw8oFSu1TC4VBC46fxEBHgm_749tw1q4Q6RCJUilFgzaKCs4N2FzrdR3UdWWNbwMZSbJHKFva7zRNM6DvKDTQIPn27N0n4ySFbcCfjZjXfK9ILnW6CfGHAVulEYaddWM-CZUmdiiqdiOUP__--UriYzSTRrN_2HXLbh_1Efp-YJKBPGGLYUwhEzuLOilSFeXTGFxcr4rHEvfN3uefUhCEDU4ufpVzHq9xqa51khqYEF_xKVY&__tn__=-R'
     },
     {
-        brand:"Citroen",
+        brand:brands.CIT,
         model:"ZX Diesel",
         price:4800,
         data: {
@@ -26,7 +27,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=143949380302467&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Volkswagen",
+        brand:brands.VOL,
         model:"Gol G2",
         price:5500,
         data: {
@@ -39,7 +40,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=142967127067359&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Renault",
+        brand:brands.REN,
         model:"19",
         price:3900,
         data: {
@@ -52,7 +53,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=142966840400721&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Chevrolet",
+        brand:brands.CHE,
         model:"Corsa II",
         price:7900,
         data: {
@@ -65,7 +66,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=138701747493897&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Kia",
+        brand:brands.KIA,
         model:"Carnival Diesel Automatica",
         price:12900,
         data: {
@@ -78,7 +79,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=137416637622408&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Hyundai",
+        brand:brands.HYU,
         model:"H100 Diesel",
         price:8900,
         data: {
@@ -91,7 +92,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=137115464319192&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Citroen",
+        brand:brands.CIT,
         model:"Berlingo Furgon Nafta",
         price:6000,
         data: {
@@ -104,7 +105,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=133274814703257&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Renault",
+        brand:brands.REN,
         model:"Sandero",
         price:10990,
         data: {
@@ -117,7 +118,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=133274464703292&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Fiat",
+        brand:brands.FIA,
         model:"Palio",
         price:5300,
         data: {
@@ -130,7 +131,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=132476101449795&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Hyundai",
+        brand:brands.HYU,
         model:"HB20",
         price:15500,
         data: {
@@ -143,7 +144,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=132052198158852&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Nissan",
+        brand:brands.NIS,
         model:"Tiida Automatico",
         price:0,
         data: {
@@ -156,7 +157,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=131687458195326&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Volkswagen",
+        brand:brands.VOL,
         model:"Amarok",
         price:17500,
         data: {
@@ -169,7 +170,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=131674524863286&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Volkswagen",
+        brand:brands.VOL,
         model:"Gol G2",
         price:5500,
         data: {
@@ -182,7 +183,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=131248354905903&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Ford",
+        brand:brands.FOR,
         model:"Ranger 2.3 Nafta",
         price:14500,
         data: {
@@ -195,7 +196,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=129025615128177&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Nissan",
+        brand:brands.NIS,
         model:"Note",
         price:14500,
         data: {
@@ -208,7 +209,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=128755195155219&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Mercedes Benz",
+        brand:brands.MER,
         model:"E300",
         price:36900,
         data: {
@@ -221,7 +222,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=128682278495844&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Fiat",
+        brand:brands.FIA,
         model:"Strada",
         price:0,
         data: {
@@ -234,7 +235,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=128681941829211&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Hyundai",
+        brand:brands.HYU,
         model:"Accent Hatchback",
         price:0,
         data: {
@@ -247,7 +248,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=125518142145591&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Nissan",
+        brand:brands.NIS,
         model:"Frontier NP300 Nafta",
         price:11500,
         data: {
@@ -260,7 +261,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=125510658813006&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Peugeot",
+        brand:brands.PEU,
         model:"Bipper",
         price:7900,
         data: {
@@ -273,7 +274,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=125491675481571&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"BMW",
+        brand:brands.BMW,
         model:"530d Diesel",
         price:19500,
         data: {
@@ -299,7 +300,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=118943272803078&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Volkswagen",
+        brand:brands.VOL,
         model:"Saveiro G3",
         price:7900,
         data: {
@@ -312,7 +313,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=118942482803157&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Citroen",
+        brand:brands.CIT,
         model:"ZX Vulcan",
         price:6500,
         data: {
@@ -325,7 +326,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=118938262803579&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Ford",
+        brand:brands.FOR,
         model:"Escort MK3",
         price:3000,
         data: {
@@ -338,7 +339,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=118937409470331&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Hyundai",
+        brand:brands.HYU,
         model:"Scoupe",
         price:6000,
         data: {
@@ -351,7 +352,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=118936746137064&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Volkswagen",
+        brand:brands.VOL,
         model:"Vento GLI",
         price:24500,
         data: {
@@ -364,7 +365,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=110332296997509&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Ford",
+        brand:brands.FOR,
         model:"Ranger Limited 3.0 Diesel",
         price:14500,
         data: {
@@ -377,7 +378,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=107734687257270&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Chevrolet",
+        brand:brands.CHE,
         model:"Camaro RS",
         price:48900,
         data: {
@@ -390,7 +391,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=107733407257398&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Volkswagen",
+        brand:brands.VOL,
         model:"Quantum Diesel",
         price:4500,
         data: {
@@ -403,7 +404,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=117549016275837&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Peugeot",
+        brand:brands.PEU,
         model:"308",
         price:12000,
         data: {
@@ -416,7 +417,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=118780646152674&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Ford",
+        brand:brands.FOR,
         model:"Ranger Limited 3.0 Diesel",
         price:13000,
         data: {
@@ -442,7 +443,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=118878769476195&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"BMW",
+        brand:brands.BMW,
         model:"328i E36",
         price:15900,
         data: {
@@ -455,7 +456,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=118879259476146&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Chevrolet",
+        brand:brands.CHE,
         model:"Spark L",
         price:7500,
         data: {
@@ -468,7 +469,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=118880926142646&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Peugeot",
+        brand:brands.PEU,
         model:"208 1.2 Fase II",
         price:12500,
         data: {
@@ -494,7 +495,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=118912152806190&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Ford",
+        brand:brands.FOR,
         model:"Taunus",
         price:4000,
         data: {
@@ -507,7 +508,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=118912479472824&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Peugeot",
+        brand:brands.PEU,
         model:"3008",
         price:14900,
         data: {
@@ -533,7 +534,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=118934336137305&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"BMW",
+        brand:brands.BMW,
         model:"550i F18",
         price:0,
         data: {
@@ -598,7 +599,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=144699750227430&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Nissan",
+        brand:brands.NIS,
         model:"NP300 Frontier",
         price:12900,
         data: {
@@ -611,7 +612,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=145839710113434&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Citroen",
+        brand:brands.CIT,
         model:"Saxo Diesel",
         price:5500,
         data: {
@@ -624,7 +625,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=145766656787406&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Fiat",
+        brand:brands.FIA,
         model:"Premio SL",
         price:4500,
         data: {
@@ -637,7 +638,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=146404890056916&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"BMW",
+        brand:brands.BMW,
         model:"328i",
         price:45900,
         data: {
@@ -676,7 +677,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=147668706597201&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Ford",
+        brand:brands.FOR,
         model:"Ranger XLT 3.2 Diesel",
         price:29500,
         data: {
@@ -689,7 +690,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=147668489930556&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Chevrolet",
+        brand:brands.CHE,
         model:"Montana",
         price:7000,
         data: {
@@ -702,7 +703,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=147668319930573&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Hyundai",
+        brand:brands.HYU,
         model:"H1",
         price:10900,
         data: {
@@ -728,7 +729,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=148287009868704&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Peugeot",
+        brand:brands.PEU,
         model:"Partner",
         price:8000,
         data: {
@@ -741,7 +742,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=148637539833651&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Chevrolet",
+        brand:brands.CHE,
         model:"Meriva GL",
         price:7900,
         data: {
@@ -754,7 +755,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=149282089769196&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Nissan",
+        brand:brands.NIS,
         model:"NP300",
         price:31000,
         data: {
@@ -767,7 +768,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=149398703090868&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Volkswagen",
+        brand:brands.VOL,
         model:"Gol G1",
         price:4200,
         data: {
@@ -780,7 +781,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=149451489752256&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Ford",
+        brand:brands.FOR,
         model:"Ka",
         price:4800,
         data: {
@@ -793,7 +794,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=148200549877350&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Fiat",
+        brand:brands.FIA,
         model:"Palio",
         price:10500,
         data: {
@@ -806,7 +807,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=147898589907546&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Peugeot",
+        brand:brands.PEU,
         model:"306 Break",
         price:6500,
         data: {
@@ -819,7 +820,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=152457836118288&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Nissan",
+        brand:brands.NIS,
         model:"March",
         price:9900,
         data: {
@@ -845,7 +846,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=151648732865865&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Fiat",
+        brand:brands.FIA,
         model:"Uno Fire",
         price:4500,
         data: {
@@ -858,7 +859,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=150526322978106&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Nissan",
+        brand:brands.NIS,
         model:"X-Trail Automatica",
         price:14500,
         data: {
@@ -871,7 +872,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=154078395956232&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Chevrolet",
+        brand:brands.CHE,
         model:"Celta LT",
         price:8000,
         data: {
@@ -896,6 +897,45 @@ const vehicles = [
         img:'https://scontent.fmvd1-1.fna.fbcdn.net/v/t1.0-9/77270475_153209952709743_4397760994563063808_n.jpg?_nc_cat=104&_nc_ohc=8hnkboTxtDUAQm6YORcCyzVo5y_SeY9DfSCj2-GqNhyWprRuDZHKuP_NQ&_nc_ht=scontent.fmvd1-1.fna&oh=cbc33ed46a848fc8e3a62cf49d03ebd0&oe=5E807294',
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=153210052709733&id=107603400603732&__tn__=-R'
     },
+    {
+        brand:brands.KIA,
+        model:"Abella",
+        price:4000,
+        data: {
+            km:"",
+            year:"1998",
+            fuel: "Nafta",
+            equip:["Std"],
+        },
+        img:'https://scontent.fmvd1-1.fna.fbcdn.net/v/t1.0-9/80718772_167406761290062_3153764983322443776_n.jpg?_nc_cat=103&_nc_eui2=AeEi7PAiDehUarU29OBjOspEK424a5K6Xc19C27d_Z6Xm1bdZOpkcAss8vorW1T5Fn4RZxzJwZQDugokiGdEC-CXQnOcD_ANd_gnUv9F8xaOZw&_nc_ohc=oixMMHv5TggAQnziU4U0qWlHtxVuPnYx6_3knb9z6xxvWUVIJMS9jNjRA&_nc_ht=scontent.fmvd1-1.fna&oh=7c1d3084b7fc52af63bb8566bb0a29b0&oe=5E9D90E2',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=167406777956727&id=107603400603732&__tn__=-R'
+    },
+    {
+        brand:brands.FIA,
+        model:"Panda",
+        price:4000,
+        data: {
+            km:"",
+            year:"1993",
+            fuel: "Nafta",
+            equip:["Std"],
+        },
+        img:'https://scontent.fmvd1-1.fna.fbcdn.net/v/t1.0-9/81540127_167406451290093_5193063357233496064_n.jpg?_nc_cat=111&_nc_eui2=AeGHnS0EtxnXM9jTTE5hvaTqsp-T3EZAWqkcykn1PY7Tfwsx2TD2ke2302I3xKtCqzlhVYmaI8Z8j0GTrUeqGr6mTFZS3dZJYrA3aMprkAHR4A&_nc_ohc=2FWBChuYR_oAQmK7uHqv0akDuMmShkrQ3U-2Hs87t0BGZJj7vB-IfQiAQ&_nc_ht=scontent.fmvd1-1.fna&oh=aada725c170999aa322a99f44a0c1b99&oe=5E9AA1F0',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=167406584623413&id=107603400603732&__tn__=-R'
+    },
+    {
+        brand:brands.CHE,
+        model:"Corsa PickUp Diesel",
+        price:5500,
+        data: {
+            km:"",
+            year:"1999",
+            fuel: "Diesel",
+            equip:["Std"],
+        },
+        img:'https://scontent.fmvd1-1.fna.fbcdn.net/v/t1.0-9/81616307_166666194697452_2511649870578712576_n.jpg?_nc_cat=101&_nc_ohc=wONP3S1OPDUAQmkkEptNVEvZmgii2WWRFcIpUhajs_AEMqVnnZtdc-jww&_nc_ht=scontent.fmvd1-1.fna&oh=e6b734e2157859d06d39fa500a740ecd&oe=5EAABDBA',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=166666374697434&id=107603400603732&__tn__=-R'
+    },
     /*{
         brand:"",
         model:"",
@@ -911,4 +951,5 @@ const vehicles = [
     },*/
 
 ];
-module.exports = vehicles;
+export default vehicles;
+

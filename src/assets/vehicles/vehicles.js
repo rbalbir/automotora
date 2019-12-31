@@ -287,7 +287,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=122959882401417&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Geely",
+        brand:brands.GEE,
         model:"Emgrand",
         price:9000,
         data: {
@@ -430,7 +430,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/107603400603732/photos/a.107727857257953/117551449608927/?type=3&__tn__=-R'
     },
     {
-        brand:"Mitsubishi",
+        brand:brands.MIT,
         model:"L200 Sportero",
         price:19000,
         data: {
@@ -482,7 +482,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=118911656139573&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Tata",
+        brand:brands.TAT,
         model:"Ecoline",
         price:4800,
         data: {
@@ -521,7 +521,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=118933872804018&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Alfa Romeo",
+        brand:brands.ALF,
         model:"146ti",
         price:9500,
         data: {
@@ -547,7 +547,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=118934829470589&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Hyndai",
+        brand:brands.HYU,
         model:"H1 Diesel",
         price:17900,
         data: {
@@ -560,7 +560,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=144692863561452&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Faw",
+        brand:brands.FAW,
         model:"Doble cabina",
         price:0,
         data: {
@@ -573,7 +573,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=144691160228289&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Mitsubishi",
+        brand:brands.MIT,
         model:"Lancer GLXI",
         price:9000,
         data: {
@@ -586,7 +586,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=144700880227317&id=107603400603732&__xts__[0]=68.ARA1HPBEafDt0AKnz80YTJvgQIB6PGOn5oG4eiU2AMtcBCg-HQzN3dDGnyElUtb3oXh_JjdWseXddgRs4YuiTolDPEhKWKFILBQ6_69Rkkxa9zV43rFbVyIv2Ad5F_NxMUCS6m36ckiz3ldAZMCgLYBWlAnip2An44n-h-0D63oWBN2wzRZdBZigTW6Haf0M18TETvV83VfopOpWL8JmKHlBpBc5GacdQPSDjIymesACXTLfb8wNPdPYobtraPEAnKl6jxnBIViM7O02_sUjKO50J02yR5UUrtp-OODs3IBzcOpxr6yJrQuyMWsdtKa0b9c0HdhjMxawJsIZZl3B_BA&__tn__=-R'
     },
     {
-        brand:"Subaru",
+        brand:brands.SUB,
         model:"Impreza Automatico",
         price:7000,
         data: {
@@ -651,7 +651,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=146460980051307&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Mazda",
+        brand:brands.MAZ,
         model:"Tribute V6",
         price:10500,
         data: {
@@ -664,7 +664,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=147668839930521&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Honda",
+        brand:brands.HON,
         model:"Civic EXS",
         price:11900,
         data: {
@@ -716,7 +716,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=147668053263933&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Honda",
+        brand:brands.HON,
         model:"Civic",
         price:7000,
         data: {
@@ -833,7 +833,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=152099772820761&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"ZX Auto",
+        brand:brands.ZXA,
         model:"Grand Tiger",
         price:8900,
         data: {
@@ -885,7 +885,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=153922125971859&id=107603400603732&__tn__=-R'
     },
     {
-        brand:"Suzuki",
+        brand:brands.SUZ,
         model:"Celerio Ga",
         price:10300,
         data: {

@@ -55,6 +55,6 @@ const brands = {
     VOL: "Volvo",
     TAT: "Tata",
     ZXA: "ZxAuto",
-    OTR: "Otras marcas"
+    OTR: "Otras marcas",
 };
 module.exports = brands;

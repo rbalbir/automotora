@@ -5,13 +5,15 @@ import rents from "../../assets/vehicles/rents.js"
 import VehicleListItem from "./vehicleListItem.jsx";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-import Emoji from 'a11y-react-emoji'
-import Dropdown from 'react-dropdown'
-import 'react-dropdown/style.css'
+import Emoji from 'a11y-react-emoji';
+import Dropdown from 'react-dropdown';
+import 'react-dropdown/style.css';
+import classnames from "classnames";
 
 function VehicleList(props) {
   const [displaySales, setDisplaySales] = useState(false);
   const [displayRents, setDisplayRents] = useState(false);
+  const [displaySolds, setDisplaySolds] = useState(false);
   const [message, setMessage] = useState("Rango de precio actual: USD Todos , Tipo de combustible actual: Todos, Marca/Modelo actual: Todos");
   const [filteredVehicles, setFilteredVehicles] = useState(
     vehicles.sort((a, b) => (a.brand > b.brand ? 1 : -1))
@@ -64,6 +66,12 @@ function VehicleList(props) {
     setMessage(`Rango de precio actual: USD ${priceRangeValue} , Tipo de combustible actual: ${fuelFilter}, Marca/Modelo actual: ${filterValue}`);
   }
 
+  const soldsClass = classnames([{
+    "vehicleListMobile" : displaySolds && props.mobile,
+    "vehicleList": displaySolds && !props.mobile,
+    "displayNone": !displaySolds
+  }]);
+
   return (
     <div className={props.mobile ? "listMobile" : "list"}>
       <div className={props.mobile ? "filtersMobile" : "filters"}>
@@ -92,7 +100,9 @@ function VehicleList(props) {
       <div className={displaySales ? (props.mobile ? "vehicleListMobile" :"vehicleList") : "displayNone"}>
         {
           filteredVehicles.map((value, index) => {
+            if(!value.sold){
               return <VehicleListItem mobile={props.mobile} vehicle={value} key={index}/>
+            }
           })
         }
       </div>
@@ -110,7 +120,17 @@ function VehicleList(props) {
               </div>
             );
         })}
-        </div>
+      </div>
+      <div className={props.mobile ?"titleMobile":"title"} onClick={() => {setDisplaySolds(!displaySolds)}}>Vendidos</div>
+      <div className={soldsClass}>
+        {
+          vehicles.map((value, index) => {
+            if(value.sold){
+              return <VehicleListItem mobile={props.mobile} vehicle={value} key={index}/>
+            }
+          })
+        }
+      </div>
     </div>
   );
 }

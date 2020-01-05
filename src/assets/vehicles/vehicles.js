@@ -1177,6 +1177,20 @@ const vehicles = [
         img:'https://scontent.fmvd2-1.fna.fbcdn.net/v/t1.0-9/p720x720/81105477_169428591087879_717916402140315648_o.jpg?_nc_cat=105&_nc_eui2=AeExKyIFpYQUPiyKWMb5cLHyhr9BhrbtixeFdrDaQsDKXQqI5rIJr_B0CSiMLM7bo6hCFFJSxDIC9cZVQ8Ayd-D6LA-wQ12eGZCxgb3tfOOIpw&_nc_ohc=AJ_WqxemuE4AQlLdqePXl15cg-heoKJVtxm23fD-Gmh0w1c-c5ypgFJuw&_nc_ht=scontent.fmvd2-1.fna&oh=d915f5b2455975ff4b278f8add41d318&oe=5EB0DF3B',
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=169428784421193&id=107603400603732&__tn__=-R'
     },
+    {
+        brand:brands.BMW,
+        model:"325i",
+        price:28000,
+        data: {
+            km:"106000",
+            year:"",
+            fuel: "Nafta",
+            equip:["Superfull"],
+        },
+        sold: false,
+        img:'https://scontent.fmvd2-1.fna.fbcdn.net/v/t1.0-9/78850857_159288562101882_1478565684471398400_n.jpg?_nc_cat=102&_nc_eui2=AeHVSPHhFYBTjX0mBINkbX-9y2OGf6K6oqglWqL5LBodbjnd-1eOZiay_5M7J5o6b1eQ7vgy6pEf9YHtVX4KOzqLn8l9_7E6skupM01aPo2QOA&_nc_ohc=arO1H3uO1XoAQm8DZAfYSwf1XLOTINQowczzRo89S26FgQiUX_CJAShpQ&_nc_ht=scontent.fmvd2-1.fna&oh=db1b15e3cb50137ee7cf240b77f0e8af&oe=5E94E1E2',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=159288712101867&id=107603400603732&__tn__=-R'
+    }
     /*{
         brand:"",
         model:"",

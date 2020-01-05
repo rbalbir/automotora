@@ -1009,6 +1009,76 @@ const vehicles = [
         img:'https://scontent.fmvd1-1.fna.fbcdn.net/v/t1.0-9/81616307_166666194697452_2511649870578712576_n.jpg?_nc_cat=101&_nc_ohc=wONP3S1OPDUAQmkkEptNVEvZmgii2WWRFcIpUhajs_AEMqVnnZtdc-jww&_nc_ht=scontent.fmvd1-1.fna&oh=e6b734e2157859d06d39fa500a740ecd&oe=5EAABDBA',
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=166666374697434&id=107603400603732&__tn__=-R'
     },
+    {
+        brand:brands.HYU,
+        model:"Accent",
+        price:4500,
+        data: {
+            km:"",
+            year:"1995",
+            fuel: "Nafta",
+            equip:["Std"],
+        },
+        sold: false,
+        img:'https://scontent.fmvd2-1.fna.fbcdn.net/v/t1.0-9/81434931_165880971442641_1983443788810420224_n.jpg?_nc_cat=110&_nc_eui2=AeG-aWp_TzaX7mj88fMIVzo-aCCXbqeE06X6FfCmlXQi_-MMLgj1wN-TH2dP4m8EwWE8IAdd93eqXVUgvGOjCajBmPq-V4NyEAd4JEpixUiqVA&_nc_ohc=d2vFzyChBm4AQnDMBZGbB5Jv9Libx9NViPSEW5zRp7SAAKNB-VB_hyUdw&_nc_ht=scontent.fmvd2-1.fna&oh=d5b0c7f2c1ba55be198173bdfb807c56&oe=5EAB13E1',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=165881094775962&id=107603400603732&__tn__=-R'
+    },
+    {
+        brand:brands.HYU,
+        model:"i10",
+        price:8500,
+        data: {
+            km:"",
+            year:"2009",
+            fuel: "Nafta",
+            equip:["Full"],
+        },
+        sold: false,
+        img:'https://scontent.fmvd2-1.fna.fbcdn.net/v/t1.0-9/79998473_164950471535691_4835111252252426240_n.jpg?_nc_cat=109&_nc_eui2=AeFIqDAkfuff5wTpWDGGRuwMJ2VK8NjctHOh5Qg6Ce-xZW9LB1rd2rlm_SUnWfLdltc_RJaURVRjC7beFEpgSl7GjiafiS25VIDTIUX9yPZLmw&_nc_ohc=m4JuqAi6jB0AQlgvmisUarFI7a_8d_j6xUPsSLmY-EJu51BvjD5K4pIeg&_nc_ht=scontent.fmvd2-1.fna&oh=6e9b87d91d36a7ab69f53f3bb2ffe207&oe=5E9EB1A8',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=164950704869001&id=107603400603732&__tn__=-R'
+    },
+    {
+        brand:brands.CHE,
+        model:"Spark",
+        price:0,
+        data: {
+            km:"",
+            year:"",
+            fuel: "Nafta",
+            equip:[],
+        },
+        sold: true,
+        img:'https://scontent.fmvd2-1.fna.fbcdn.net/v/t1.0-9/80112311_165039141526824_825179435081662464_n.jpg?_nc_cat=105&_nc_eui2=AeE59BiUWzaFQfGjfr-LClJJBoornP4nNvUj0byS0Oyx2bqfH8l_s05BvvKKjLVUCi3d_FIx1VKsyCTW2kJowA8tfvl_8iQaoFPv1HhCSmmW0w&_nc_ohc=sgcM4EeANE4AQmrElAGJte2K_CJoGik10tkHLJT9DGv1NTO_LWYTkHXSA&_nc_ht=scontent.fmvd2-1.fna&oh=b6e9de28f9500071ccfb7daebb213a22&oe=5E998E5D',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=165039261526812&id=107603400603732&__tn__=-R'
+    },
+    {
+        brand:brands.CHR,
+        model:"QQ",
+        price:0,
+        data: {
+            km:"",
+            year:"",
+            fuel: "Nafta",
+            equip:[],
+        },
+        sold: true,
+        img:'https://scontent.fmvd2-1.fna.fbcdn.net/v/t1.0-9/81159713_165039331526805_189713404158541824_n.jpg?_nc_cat=107&_nc_eui2=AeHdAmOMOQF-I7CQMQclOT3ckFPcU9L_F9IpV9UTxMt-z2GlWS1IOaVPmVVwdwHL7mpMJey3naIznzl3KnwgU2cTo0amyKXLBL6rr8pgig3QXA&_nc_ohc=6CUwPzlMeX4AQk7vaAZalYzYPxHbKnHRB7GCD0XiqWkPAF_Ahx4WmMuHw&_nc_ht=scontent.fmvd2-1.fna&oh=8ef8a75b04c28e85eb4c026d757fcf8e&oe=5E66CAA8',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=165039884860083&id=107603400603732&__tn__=-R'
+    },
+    {
+        brand:brands.MIT,
+        model:"L200",
+        price:8900,
+        data: {
+            km:"",
+            year:"1997",
+            fuel: "Diesel",
+            equip:[],
+        },
+        sold: false,
+        img:'https://scontent.fmvd2-1.fna.fbcdn.net/v/t1.0-9/80030965_164950328202372_1047579644896739328_n.jpg?_nc_cat=106&_nc_eui2=AeEg96ktQA2Y14K6Syphv1RU8gd5QD5sbLMBLIHC7CEzKK3mTqFPczTlbCpn3SlliAxzNmHyl1qrqivnTdbgI6JpjhxqKgLycpiV5icP4kc4ug&_nc_ohc=ApmrpRuMGs4AQnFoD-Xd8M2MLDIJanKq82IGMBcm7lEj7TEC4ZxujayWA&_nc_ht=scontent.fmvd2-1.fna&oh=09704e857c9c7dc7f8e049540621da4d&oe=5EB40875',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=164950441535694&id=107603400603732&__tn__=-R'
+    },
     /*{
         brand:"",
         model:"",

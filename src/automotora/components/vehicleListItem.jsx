@@ -28,6 +28,9 @@ function VehicleListItem(props) {
                     </div>
                     <div className="price">{`USD ${props.vehicle.price}`}</div>
                 </div>
+                {props.vehicle.sold && 
+                <div className={props.mobile ? "tileSoldMobile" : "tileSold"}>Vendido</div>
+                }
             </div>
         </div>
     );

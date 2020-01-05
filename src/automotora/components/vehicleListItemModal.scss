@@ -71,13 +71,27 @@
         padding-bottom: 1rem;
         display: flex;
         justify-content: space-between;
+        align-items: center;
         &.mobile{
                 
         }
-        .modalTitle{
-            font-weight: bold;
+        .headerText{
+            
             &.mobile{
-                
+
+            }
+            .modalTitle{
+                font-weight: bold;
+                &.mobile{
+                    
+                }
+            }
+            .banner{
+                text-align: center;
+                color: white;
+                background: red;
+                padding: 2px;
+                border-radius: 30px;
             }
         }
         .closeBtn{
@@ -96,6 +110,39 @@
         justify-content: space-between;
         &.mobile{
             width: 100% !important;     
+        }
+        .socialMedia{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            &.mobile{
+
+            }
+            .ig{
+                background-image: url(https://cdn.icon-icons.com/icons2/792/PNG/512/INSTAGRAM_icon-icons.com_65535.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+                width: 15px;
+                height: 15px;
+            }
+            .fb{
+                background-image: url(https://cdn.icon-icons.com/icons2/792/PNG/512/FB_icon-icons.com_65534.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+                width: 15px;
+                height: 15px;
+            }
+            .wp{
+                background-image: url(https://cdn.icon-icons.com/icons2/792/PNG/512/whatsapp_icon-icons.com_65542.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+                width: 15px;
+                height: 15px;
+            }
         }
         .dataInfo{
             display: flex;

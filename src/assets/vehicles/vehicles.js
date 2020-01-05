@@ -30,7 +30,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=143949380302467&id=107603400603732&__tn__=-R'
     },
     {
-        brand:brands.VOL,
+        brand:brands.VWN,
         model:"Gol G2",
         price:5500,
         data: {
@@ -123,7 +123,7 @@ const vehicles = [
             fuel:"Nafta",
             equip:["Full"],
         },
-        sold: false,
+        sold: true,
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/71100677_133274361369969_614088647251066880_n.jpg?_nc_cat=102&_nc_oc=AQnL8x1bYVAtoHeloWMbLClk4rfaJK7H2EVbRBruV9LMJoz_Fbr0Nu5q0xC3fZkPJ9c&_nc_ht=scontent.fmvd4-1.fna&oh=7ae6d4818d862a74e032e6251ffa28f3&oe=5E27B3B8',
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=133274464703292&id=107603400603732&__tn__=-R'
     },
@@ -170,7 +170,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=131687458195326&id=107603400603732&__tn__=-R'
     },
     {
-        brand:brands.VOL,
+        brand:brands.VWN,
         model:"Amarok",
         price:17500,
         data: {
@@ -184,7 +184,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=131674524863286&id=107603400603732&__tn__=-R'
     },
     {
-        brand:brands.VOL,
+        brand:brands.VWN,
         model:"Gol G2",
         price:5500,
         data: {
@@ -324,7 +324,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=118943272803078&id=107603400603732&__tn__=-R'
     },
     {
-        brand:brands.VOL,
+        brand:brands.VWN,
         model:"Saveiro G3",
         price:7900,
         data: {
@@ -380,7 +380,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=118936746137064&id=107603400603732&__tn__=-R'
     },
     {
-        brand:brands.VOL,
+        brand:brands.VWN,
         model:"Vento GLI",
         price:24500,
         data: {
@@ -422,7 +422,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=107733407257398&id=107603400603732&__tn__=-R'
     },
     {
-        brand:brands.VOL,
+        brand:brands.VWN,
         model:"Quantum Diesel",
         price:4500,
         data: {
@@ -544,7 +544,7 @@ const vehicles = [
             equip:[],
         },
         sold: false,
-        img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/69406166_118912436139495_57372744370618368_n.jpg?_nc_cat=102&_nc_oc=AQmkE1tSAA5m9aYVOl7c6T7tprYGi8ndiBTPdMN4Sp7RVcEqX6t1GGviXEBeBVAv3Bk&_nc_ht=scontent.fmvd4-1.fna&oh=9c9a22456ed4c37cf0f22dac11e6c0fc&oe=5E62AE72',
+        img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/69406166_118912436139495_57372744370618368_n.jpg?_nc_cat=102&_nc_oc=AQmkE1tSAA5m9aYVWN7c6T7tprYGi8ndiBTPdMN4Sp7RVcEqX6t1GGviXEBeBVAv3Bk&_nc_ht=scontent.fmvd4-1.fna&oh=9c9a22456ed4c37cf0f22dac11e6c0fc&oe=5E62AE72',
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=118912479472824&id=107603400603732&__tn__=-R'
     },
     {
@@ -828,7 +828,7 @@ const vehicles = [
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=149398703090868&id=107603400603732&__tn__=-R'
     },
     {
-        brand:brands.VOL,
+        brand:brands.VWN,
         model:"Gol G1",
         price:4200,
         data: {
@@ -1078,6 +1078,104 @@ const vehicles = [
         sold: false,
         img:'https://scontent.fmvd2-1.fna.fbcdn.net/v/t1.0-9/80030965_164950328202372_1047579644896739328_n.jpg?_nc_cat=106&_nc_eui2=AeEg96ktQA2Y14K6Syphv1RU8gd5QD5sbLMBLIHC7CEzKK3mTqFPczTlbCpn3SlliAxzNmHyl1qrqivnTdbgI6JpjhxqKgLycpiV5icP4kc4ug&_nc_ohc=ApmrpRuMGs4AQnFoD-Xd8M2MLDIJanKq82IGMBcm7lEj7TEC4ZxujayWA&_nc_ht=scontent.fmvd2-1.fna&oh=09704e857c9c7dc7f8e049540621da4d&oe=5EB40875',
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=164950441535694&id=107603400603732&__tn__=-R'
+    },
+    {
+        brand:brands.HON,
+        model:"Ridgeline",
+        price:29000,
+        data: {
+            km:"",
+            year:"2014",
+            fuel: "Nafta",
+            equip:["Full"],
+        },
+        sold: false,
+        img:'https://scontent.fmvd2-1.fna.fbcdn.net/v/t1.0-9/80691889_164950188202386_3770926705443602432_n.jpg?_nc_cat=102&_nc_eui2=AeF-sWPhvgI3lzdvyn8LB973DZGwWloYcDf29-8VuW588lfE4HKsgrRpRfUwIcrYau4glr-RrHOoUKwTcAlDZ_9yH3i1aIAVjkmIh5PnE_ArpQ&_nc_ohc=YK2ZSjitgo0AQk1hqZJw0CH_PA-iW82hAC1jOVraE2lfd8VLCgFbDwZBQ&_nc_ht=scontent.fmvd2-1.fna&oh=76c2faef315fe47706827faa0314ae15&oe=5EAB19C3',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=164950274869044&id=107603400603732&__tn__=-R'
+    },
+    {
+        brand:brands.CHE,
+        model:"Corsa Classic",
+        price:5500,
+        data: {
+            km:"",
+            year:"1999",
+            fuel: "Nafta",
+            equip:[],
+        },
+        sold: false,
+        img:'https://scontent.fmvd2-1.fna.fbcdn.net/v/t1.0-9/80405665_163671014996970_5244576065405321216_n.jpg?_nc_cat=102&_nc_eui2=AeF0-FbB8WDqziQKx6ahlmYPjBvFihr1O3MhWGWam3p3OQe8mtkreYKi2U_FX9n524-OA1_j7-LoK2lGIzo5hsHvHShY1huXdavTptBUnmR8XA&_nc_ohc=Kls6cxpJa-kAQlrnk5fa4BxDfcPeDM_904b8rWVK8onuy0HhDcLM3eFgw&_nc_ht=scontent.fmvd2-1.fna&oh=3ae51c1863cdc1492c517ed5206e051e&oe=5E9D2E62',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=163671181663620&id=107603400603732&__tn__=-R'
+    },
+    {
+        brand:brands.KIN,
+        model:"400cc",
+        price:3500,
+        data: {
+            km:"989",
+            year:"2010",
+            fuel: "Nafta",
+            equip:[],
+        },
+        sold: false,
+        img:'https://scontent.fmvd2-1.fna.fbcdn.net/v/t1.0-9/s960x960/80239181_163242045039867_8260452244676149248_o.jpg?_nc_cat=102&_nc_eui2=AeF1A9CMLr0E2wCKqPAi4xTVi77cBzu-jLOtDpQxqO8km4H4VHqm4n8OnYb97MiOTk3Oe1auFJ_qBHKVKqvz4ixFArAcpC2Kr8lM5UE5lNsC2A&_nc_ohc=Ism6-b7MrJYAQk2E5b8vKloP4I2rXnFX2ml3AEDAfSe9CwKKhkl_NHqHQ&_nc_ht=scontent.fmvd2-1.fna&oh=7b22e2378f95f4b0100ea2d36cdf9aa9&oe=5EA1272D',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=163242141706524&id=107603400603732&__tn__=-R'
+    },
+    {
+        brand:brands.PEU,
+        model:"206sw",
+        price:0,
+        data: {
+            km:"",
+            year:"",
+            fuel: "Nafta",
+            equip:[],
+        },
+        sold: true,
+        img:'https://scontent.fmvd2-1.fna.fbcdn.net/v/t1.0-9/79729038_162968168400588_3201920422933168128_n.jpg?_nc_cat=107&_nc_eui2=AeEgkvAHKyBLl17NnwrhMuky7NuiFUugnxsWt26blnx88nQJaa4EK0YhwCA1tgrDpxP0t0a5ESJ4xrgQjd2AMHfIiOE-aGAwCEBRYZW8El9khg&_nc_ohc=-F7kAgNQj_kAQkj0Hd37aYN5brA3Pcvv6SBGoOBCdZfRCfIUafVDxi0yQ&_nc_ht=scontent.fmvd2-1.fna&oh=5e9926a3d83f01a820aa2067ed592680&oe=5EAED639',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=162968265067245&id=107603400603732&__tn__=-R'
+    },
+    {
+        brand:brands.VWN,
+        model:"Saveiro G5",
+        price:10500,
+        data: {
+            km:"137000",
+            year:"2013",
+            fuel: "Nafta",
+            equip:[],
+        },
+        sold: false,
+        img:'https://scontent.fmvd2-1.fna.fbcdn.net/v/t1.0-9/80551973_162843461746392_6695110804733165568_n.jpg?_nc_cat=109&_nc_eui2=AeEtGltu4yjdaS0O-AMS9cdkpLblth2F2MPuOjylbH1hQ9beZP3EGXXAXtOautWGkUGqwz0EB6R44xPHRzYaOYlhkF0uOaC18bD2us6SF0tqNQ&_nc_ohc=59ps1EfOj34AQlZUzoGCsyduhMex8rpV_4vjn6ZHsBcMDDjXQbvZ2KIFQ&_nc_ht=scontent.fmvd2-1.fna&oh=af9b9294edc85a43ef8ab86a91e6c710&oe=5E97EC76',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=162843598413045&id=107603400603732&__tn__=-R'
+    },
+    {
+        brand:brands.PEU,
+        model:"406",
+        price:5500,
+        data: {
+            km:"",
+            year:"",
+            fuel: "Diesel",
+            equip:["Full"],
+        },
+        sold: true,
+        img:'https://scontent.fmvd2-1.fna.fbcdn.net/v/t1.0-9/80272528_162630985100973_6376185474137980928_n.jpg?_nc_cat=100&_nc_eui2=AeFsT8BCdYZPcVKpMUgQ_37mD1fmNt4OFgEMZz9AsPzPR4HNlhy7_yOq2H970fwZBRXYTNeY-wb7P_jz9jBis1UhmjcWS2Aj3KzUL7IqHNa13g&_nc_ohc=RxosUpwl8p8AQkB0c77zY7iXbSmeEw5kckf7SZCBXkhHbnjBMHKg2QcZg&_nc_ht=scontent.fmvd2-1.fna&oh=1bb8c68c848b984cbc24bee2ef54e508&oe=5E91EC31',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=162631098434295&id=107603400603732&__tn__=-R'
+    },
+    {
+        brand:brands.OPE,
+        model:"Vectra",
+        price:10500,
+        data: {
+            km:"270000",
+            year:"2008",
+            fuel: "Nafta",
+            equip:["1.6","Extrafull", "8 airbags"],
+        },
+        sold: false,
+        img:'https://scontent.fmvd2-1.fna.fbcdn.net/v/t1.0-9/p720x720/81105477_169428591087879_717916402140315648_o.jpg?_nc_cat=105&_nc_eui2=AeExKyIFpYQUPiyKWMb5cLHyhr9BhrbtixeFdrDaQsDKXQqI5rIJr_B0CSiMLM7bo6hCFFJSxDIC9cZVQ8Ayd-D6LA-wQ12eGZCxgb3tfOOIpw&_nc_ohc=AJ_WqxemuE4AQlLdqePXl15cg-heoKJVtxm23fD-Gmh0w1c-c5ypgFJuw&_nc_ht=scontent.fmvd2-1.fna&oh=d915f5b2455975ff4b278f8add41d318&oe=5EB0DF3B',
+        fbLink: 'https://www.facebook.com/permalink.php?story_fbid=169428784421193&id=107603400603732&__tn__=-R'
     },
     /*{
         brand:"",

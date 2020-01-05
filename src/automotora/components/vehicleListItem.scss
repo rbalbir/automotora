@@ -4,7 +4,7 @@
     color: black;
     .vehicleListItem{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
         border-radius: 1rem;
@@ -14,6 +14,16 @@
         -webkit-box-shadow: 2px 16px 17px 0px #1b1b1b;
         -moz-box-shadow: 2px 16px 17px 0px #1b1b1b;
         box-shadow: 2px 16px 17px 0px #1b1b1b;
+        .tileSold{
+            color: white;
+            width: 100%;
+            padding: 5px;
+            border-radius: 30px;
+            font-weight: 600;
+            background: -moz-radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+            background: -webkit-radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+            background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+        }
         .desc{
             width: 100%;
             .price{
@@ -52,7 +62,7 @@
     color: black;
     .vehicleListItemMobile{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
         border-radius: 1rem;
@@ -62,6 +72,16 @@
         -webkit-box-shadow: 2px 16px 17px 0px #1b1b1b;
         -moz-box-shadow: 2px 16px 17px 0px #1b1b1b;
         box-shadow: 2px 16px 17px 0px #1b1b1b;
+        .tileSoldMobile{
+            color: white;
+            width: 100%;
+            font-size: 11px;
+            border-radius: 30px;
+            font-weight: 400;
+            background: -moz-radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+            background: -webkit-radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+            background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+        }
         .desc{
             width: 100%;
             .price{

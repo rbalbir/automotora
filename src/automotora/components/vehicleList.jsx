@@ -74,6 +74,7 @@ function VehicleList(props) {
 
   return (
     <div className={props.mobile ? "listMobile" : "list"}>
+      <div className={props.mobile ? "hintMobile" : "hint"}>Presione sobre cada auto para ver mas detalles</div>
       <div className={props.mobile ? "filtersMobile" : "filters"}>
         <input 
           type="text" 

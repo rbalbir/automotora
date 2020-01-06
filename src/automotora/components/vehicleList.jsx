@@ -1,6 +1,7 @@
 import "./vehicleList.scss";
 import React, {useState} from "react";
 import vehicles from "../../assets/vehicles/vehicles.js";
+import brands from "../../assets/vehicles/brands.js";
 import rents from "../../assets/vehicles/rents.js"
 import VehicleListItem from "./vehicleListItem.jsx";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -72,6 +73,11 @@ function VehicleList(props) {
     "displayNone": !displaySolds
   }]);
 
+  const brandsFilter = (event) =>{
+    const filtered = vehicles.filter(v => v.brand === event.value);
+    setFilteredVehicles(filtered);
+  }
+
   return (
     <div className={props.mobile ? "listMobile" : "list"}>
       <div className={props.mobile ? "hintMobile" : "hint"}>Presione sobre cada auto para ver mas detalles</div>
@@ -94,6 +100,12 @@ function VehicleList(props) {
             options={priceRangeValues} 
             onChange={priceRange} 
             value={priceRangeValues[0]}/>
+          <div className={props.mobile ? "textMobile" : "text"}>Marca: </div>
+          <Dropdown 
+            className={props.mobile ? "fuelSelectorMobile" : "fuelSelector"}
+            options={Object.values(brands)} 
+            onChange={brandsFilter} 
+            value={Object.values(brands)[0]}/>
         </div>
       </div>
       <div className={props.mobile ?"titleMobile":"title"} onClick={() => {setDisplaySales(!displaySales)}}>Ventas y Permutas</div>

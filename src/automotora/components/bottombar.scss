@@ -11,41 +11,57 @@
     .map{
 
     }
-    .contactInfo{
-        
-        .logo{
 
+    .info{
+        .copyright{
+            font-size: 12px;
         }
-        .socialMedia{
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        display: flex;
+        .contactInfo{
+            color: lightgray;
             display: flex;
-            flex-direction: row;
+            justify-content: center;
             align-items: center;
-            justify-content: space-between;
-            margin-top: 12rem;
-            width: 9rem;
-            .ig{
-                background-image: url(http://pngimg.com/uploads/instagram/instagram_PNG9.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: center center;
-                width: 44px;
-                height: 44px;
+            flex-direction: column;
+            .logo{
+
             }
-            .fb{
-                background-image: url(http://www.araseec.es/wp-content/uploads/2017/05/a942d422a6560574ce26d3897e4fd6b3_-facebook-logo-on-pinterest-facebook-logo_1147-1147-1024x1024.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: center center;
-                width: 40px;
-                height: 40px;
-            }
-            .wp{
-                background-image: url(https://www.freepnglogos.com/uploads/whatsapp-logo-png-31.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: center center;
-                width: 40px;
-                height: 40px;
+            .socialMedia{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-evenly;
+                /* margin-top: 12rem; */
+                width: 100%;
+                .ig{
+                    background-image: url(https://cdn.icon-icons.com/icons2/792/PNG/512/INSTAGRAM_icon-icons.com_65535.png);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    width: 44px;
+                    height: 44px;
+                }
+                .fb{
+                    background-image: url(https://cdn.icon-icons.com/icons2/792/PNG/512/FB_icon-icons.com_65534.png);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    width: 44px;
+                    height: 44px;
+                }
+                .wp{
+                    background-image: url(https://cdn.icon-icons.com/icons2/792/PNG/512/whatsapp_icon-icons.com_65542.png);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    width: 44px;
+                    height: 44px;
+                }
             }
         }
     }
@@ -67,41 +83,52 @@
 
         }
     }
-    .contactInfoMobile{
-        
-        .logo{
-
+    .infoMobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 10px;
+        opacity: .4;
+        .copyrightMobile{
+            font-size: 10px;
         }
-        .socialMediaMobile{
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-between;
-            /* margin-top: 12rem; */
-            width: 9rem;
-            .ig{
-                background-image: url(http://pngimg.com/uploads/instagram/instagram_PNG9.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: center center;
-                width: 44px;
-                height: 44px;
+        .contactInfoMobile{
+            color: lightgray;
+            .logo{
+
             }
-            .fb{
-                background-image: url(http://www.araseec.es/wp-content/uploads/2017/05/a942d422a6560574ce26d3897e4fd6b3_-facebook-logo-on-pinterest-facebook-logo_1147-1147-1024x1024.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: center center;
-                width: 40px;
-                height: 40px;
-            }
-            .wp{
-                background-image: url(https://www.freepnglogos.com/uploads/whatsapp-logo-png-31.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: center center;
-                width: 40px;
-                height: 40px;
+            .socialMediaMobile{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-evenly;
+                /* margin-top: 12rem; */
+                margin-bottom: 10px;
+                .ig{
+                    background-image: url(https://cdn.icon-icons.com/icons2/792/PNG/512/INSTAGRAM_icon-icons.com_65535.png);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    width: 25px;
+                    height: 25px;
+                }
+                .fb{
+                    background-image: url(https://cdn.icon-icons.com/icons2/792/PNG/512/FB_icon-icons.com_65534.png);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    width: 25px;
+                    height: 25px;
+                }
+                .wp{
+                    background-image: url(https://cdn.icon-icons.com/icons2/792/PNG/512/whatsapp_icon-icons.com_65542.png);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    width: 25px;
+                    height: 25px;
+                }
             }
         }
     }

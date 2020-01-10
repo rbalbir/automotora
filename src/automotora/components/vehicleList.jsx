@@ -15,6 +15,7 @@ function VehicleList(props) {
   const [displaySales, setDisplaySales] = useState(false);
   const [displayRents, setDisplayRents] = useState(false);
   const [displaySolds, setDisplaySolds] = useState(false);
+  const [displayOnSales, setDisplayOnSales] = useState(false);
   const [message, setMessage] = useState("Rango de precio actual: USD Todos , Tipo de combustible actual: Todos, Marca/Modelo actual: Todos");
   const [filteredVehicles, setFilteredVehicles] = useState(
     vehicles.sort((a, b) => (a.brand > b.brand ? 1 : -1))
@@ -107,6 +108,16 @@ function VehicleList(props) {
             onChange={brandsFilter} 
             value={Object.values(brands)[0]}/>
         </div>
+      </div>
+      <div className={props.mobile ?"titleMobile sales":"title sales"} onClick={() => {setDisplayOnSales(!displayOnSales)}}>Ofertas!</div>
+      <div className={displayOnSales ? (props.mobile ? "vehicleListMobile" :"vehicleList") : "displayNone"}>
+        {
+          filteredVehicles.map((value, index) => {
+            if(!value.sold && ((typeof value.onSale !== "undefined") && value.onSale)){
+              return <VehicleListItem mobile={props.mobile} vehicle={value} key={index}/>
+            }
+          })
+        }
       </div>
       <div className={props.mobile ?"titleMobile":"title"} onClick={() => {setDisplaySales(!displaySales)}}>Ventas y Permutas</div>
       <div className={displaySales ? (props.mobile ? "messageMobile" : "message"): "displayNone"}>{message}</div>

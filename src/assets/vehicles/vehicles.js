@@ -520,7 +520,7 @@ const vehicles = [
             fuel: "Nafta",
             equip:["Semifull"],
         },
-        sold: false,
+        sold: true,
         onSale: false,
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/69167067_118880886142650_790328077577093120_n.jpg?_nc_cat=108&_nc_oc=AQn0fMYR8kQagD5RFqUaOU-P92qFnK6NmQM6cbHQ5ws2bjEIwxKOUJvMBzdt8NnHiUs&_nc_ht=scontent.fmvd4-1.fna&oh=5ac9b59569e6f8b96fa65af24115a60a&oe=5E55FFF3',
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=118880926142646&id=107603400603732&__tn__=-R'
@@ -727,7 +727,7 @@ const vehicles = [
             fuel: "Nafta",
             equip:[],
         },
-        sold: false,
+        sold: true,
         onSale: false,
         img:'https://scontent.fmvd2-1.fna.fbcdn.net/v/t1.0-9/75380301_146460876717984_7404486913513488384_n.jpg?_nc_cat=107&_nc_oc=AQnAXVLnwjlcVG6vfmkxoMWvuJkqRZ4iPnroIvKPPuV08KNJcrwf8dXowGiAsx8_gWU&_nc_ht=scontent.fmvd2-1.fna&oh=e43b44545c46a603d83cad46608f5ed5&oe=5E1AE8B5',
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=146460980051307&id=107603400603732&__tn__=-R'
@@ -1222,7 +1222,7 @@ const vehicles = [
             equip:["1.6","Extrafull", "8 airbags"],
         },
         sold: false,
-        onSale: true,
+        onSale: false,
         img:'https://scontent.fmvd2-1.fna.fbcdn.net/v/t1.0-9/p720x720/81105477_169428591087879_717916402140315648_o.jpg?_nc_cat=105&_nc_eui2=AeExKyIFpYQUPiyKWMb5cLHyhr9BhrbtixeFdrDaQsDKXQqI5rIJr_B0CSiMLM7bo6hCFFJSxDIC9cZVQ8Ayd-D6LA-wQ12eGZCxgb3tfOOIpw&_nc_ohc=AJ_WqxemuE4AQlLdqePXl15cg-heoKJVtxm23fD-Gmh0w1c-c5ypgFJuw&_nc_ht=scontent.fmvd2-1.fna&oh=d915f5b2455975ff4b278f8add41d318&oe=5EB0DF3B',
         fbLink: 'https://www.facebook.com/permalink.php?story_fbid=169428784421193&id=107603400603732&__tn__=-R'
     },
@@ -1256,6 +1256,141 @@ const vehicles = [
         img:'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/82209662_171011600929578_9085839148153044992_n.jpg?_nc_cat=108&_nc_ohc=lhllHzbJd3QAQlSHWhBda__lfT4iYqmaXNkm3ZvmXWzzsed5WDjxD1FCg&_nc_ht=scontent.fmvd4-1.fna&oh=162540381c61554e1581b841995cc0e0&oe=5EB02DE9',
         fbLink: 'https://www.facebook.com/autossantarosaok/posts/171011650929573?__tn__=-R'
     },
+    {
+        brand:brands.LIF,
+        model:"X7",
+        price:15300,
+        data: {
+            km:"40000",
+            year:"2018",
+            fuel: "Nafta",
+            equip:["Full"],
+        },
+        sold: false,
+        onSale: false,
+        img:'https://scontent.fmvd1-1.fna.fbcdn.net/v/t1.0-9/82211044_172126257484779_2659296067232727040_n.jpg?_nc_cat=109&_nc_eui2=AeFPKbuPnPY7W31OHeD6V_fj7XIWbn5HC3sAg7fr0E_PDixfNEpZdNWnCdiIdQYOVqNetnxHluSSsBaYcavBYU9L_BCaO__OnaYDEu11fqTecA&_nc_ohc=08cuUXyvU68AX_X5iwF&_nc_ht=scontent.fmvd1-1.fna&oh=ed37a03b2ad62ffd0209699b97906977&oe=5ED01E6C',
+        fbLink: 'https://www.facebook.com/autossantarosaok/posts/172126330818105?__tn__=-R'
+    },
+    {
+        brand:brands.CHE,
+        model:"Celta",
+        price:5900,
+        data: {
+            km:"",
+            year:"",
+            fuel: "Nafta",
+            equip:[],
+        },
+        sold: false,
+        onSale: false,
+        img:'https://scontent.fmvd1-1.fna.fbcdn.net/v/t1.0-9/82448965_172126427484762_8857301301222965248_n.jpg?_nc_cat=106&_nc_eui2=AeEOaJjPZk3Jy-2fuI-KNFJi15q6iHrFtQo9znSV8NqHZfh9Gvf8amw2KNjHP5b-0FB-P3y1N7ZXa8h7I5eb_KseaKjVb5se9Mw4jrYcEZbkJA&_nc_ohc=kr1B8fPLbTEAX9nm5lP&_nc_ht=scontent.fmvd1-1.fna&oh=d3c583bbfa481f1838dfe56568f77d08&oe=5ED250F1',
+        fbLink: 'https://www.facebook.com/autossantarosaok/posts/172126447484760?__tn__=-R'
+    },
+    {
+        brand:brands.CHE,
+        model:"Corsa Classic",
+        price:7000,
+        data: {
+            km:"",
+            year:"2009",
+            fuel: "Nafta",
+            equip:["Full"],
+        },
+        sold: true,
+        onSale: false,
+        img:'https://scontent.fmvd1-1.fna.fbcdn.net/v/t1.0-9/82904358_177669260263812_1664327589868601344_n.jpg?_nc_cat=105&_nc_ohc=AMO0ztOtob0AX_wP7ed&_nc_ht=scontent.fmvd1-1.fna&oh=2d09a0b242dc29376600725a920d8a15&oe=5EC7A5D1',
+        fbLink: 'https://www.facebook.com/autossantarosaok/posts/177669343597137?__tn__=-R'
+    },
+    {
+        brand:brands.VWN,
+        model:"Bora 2.0",
+        price:10900,
+        data: {
+            km:"",
+            year:"2010",
+            fuel: "Nafta",
+            equip:["Full"],
+        },
+        sold: false,
+        onSale: false,
+        img:'https://scontent.fmvd1-1.fna.fbcdn.net/v/t1.0-9/82790803_177669476930457_5759490249889677312_n.jpg?_nc_cat=106&_nc_eui2=AeH4tfgs781jnOqu17sKdMLRqxvSnhI6xfVNVzBgXULW1kf1ufvkaqQTbmIv-8WFu4a6G6gf2wPZwdqxMj_dmjpugr2lRNPM2LUstszTqz9Y6w&_nc_ohc=fduC7Q8-9gQAX8U7nX0&_nc_ht=scontent.fmvd1-1.fna&oh=7bfc5f5bedb1854e5f6965ec97b559f9&oe=5ECDCC5E',
+        fbLink: 'https://www.facebook.com/autossantarosaok/posts/177669586930446?__tn__=-R'
+    },
+    {
+        brand:brands.REN,
+        model:"12",
+        price:1800,
+        data: {
+            km:"",
+            year:"",
+            fuel: "Nafta",
+            equip:["Std"],
+        },
+        sold: false,
+        onSale: true,
+        img:'https://scontent.fmvd1-1.fna.fbcdn.net/v/t1.0-0/p480x480/82794514_172280064136065_4240792554213212160_o.jpg?_nc_cat=107&_nc_eui2=AeFUofrm5VN_3gaiRmz27cVrytr03xWAlp1HExuD1Z_eSO8ekIt66rr3ygUebSoqCsXtLjcKarsQ1yPLT2Xr3Ee1hUmQyrcZs48Qlxn_TdDZZg&_nc_ohc=pzvqKgZJARIAX8iC6io&_nc_ht=scontent.fmvd1-1.fna&_nc_tp=6&oh=3f0aac08051942aae182810b4859c542&oe=5E8D9F52',
+        fbLink: 'https://www.facebook.com/autossantarosaok/posts/172280187469386?__tn__=-R'
+    },
+    {
+        brand:brands.CHE,
+        model:"c10",
+        price:0,
+        data: {
+            km:"",
+            year:"1980",
+            fuel: "Diesel",
+            equip:[],
+        },
+        sold: true,
+        onSale: false,
+        img:'https://scontent.fmvd1-1.fna.fbcdn.net/v/t1.0-9/83488603_176194617077943_2477419226042728448_n.jpg?_nc_cat=106&_nc_eui2=AeHjNFLPAs7qzOaskVYBJ-UMU3pNGsMfmaBooy0aSQ_TqbnD76T5U33vZ2TG7MRcLqymi8xTb_RdVKhJaK9B4YwUE5Dwm1DfdhVZSsn00TSStQ&_nc_ohc=Or1o2-29lUQAX_f5noZ&_nc_ht=scontent.fmvd1-1.fna&oh=40f8c2dca9d784be3d633269d4e5bd2d&oe=5ED9A836',
+        fbLink: 'https://www.facebook.com/autossantarosaok/posts/176194733744598?__tn__=-R'
+    },
+    {
+        brand:brands.CIT,
+        model:"C5",
+        price:12900,
+        data: {
+            km:"",
+            year:"2012",
+            fuel: "Nafta",
+            equip:["Full"],
+        },
+        sold: false,
+        onSale: false,
+        img:'https://scontent.fmvd1-1.fna.fbcdn.net/v/t1.0-9/83822807_177670036930401_2071331519904874496_n.jpg?_nc_cat=106&_nc_eui2=AeE6hPGeMxgrlsXLEC1-droqxujdh1IzHsR2rEjql49aQK48SxLGM34UPb3Fhvg-1ugIOKM5BQ4hp83NtdHiACvo6sQv83MdOJUpoBM0oIidmw&_nc_ohc=FbLwm9dCQPEAX85jV8e&_nc_ht=scontent.fmvd1-1.fna&oh=c87fb57ab9c638b05561e44b853e3a1b&oe=5EC55534',
+        fbLink: 'https://www.facebook.com/autossantarosaok/posts/177670183597053?__tn__=-R'
+    },
+    {
+        brand:brands.PEU,
+        model:"107",
+        price:0,
+        data: {
+            km:"",
+            year:"2009",
+            fuel: "Nafta",
+            equip:["Full"],
+        },
+        sold: true,
+        onSale: false,
+        img:'https://scontent.fmvd1-1.fna.fbcdn.net/v/t1.0-9/82776697_178626576834747_472230756547035136_n.jpg?_nc_cat=109&_nc_eui2=AeEDXF5I55meyTSNSHZ-MRBI85r4cwD-YIFwIJ6RZznZ-VhFARZBmI8dWF2V46UQDja6qir8IFJQNSX81PQ1NAE437qyuHpP8XbcLwPHhBqlfg&_nc_ohc=oXvjyrKG9doAX8E5BtX&_nc_ht=scontent.fmvd1-1.fna&oh=8e4d25125c6c1177de1b590fd74b886b&oe=5EC99F72',
+        fbLink: 'https://www.facebook.com/autossantarosaok/posts/178626760168062?__tn__=-R'
+    },
+    {
+        brand:brands.FOR,
+        model:"Ranger XLT 2.5",
+        price:9500,
+        data: {
+            km:"",
+            year:"1998",
+            fuel: "Diesel",
+            equip:["Full"],
+        },
+        sold: false,
+        onSale: false,
+        img:'https://scontent.fmvd1-1.fna.fbcdn.net/v/t1.0-9/83266021_178626806834724_1645439191284187136_n.jpg?_nc_cat=111&_nc_eui2=AeGRB5sLzIwGxRmYWmlmVM-vsK3iZk2O4XuwVenlE9difLO3UFDGAncj_SUq8FL1NhZm5Ud-QsPbitB8B3yA7dOEyL_n20koH-WttPoNFJe3Xw&_nc_ohc=gTVSAihql34AX_1AuxL&_nc_ht=scontent.fmvd1-1.fna&oh=cfa5beea88b0dc21dd50c162293dd615&oe=5ECCA0AC',
+        fbLink: 'https://www.facebook.com/autossantarosaok/posts/178626973501374?__tn__=-R'
+    },
     /*{
         brand:"",
         model:"",
@@ -1266,7 +1401,8 @@ const vehicles = [
             fuel: "Nafta",
             equip:[],
         },
-        sold: fa;se,
+        sold: false,
+        onSale: false,
         img:'',
         fbLink: ''
     },*/

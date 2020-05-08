@@ -1391,6 +1391,68 @@ const vehicles = [
         img:'https://scontent.fmvd1-1.fna.fbcdn.net/v/t1.0-9/83266021_178626806834724_1645439191284187136_n.jpg?_nc_cat=111&_nc_eui2=AeGRB5sLzIwGxRmYWmlmVM-vsK3iZk2O4XuwVenlE9difLO3UFDGAncj_SUq8FL1NhZm5Ud-QsPbitB8B3yA7dOEyL_n20koH-WttPoNFJe3Xw&_nc_ohc=gTVSAihql34AX_1AuxL&_nc_ht=scontent.fmvd1-1.fna&oh=cfa5beea88b0dc21dd50c162293dd615&oe=5ECCA0AC',
         fbLink: 'https://www.facebook.com/autossantarosaok/posts/178626973501374?__tn__=-R'
     },
+
+    ////////////////////////////////// 8/05/2020 /////////////////////////////////////////////
+    {
+        brand:brands.REN,
+        model:"19",
+        price:0,
+        data: {
+            km:"",
+            year:"",
+            fuel: "Nafta",
+            equip:[],
+        },
+        sold: false,
+        onSale: false,
+        img:'https://scontent.fmvd1-1.fna.fbcdn.net/v/t1.0-9/94257085_245504153480322_3067946395672510464_n.jpg?_nc_cat=108&_nc_sid=8bfeb9&_nc_eui2=AeE4KGDeKEMMvAhuQN_PLmL0C501oPczibwLnTWg9zOJvFdJ0IaEWZuIl3VGo6ICaXGwxfyuV-e6k6oJEjNaiGsw&_nc_ohc=LFIJFXj1B5wAX__-dJv&_nc_ht=scontent.fmvd1-1.fna&oh=fccdada8dc3ac26bc846d0fa58b32a0e&oe=5EDA05CC',
+        fbLink: 'https://www.facebook.com/autossantarosaok/posts/245504296813641'
+    },
+    {
+        brand:brands.CHE,
+        model:"Monza Classic",
+        price:0,
+        data: {
+            km:"",
+            year:"",
+            fuel: "Nafta",
+            equip:[],
+        },
+        sold: false,
+        onSale: false,
+        img:'https://scontent.fmvd1-1.fna.fbcdn.net/v/t1.0-9/94460427_245348210162583_3443283325676945408_o.jpg?_nc_cat=107&_nc_sid=8bfeb9&_nc_eui2=AeF_hyAcEMEob4yVc-b9EXXi-eMfSYhu4GH54x9JiG7gYVaMSBsBKwDP0Ui6VYBQ5SB2NKRZ2Qt0X5VNTjINOxlz&_nc_ohc=6SIZoaBpCR8AX-6VRJz&_nc_ht=scontent.fmvd1-1.fna&oh=a03dbc24945c7ae68e7769b6a558ea78&oe=5EDBA857',
+        fbLink: 'https://www.facebook.com/autossantarosaok/posts/245348326829238'
+    },
+    {
+        brand:brands.LIF,
+        model:"520",
+        price:0,
+        data: {
+            km:"",
+            year:"",
+            fuel: "Nafta",
+            equip:["Full"],
+        },
+        sold: false,
+        onSale: false,
+        img:'https://scontent.fmvd1-1.fna.fbcdn.net/v/t1.0-9/93795259_243343897029681_1490213597123444736_n.jpg?_nc_cat=111&_nc_sid=8bfeb9&_nc_eui2=AeHpYDQ5mKmEDVSJHhZFAspCGnQG-HWpaE4adAb4daloTvcj8tjKXs0sahD3W7sYh1ha-CGJyE-8tp_HL7GwQTcW&_nc_ohc=lEP4yd-4_XsAX8V_iKs&_nc_ht=scontent.fmvd1-1.fna&oh=80e281ca67b97df49360524eea38bed5&oe=5ED9DBCB',
+        fbLink: 'https://www.facebook.com/autossantarosaok/posts/243344067029664'
+    },
+    {
+        brand:brands.CHE,
+        model:"Aveo",
+        price:0,
+        data: {
+            km:"",
+            year:"",
+            fuel: "Nafta",
+            equip:["Full"],
+        },
+        sold: false,
+        onSale: false,
+        img:'https://scontent.fmvd1-1.fna.fbcdn.net/v/t1.0-9/94242372_243343727029698_4303918729399369728_n.jpg?_nc_cat=109&_nc_sid=8bfeb9&_nc_eui2=AeFrNqzMedecp62yXDGpkFtIhNdGbFPt8pCE10ZsU-3ykO_10nAhNJQJNRPli3w3E12mx88bH7jRqgmh73JYrChv&_nc_ohc=DC0km_K0RTAAX83tCO5&_nc_ht=scontent.fmvd1-1.fna&oh=3e51f81f1386c4e7c1c9b4b37a2183fb&oe=5EDC7ABF',
+        fbLink: 'https://www.facebook.com/autossantarosaok/posts/243343837029687'
+    },
     /*{
         brand:"",
         model:"",

@@ -4,6 +4,7 @@ import Modal from 'react-modal';
 import classNames from 'classnames';
 import { MDBCloseIcon } from "mdbreact";
 import {MdClose} from "react-icons/md";
+import {baseLink} from '../../assets/vehicles/carLinks';
 
 export default function MoreInfoModal (props) {
     const [close, setClose] = useState(true);
@@ -50,7 +51,7 @@ export default function MoreInfoModal (props) {
                     <div>Combustible:</div>
                     <div>{props.vehicle.data.fuel}</div>
                 </div>
-                <a className={`link ${device}`} href={props.vehicle.fbLink}>Mas fotos</a>
+                <a className={`link ${device}`} href={`${baseLink}${props.vehicle.fbLink}`} target="_blank">Mas fotos</a>
                 <div className={`socialMedia ${device}`}>
                     <a  href='https://www.instagram.com/automovilessantarosa/'><div  className='ig'/></a>
                     <a  href='https://www.facebook.com/Autom%C3%B3viles-Santa-Rosa-107603400603732/'><div  className='fb'/></a>

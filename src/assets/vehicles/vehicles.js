@@ -1169,6 +1169,22 @@ const BMW_323_SAN_9067={
     fbLink: CAR_LINKS.BMW_323_SAN_9067
 }
 
+const MB_E350_AAW_2847={
+    brand:brands.MER,
+    model:"E350",
+    price: PRICE.MB_E350_AAW_2847,
+    data: {
+        km:"0",
+        year:"0",
+        fuel: "Nafta",
+        equip:[],
+    },
+    sold: SOLD.MB_E350_AAW_2847,
+    onSale: SALE.MB_E350_AAW_2847,
+    img:CAR_IMG.MB_E350_AAW_2847,
+    fbLink: CAR_LINKS.MB_E350_AAW_2847
+}
+
 const vehicles = [
     CHEV_AAA_3804,
     RENAULT_19_ROJO,
@@ -1248,6 +1264,7 @@ const vehicles = [
     BMW_323_SAN_9067,
     CHEV_SONIC_SBP_7745,
     NISS_NOTE_AAO_9723,
+    MB_E350_AAW_2847,
 ];
 export default vehicles;
 

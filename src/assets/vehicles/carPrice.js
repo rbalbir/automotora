@@ -77,6 +77,7 @@ const PRICE = {
     CHEV_SONIC_SBP_7745 : 11500,
     NISS_NOTE_AAO_9723 : 14000,
     BMW_323_SAN_9067 : 15900,
+    MB_E350_AAW_2847 : 31900,
 }
 
 export default PRICE;

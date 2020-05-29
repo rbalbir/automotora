@@ -78,6 +78,7 @@ const CAR_IMG = {
     NISS_NOTE_AAO_9723 : 'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/100619619_271440694220001_3899527672782389248_n.jpg?_nc_cat=108&_nc_sid=8bfeb9&_nc_eui2=AeFxj0yByJ937vapGG_aQFeizCrCQgs7ns_MKsJCCzuezw2LPL_7HSPMflvQyqH2ButCrSgf6e-GQg2PUMezk8Pp&_nc_ohc=R_knDZv8ICgAX8DUN4j&_nc_ht=scontent.fmvd4-1.fna&oh=b82e6c10a1eef14e3d04df86ee3307ef&oe=5EF64D83',
     CHEV_SONIC_SBP_7745 : 'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/100549415_271440357553368_8628815054029979648_n.jpg?_nc_cat=103&_nc_sid=8bfeb9&_nc_eui2=AeGwOVrotj8EoSVIDK6zKs5CPU37GbwFkDY9TfsZvAWQNicPQwfnzx8k9umwaLfxcd_oP69LX9Fnzz9Dvy1rbp0i&_nc_ohc=7E3B5HgbNJAAX8dBSDK&_nc_ht=scontent.fmvd4-1.fna&oh=1ee5e2abae1e7d3ef353f3639c988308&oe=5EF54BAB',
     BMW_323_SAN_9067 : 'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/101974235_271445330886204_2423932434937544704_n.jpg?_nc_cat=107&_nc_sid=8bfeb9&_nc_eui2=AeHPAKrKmQxJ9QXr7nIqYq8EIPi1X2khFmQg-LVfaSEWZMWo14DaMjoy0XcKrsU6iTMqt-MU28CH333WAeAMEatf&_nc_ohc=46F6NTXXwcwAX_6W8bA&_nc_ht=scontent.fmvd4-1.fna&oh=ee8940a210bb4a83c8583366eed12bb3&oe=5EF8B8A1',
+    MB_E350_AAW_2847 : 'https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/100570769_271460397551364_5653412473303203840_o.jpg?_nc_cat=105&_nc_sid=8bfeb9&_nc_eui2=AeFm7VujS19pH_UkC4RDkbpfLG4ubpZw_nQsbi5ulnD-dMjWGdGoVhSXQUsPREVRUne18in3jJPGYdPLI8NmTSLh&_nc_ohc=QmVM2q6uEpsAX-JOn1U&_nc_ht=scontent.fmvd4-1.fna&oh=c9e8b33a4c18fe9fba0ea11c11813e3b&oe=5EF746E6',
 }
 
 export default CAR_IMG;

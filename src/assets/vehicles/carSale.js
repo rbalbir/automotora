@@ -77,6 +77,7 @@ const SALE = {
     CHEV_MONTANA_SBK9812 : false,
     CHEV_SONIC_SBP_7745 : false,
     NISS_NOTE_AAO_9723 : false,
+    MB_E350_AAW_2847 : true,
 }
 
 export default SALE;

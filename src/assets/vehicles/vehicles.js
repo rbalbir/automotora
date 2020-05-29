@@ -3,11 +3,12 @@ import CAR_IMG from './carImgs';
 import {CAR_LINKS} from './carLinks';
 import SOLD from  './carSold';
 import SALE from './carSale';
+import PRICE from './carPrice';
  /*
 const ={
     brand:brands.,
     model:"",
-    price: 0,
+    price: PRICE.,
     data: {
         km:"",
         year:"",
@@ -20,10 +21,12 @@ const ={
     fbLink: CAR_LINKS.
 },*/
 
+
+
 const ALFA_AAJ_4312 = {
     brand:brands.ALF,
     model:"146ti",
-    price:7500,
+    price: PRICE.ALF_AAJ_4312,
     data: {
         km:"",
         year:"",
@@ -38,7 +41,7 @@ const ALFA_AAJ_4312 = {
 const RENAULT_19_ROJO = {
     brand:brands.REN,
     model:"19",
-    price:0,
+    price: PRICE.REN_19_ROJO,
     data: {
         km:"",
         year:"",
@@ -53,7 +56,7 @@ const RENAULT_19_ROJO = {
 const CHEV_AAA_3804 = {
     brand:brands.CHE,
     model:"Monza",
-    price:0,
+    price: PRICE.CHEV_AAA_3804,
     data: {
         km:"",
         year:"",
@@ -68,7 +71,7 @@ const CHEV_AAA_3804 = {
 const LIFAN_SCO_1874={
     brand:brands.LIF,
     model:"620",
-    price: 0,
+    price: PRICE.LIFAN_SCO_1874,
     data: {
         km:"",
         year:"",
@@ -83,7 +86,7 @@ const LIFAN_SCO_1874={
 const CHEV_AVEO_SBL_3277={
     brand:brands.CHE,
     model:"Aveo",
-    price: 0,
+    price: PRICE.CHEV_AVEO_SBL_3277,
     data: {
         km:"",
         year:"",
@@ -98,7 +101,7 @@ const CHEV_AVEO_SBL_3277={
 const CHEV_S10_SBV_4578={
     brand:brands.CHE,
     model:"S10",
-    price: 0,
+    price: PRICE.CHEV_S10_SBV_4578,
     data: {
         km:"",
         year:"",
@@ -113,7 +116,7 @@ const CHEV_S10_SBV_4578={
 const VW_GOL_OAB_5271={
     brand:brands.VWN,
     model:"Gol",
-    price: 0,
+    price: PRICE.VW_GOL_OAB_5271,
     data: {
         km:"",
         year:"",
@@ -128,7 +131,7 @@ const VW_GOL_OAB_5271={
 const CHEV_CORSA_FRD_2331={
     brand:brands.CHE,
     model:"Corsa",
-    price: 0,
+    price: PRICE.CHEV_CORSA_FRD_2331,
     data: {
         km:"",
         year:"",
@@ -143,7 +146,7 @@ const CHEV_CORSA_FRD_2331={
 const CHEV_AVEO_LJA_3313={
     brand:brands.CHE,
     model:"Aveo",
-    price: 0,
+    price: PRICE.CHEV_AVEO_LJA_3313,
     data: {
         km:"",
         year:"",
@@ -158,7 +161,7 @@ const CHEV_AVEO_LJA_3313={
 const EFFA_PICK_UP_ERB_2800={
     brand:brands.EFF,
     model:"PickUp",
-    price: 0,
+    price: PRICE.EFFA_PICK_UP_ERB_2800,
     data: {
         km:"",
         year:"",
@@ -173,7 +176,7 @@ const EFFA_PICK_UP_ERB_2800={
 const PEU_306_LFA_2958={
     brand:brands.PEU,
     model:"306",
-    price: 0,
+    price: PRICE.PEU_306_LFA_2958,
     data: {
         km:"",
         year:"",
@@ -188,7 +191,7 @@ const PEU_306_LFA_2958={
 const CHEV_ASTRA_AAN_4346={
     brand:brands.CHE,
     model:"Astra",
-    price: 0,
+    price: PRICE.CHEV_ASTRA_AAN_4346,
     data: {
         km:"",
         year:"",
@@ -203,7 +206,7 @@ const CHEV_ASTRA_AAN_4346={
 const FIAT_PREMIO_AAF_7748={
     brand:brands.FIA,
     model:"Premio",
-    price: 0,
+    price: PRICE.FIAT_PREMIO_AAF_7748,
     data: {
         km:"",
         year:"",
@@ -218,7 +221,7 @@ const FIAT_PREMIO_AAF_7748={
 const HYUN_ACCENT_LDB_5461={
     brand:brands.HYU,
     model:"Accent",
-    price: 0,
+    price: PRICE.HYUN_ACCENT_LDB_5461,
     data: {
         km:"",
         year:"",
@@ -233,7 +236,7 @@ const HYUN_ACCENT_LDB_5461={
 const FIAT_STRADA_PAC_0458={
     brand:brands.FIA,
     model:"Strada",
-    price: 0,
+    price: PRICE.FIAT_STRADA_PAC_0458,
     data: {
         km:"",
         year:"",
@@ -248,7 +251,7 @@ const FIAT_STRADA_PAC_0458={
 const FIAT_STRADA_AAR_2851={
     brand:brands.FIA,
     model:"Strada",
-    price: 0,
+    price: PRICE.FIAT_STRADA_AAR_2851,
     data: {
         km:"",
         year:"",
@@ -263,7 +266,7 @@ const FIAT_STRADA_AAR_2851={
 const SMA_SCN_1401={
     brand:brands.SMA,
     model:"",
-    price: 0,
+    price: PRICE.SMA_SCN_1401,
     data: {
         km:"",
         year:"",
@@ -278,7 +281,7 @@ const SMA_SCN_1401={
 const RENAULT_KANGOO_MAH_5847={
     brand:brands.REN,
     model:"Kangoo",
-    price: 0,
+    price: PRICE.RENAULT_KANGOO_MAH_5847,
     data: {
         km:"",
         year:"",
@@ -293,7 +296,7 @@ const RENAULT_KANGOO_MAH_5847={
 const CHEV_KADETT_BLANCO={
     brand:brands.CHE,
     model:"Kadett",
-    price: 0,
+    price: PRICE.CHEV_KADETT_BLANCO,
     data: {
         km:"",
         year:"",
@@ -308,7 +311,7 @@ const CHEV_KADETT_BLANCO={
 const VW_SAV_JYO_2365={
     brand:brands.VWN,
     model:"Saveiro",
-    price: 0,
+    price: PRICE.VW_SAV_JYO_2365,
     data: {
         km:"",
         year:"",
@@ -323,7 +326,7 @@ const VW_SAV_JYO_2365={
 const NISS_SENTRA_AAB_4317 ={
     brand:brands.NIS,
     model:"Sentra",
-    price: 0,
+    price: PRICE.NISS_SENTRA_AAB_4317,
     data: {
         km:"",
         year:"",
@@ -338,7 +341,7 @@ const NISS_SENTRA_AAB_4317 ={
 const CHEV_CORSA_SBI_5961 ={
     brand:brands.CHE,
     model:"Corsa",
-    price: 0,
+    price: PRICE.CHEV_CORSA_SBI_5961,
     data: {
         km:"",
         year:"",
@@ -353,7 +356,7 @@ const CHEV_CORSA_SBI_5961 ={
 const CIT_SAXO_AAD_6896 ={
     brand:brands.CIT,
     model:"Saxo",
-    price: 0,
+    price: PRICE.CIT_SAXO_AAD_6896,
     data: {
         km:"",
         year:"",
@@ -368,7 +371,7 @@ const CIT_SAXO_AAD_6896 ={
 const OPEL_ASTRA_SCF_2173 ={
     brand:brands.OPE,
     model:"Astra",
-    price: 0,
+    price: PRICE.OPEL_ASTRA_SCF_2173,
     data: {
         km:"",
         year:"",
@@ -383,7 +386,7 @@ const OPEL_ASTRA_SCF_2173 ={
 const KIA_AVELLA_AAU_4880 ={
     brand:brands.KIA,
     model:"Avella",
-    price: 0,
+    price: PRICE.KIA_AVELLA_AAU_4880,
     data: {
         km:"",
         year:"",
@@ -398,7 +401,7 @@ const KIA_AVELLA_AAU_4880 ={
 const FIAT_PANDA_ROJO ={
     brand:brands.FIA,
     model:"Panda",
-    price: 0,
+    price: PRICE.FIAT_PANDA_ROJO,
     data: {
         km:"",
         year:"",
@@ -413,7 +416,7 @@ const FIAT_PANDA_ROJO ={
 const CHEV_CORSA_SAS_1203 ={
     brand:brands.CHE,
     model:"Corsa",
-    price: 0,
+    price: PRICE.CHEV_CORSA_SAS_1203,
     data: {
         km:"",
         year:"",
@@ -428,7 +431,7 @@ const CHEV_CORSA_SAS_1203 ={
 const HYUN_ACCENT_AAC_8033 ={
     brand:brands.HYU,
     model:"Accent",
-    price: 0,
+    price: PRICE.HYUN_ACCENT_AAC_8033,
     data: {
         km:"",
         year:"",
@@ -443,7 +446,7 @@ const HYUN_ACCENT_AAC_8033 ={
 const CHEV_SPARK_CAA_3533 ={
     brand:brands.CHE,
     model:"Spark",
-    price: 0,
+    price: PRICE.CHEV_SPARK_CAA_3533,
     data: {
         km:"",
         year:"",
@@ -458,7 +461,7 @@ const CHEV_SPARK_CAA_3533 ={
 const HYUN_I10_SCQ_1937 ={
     brand:brands.HYU,
     model:"i10",
-    price: 0,
+    price: PRICE.HYUN_I10_SCQ_1937,
     data: {
         km:"",
         year:"",
@@ -473,7 +476,7 @@ const HYUN_I10_SCQ_1937 ={
 const HONDA_RIDG_SBU_2123 ={
     brand:brands.HON,
     model:"Ridgeline",
-    price: 0,
+    price: PRICE.HONDA_RIDG_SBU_2123,
     data: {
         km:"",
         year:"",
@@ -488,7 +491,7 @@ const HONDA_RIDG_SBU_2123 ={
 const CEHV_CORSA_SAF_8605 ={
     brand:brands.CHE,
     model:"Corsa",
-    price: 0,
+    price: PRICE.CEHV_CORSA_SAF_8605,
     data: {
         km:"",
         year:"",
@@ -503,7 +506,7 @@ const CEHV_CORSA_SAF_8605 ={
 const KIN_400_ATS_516 ={
     brand:brands.KIN,
     model:"400cc",
-    price: 0,
+    price: PRICE.KIN_400_ATS_516,
     data: {
         km:"",
         year:"",
@@ -518,7 +521,7 @@ const KIN_400_ATS_516 ={
 const PEU_306SW_SBC_1008 ={
     brand:brands.PEU,
     model:"306sw",
-    price: 0,
+    price: PRICE.PEU_306SW_SBC_1008,
     data: {
         km:"",
         year:"",
@@ -533,7 +536,7 @@ const PEU_306SW_SBC_1008 ={
 const NISS_NP300_CS_DORADA ={
     brand:brands.NIS,
     model:"NP300",
-    price: 0,
+    price: PRICE.NISS_NP300_CS_DORADA,
     data: {
         km:"",
         year:"",
@@ -548,7 +551,7 @@ const NISS_NP300_CS_DORADA ={
 const BMW_330_BIBI ={
     brand:brands.BMW,
     model:"330",
-    price: 0,
+    price: PRICE.BMW_330_BIBI,
     data: {
         km:"",
         year:"",
@@ -563,7 +566,7 @@ const BMW_330_BIBI ={
 const NISS_XTRAIL_KMC_1803 ={
     brand:brands.NIS,
     model:"Xtrail",
-    price: 0,
+    price: PRICE.NISS_XTRAIL_KMC_1803,
     data: {
         km:"",
         year:"",
@@ -578,7 +581,7 @@ const NISS_XTRAIL_KMC_1803 ={
 const SUZ_CEL_SCI_1309 ={
     brand:brands.SUZ,
     model:"Celerio",
-    price: 0,
+    price: PRICE.SUZ_CEL_SCI_1309,
     data: {
         km:"",
         year:"",
@@ -593,7 +596,7 @@ const SUZ_CEL_SCI_1309 ={
 const PEU_306SW_VERDE ={
     brand:brands.PEU,
     model:"306sw",
-    price: 0,
+    price: PRICE.PEU_306SW_VERDE,
     data: {
         km:"",
         year:"",
@@ -608,7 +611,7 @@ const PEU_306SW_VERDE ={
 const FIAT_1_FIRE_OAA_5617 ={
     brand:brands.FIA,
     model:"Uno",
-    price: 0,
+    price: PRICE.FIAT_1_FIRE_OAA_5617,
     data: {
         km:"",
         year:"",
@@ -623,7 +626,7 @@ const FIAT_1_FIRE_OAA_5617 ={
 const NISS_NP300_OAC_9185 ={
     brand:brands.NIS,
     model:"NP300",
-    price: 0,
+    price: PRICE.NISS_NP300_OAC_9185,
     data: {
         km:"",
         year:"",
@@ -638,7 +641,7 @@ const NISS_NP300_OAC_9185 ={
 const FORD_KA_NAQ_8784 ={
     brand:brands.FOR,
     model:"KA",
-    price: 0,
+    price: PRICE.FORD_KA_NAQ_8784,
     data: {
         km:"",
         year:"",
@@ -653,7 +656,7 @@ const FORD_KA_NAQ_8784 ={
 const MAZ_TRIB_OAB_7483 ={
     brand:brands.MAZ,
     model:"Tribute",
-    price: 0,
+    price: PRICE.MAZ_TRIB_OAB_7483,
     data: {
         km:"",
         year:"",
@@ -668,7 +671,7 @@ const MAZ_TRIB_OAB_7483 ={
 const BMW_318_NUEVO_BLANCO ={
     brand:brands.BMW,
     model:"318",
-    price: 0,
+    price: PRICE.BMW_318_NUEVO_BLANCO,
     data: {
         km:"",
         year:"",
@@ -683,7 +686,7 @@ const BMW_318_NUEVO_BLANCO ={
 const CIT_AX_B_711038 ={
     brand:brands.CIT,
     model:"AX",
-    price: 0,
+    price: PRICE.CIT_AX_B_711038,
     data: {
         km:"",
         year:"",
@@ -698,7 +701,7 @@ const CIT_AX_B_711038 ={
 const NISS_NP300_AAJ_9146 ={
     brand:brands.NIS,
     model:"NP300",
-    price: 0,
+    price: PRICE.NISS_NP300_AAJ_9146,
     data: {
         km:"",
         year:"",
@@ -713,7 +716,7 @@ const NISS_NP300_AAJ_9146 ={
 const CIT_SAXO_AAE_5250 ={
     brand:brands.CIT,
     model:"Saxo",
-    price: 0,
+    price: PRICE.CIT_SAXO_AAE_5250,
     data: {
         km:"",
         year:"",
@@ -728,7 +731,7 @@ const CIT_SAXO_AAE_5250 ={
 const MIT_LANCER_B_560665 ={
     brand:brands.MIT,
     model:"Lancer",
-    price: 0,
+    price: PRICE.MIT_LANCER_B_560665,
     data: {
         km:"",
         year:"",
@@ -743,7 +746,7 @@ const MIT_LANCER_B_560665 ={
 const SUB_IMP_SCO_7095 ={
     brand:brands.SUB,
     model:"Impreza",
-    price: 0,
+    price: PRICE.SUB_IMP_SCO_7095,
     data: {
         km:"",
         year:"",
@@ -758,7 +761,7 @@ const SUB_IMP_SCO_7095 ={
 const CHEV_SAIL_AAO_8574 ={
     brand:brands.CHE,
     model:"Sail",
-    price: 0,
+    price: PRICE.CHEV_SAIL_AAO_8574,
     data: {
         km:"",
         year:"",
@@ -773,7 +776,7 @@ const CHEV_SAIL_AAO_8574 ={
 const VW_SAV_BLANCA ={
     brand:brands.VWN,
     model:"Saveiro",
-    price: 0,
+    price: PRICE.VW_SAV_BLANCA,
     data: {
         km:"",
         year:"",
@@ -788,7 +791,7 @@ const VW_SAV_BLANCA ={
 const HYUN_HB20_BLANCO ={
     brand:brands.HYU,
     model:"HB20",
-    price: 0,
+    price: PRICE.HYUN_HB20_BLANCO,
     data: {
         km:"",
         year:"",
@@ -800,25 +803,11 @@ const HYUN_HB20_BLANCO ={
     img:CAR_IMG.HYUN_HB20_BLANCO,
     fbLink: CAR_LINKS.HYUN_HB20_BLANCO
 }
-const NISS_NOTE_AAO_9723 ={
-    brand:brands.NIS,
-    model:"Note",
-    price: 0,
-    data: {
-        km:"",
-        year:"",
-        fuel: "Nafta",
-        equip:[],
-    },
-    sold: SOLD.NISS_NOTE_AAO_9723,
-    onSale: SALE.NISS_NOTE_AAO_9723,
-    img:CAR_IMG.NISS_NOTE_AAO_9723,
-    fbLink: CAR_LINKS.NISS_NOTE_AAO_9723
-}
+
 const NISS_NP300_QAB_7517 ={
     brand:brands.NIS,
     model:"NP300",
-    price: 0,
+    price: PRICE.NISS_NP300_QAB_7517,
     data: {
         km:"",
         year:"",
@@ -833,7 +822,7 @@ const NISS_NP300_QAB_7517 ={
 const BMW_530D_MAE_9090 ={
     brand:brands.BMW,
     model:"530d",
-    price: 0,
+    price: PRICE.BMW_530D_MAE_9090,
     data: {
         km:"",
         year:"",
@@ -848,7 +837,7 @@ const BMW_530D_MAE_9090 ={
 const GEE_EMG_OAC_2903 ={
     brand:brands.GEE,
     model:"Emgrand",
-    price: 0,
+    price: PRICE.GEE_EMG_OAC_2903,
     data: {
         km:"",
         year:"",
@@ -863,7 +852,7 @@ const GEE_EMG_OAC_2903 ={
 const VW_SAV_SBY_3393 ={
     brand:brands.VWN,
     model:"Saveiro",
-    price: 0,
+    price: PRICE.VW_SAV_SBY_3393,
     data: {
         km:"",
         year:"",
@@ -878,7 +867,7 @@ const VW_SAV_SBY_3393 ={
 const BMW_114I_GRIS ={
     brand:brands.BMW,
     model:"114i",
-    price: 0,
+    price: PRICE.BMW_114I_GRIS,
     data: {
         km:"",
         year:"",
@@ -893,7 +882,7 @@ const BMW_114I_GRIS ={
 const CIT_ZX_SBR_8411 ={
     brand:brands.CIT,
     model:"ZX 16v",
-    price: 0,
+    price: PRICE.CIT_ZX_SBR_8411,
     data: {
         km:"",
         year:"",
@@ -908,7 +897,7 @@ const CIT_ZX_SBR_8411 ={
 const HYUN_SCOUPE_OAA_7878 ={
     brand:brands.HYU,
     model:"Scoupe",
-    price: 0,
+    price: PRICE.HYUN_SCOUPE_OAA_7878,
     data: {
         km:"",
         year:"",
@@ -923,7 +912,7 @@ const HYUN_SCOUPE_OAA_7878 ={
 const BMW_530I_B_590139 ={
     brand:brands.BMW,
     model:"",
-    price: 0,
+    price: PRICE.BMW_530I_B_590139,
     data: {
         km:"",
         year:"",
@@ -938,7 +927,7 @@ const BMW_530I_B_590139 ={
 const PEU_3008_AAH_1373 ={
     brand:brands.PEU,
     model:"3008",
-    price: 0,
+    price: PRICE.PEU_3008_AAH_1373,
     data: {
         km:"",
         year:"",
@@ -953,7 +942,7 @@ const PEU_3008_AAH_1373 ={
 const FORD_TAU_AAD_5419 ={
     brand:brands.FOR,
     model:"Taunus",
-    price: 0,
+    price: PRICE.FORD_TAU_AAD_5419,
     data: {
         km:"",
         year:"",
@@ -968,7 +957,7 @@ const FORD_TAU_AAD_5419 ={
 const VW_VENTO_GLI_SBV4796 ={
     brand:brands.VWN,
     model:"Vento GLI",
-    price: 0,
+    price: PRICE.VW_VENTO_GLI_SBV4796,
     data: {
         km:"",
         year:"",
@@ -981,7 +970,204 @@ const VW_VENTO_GLI_SBV4796 ={
     fbLink: CAR_LINKS.VW_VENTO_GLI_SBV4796
 }
 
+const VW_AMAZON_AAK_2458={
+    brand:brands.VWN,
+    model:"Amazon",
+    price: PRICE.VW_AMAZON_AAK_2458,
+    data: {
+        km:"",
+        year:"",
+        fuel: "Diesel",
+        equip:[],
+    },
+    sold: SOLD.VW_AMAZON_AAK_2458,
+    onSale: SALE.VW_AMAZON_AAK_2458,
+    img:CAR_IMG.VW_AMAZON_AAK_2458,
+    fbLink: CAR_LINKS.VW_AMAZON_AAK_2458
+}
+const BMW_325_BCA_0210={
+    brand:brands.BMW,
+    model:"325",
+    price: PRICE.BMW_325_BCA_0210,
+    data: {
+        km:"",
+        year:"",
+        fuel: "Nafta",
+        equip:[],
+    },
+    sold: SOLD.BMW_325_BCA_0210,
+    onSale: SALE.BMW_325_BCA_0210,
+    img:CAR_IMG.BMW_325_BCA_0210,
+    fbLink: CAR_LINKS.BMW_325_BCA_0210
+}
+const FIAT_600_AAI_1558={
+    brand:brands.FIA,
+    model:"600",
+    price: PRICE.FIAT_600_AAI_1558,
+    data: {
+        km:"",
+        year:"",
+        fuel: "Nafta",
+        equip:[],
+    },
+    sold: SOLD.FIAT_600_AAI_1558,
+    onSale: SALE.FIAT_600_AAI_1558,
+    img:CAR_IMG.FIAT_600_AAI_1558,
+    fbLink: CAR_LINKS.FIAT_600_AAI_1558
+}
+const VW_GOL_G2_SAE_1024={
+    brand:brands.VWN,
+    model:"Gol G2",
+    price: PRICE.VW_GOL_G2_SAE_1024,
+    data: {
+        km:"",
+        year:"",
+        fuel: "Nafta",
+        equip:[],
+    },
+    sold: SOLD.VW_GOL_G2_SAE_1024,
+    onSale: SALE.VW_GOL_G2_SAE_1024,
+    img:CAR_IMG.VW_GOL_G2_SAE_1024,
+    fbLink: CAR_LINKS.VW_GOL_G2_SAE_1024
+}
+const LADA_IID_SAR_7642={
+    brand:brands.LAD,
+    model:"IID",
+    price: PRICE.LADA_IID_SAR_7642,
+    data: {
+        km:"",
+        year:"",
+        fuel: "Nafta",
+        equip:[],
+    },
+    sold: SOLD.LADA_IID_SAR_7642,
+    onSale: SALE.LADA_IID_SAR_7642,
+    img:CAR_IMG.LADA_IID_SAR_7642,
+    fbLink: CAR_LINKS.LADA_IID_SAR_7642
+}
+const REN_SYMBOL_OAB_5040={
+    brand:brands.REN,
+    model:"Symbol",
+    price: PRICE.REN_SYMBOL_OAB_5040,
+    data: {
+        km:"",
+        year:"",
+        fuel: "Nafta",
+        equip:[],
+    },
+    sold: SOLD.REN_SYMBOL_OAB_5040,
+    onSale: SALE.REN_SYMBOL_OAB_5040,
+    img:CAR_IMG.REN_SYMBOL_OAB_5040,
+    fbLink: CAR_LINKS.REN_SYMBOL_OAB_5040
+}
+const REN_DUSTER_OAB_8918={
+    brand:brands.REN,
+    model:"Duster",
+    price: PRICE.REN_DUSTER_OAB_8918,
+    data: {
+        km:"",
+        year:"",
+        fuel: "Nafta",
+        equip:[],
+    },
+    sold: SOLD.REN_DUSTER_OAB_8918,
+    onSale: SALE.REN_DUSTER_OAB_8918,
+    img:CAR_IMG.REN_DUSTER_OAB_8918,
+    fbLink: CAR_LINKS.REN_DUSTER_OAB_8918
+}
+const CHEV_CORSA2_AAK_2396={
+    brand:brands.CHE,
+    model:"Corsa 2",
+    price: PRICE.CHEV_CORSA2_AAK_2396,
+    data: {
+        km:"",
+        year:"",
+        fuel: "Nafta",
+        equip:[],
+    },
+    sold: SOLD.CHEV_CORSA2_AAK_2396,
+    onSale: SALE.CHEV_CORSA2_AAK_2396,
+    img:CAR_IMG.CHEV_CORSA2_AAK_2396,
+    fbLink: CAR_LINKS.CHEV_CORSA2_AAK_2396
+}
+const NISS_720_MAB_8279={
+    brand:brands.NIS,
+    model:"720",
+    price: PRICE.NISS_720_MAB_8279,
+    data: {
+        km:"",
+        year:"",
+        fuel: "Nafta",
+        equip:[],
+    },
+    sold: SOLD.NISS_720_MAB_8279,
+    onSale: SALE.NISS_720_MAB_8279,
+    img:CAR_IMG.NISS_720_MAB_8279,
+    fbLink: CAR_LINKS.NISS_720_MAB_8279
+}
+const CHEV_MONTANA_SBK9812={
+    brand:brands.CHE,
+    model:"Montana Sport",
+    price: PRICE.CHEV_MONTANA_SBK9812,
+    data: {
+        km:"",
+        year:"",
+        fuel: "Nafta",
+        equip:[],
+    },
+    sold: SOLD.CHEV_MONTANA_SBK9812,
+    onSale: SALE.CHEV_MONTANA_SBK9812,
+    img:CAR_IMG.CHEV_MONTANA_SBK9812,
+    fbLink: CAR_LINKS.CHEV_MONTANA_SBK9812
+}
 
+const CHEV_SONIC_SBP_7745={
+    brand:brands.CHE,
+    model:"Sonic LTZ",
+    price: PRICE.CHEV_SONIC_SBP_7745,
+    data: {
+        km:"86000",
+        year:"2012",
+        fuel: "Nafta",
+        equip:[],
+    },
+    sold: SOLD.CHEV_SONIC_SBP_7745,
+    onSale: SALE.CHEV_SONIC_SBP_7745,
+    img:CAR_IMG.CHEV_SONIC_SBP_7745,
+    fbLink: CAR_LINKS.CHEV_SONIC_SBP_7745
+}
+
+const NISS_NOTE_AAO_9723={
+    brand:brands.NIS,
+    model:"Note",
+    price: PRICE.NISS_NOTE_AAO_9723,
+    data: {
+        km:"75000",
+        year:"2015",
+        fuel: "Nafta",
+        equip:[],
+    },
+    sold: SOLD.NISS_NOTE_AAO_9723,
+    onSale: SALE.NISS_NOTE_AAO_9723,
+    img:CAR_IMG.NISS_NOTE_AAO_9723,
+    fbLink: CAR_LINKS.NISS_NOTE_AAO_9723
+}
+
+const BMW_323_SAN_9067={
+    brand:brands.BMW,
+    model:"323",
+    price: PRICE.BMW_323_SAN_9067,
+    data: {
+        km:"0",
+        year:"1999",
+        fuel: "Nafta",
+        equip:[],
+    },
+    sold: SOLD.BMW_323_SAN_9067,
+    onSale: SALE.BMW_323_SAN_9067,
+    img:CAR_IMG.BMW_323_SAN_9067,
+    fbLink: CAR_LINKS.BMW_323_SAN_9067
+}
 
 const vehicles = [
     CHEV_AAA_3804,
@@ -1036,9 +1222,8 @@ const vehicles = [
     CHEV_SAIL_AAO_8574 ,
     VW_SAV_BLANCA ,    
     HYUN_HB20_BLANCO ,
-    NISS_NOTE_AAO_9723 ,
     NISS_NP300_QAB_7517 ,   
-     BMW_530D_MAE_9090 ,
+    BMW_530D_MAE_9090 ,
     GEE_EMG_OAC_2903 ,
     VW_SAV_SBY_3393 ,
     BMW_114I_GRIS ,
@@ -1048,6 +1233,21 @@ const vehicles = [
     PEU_3008_AAH_1373 ,
     FORD_TAU_AAD_5419 ,
     VW_VENTO_GLI_SBV4796 ,
+
+    //29-05-2020
+    VW_AMAZON_AAK_2458,
+    BMW_325_BCA_0210,
+    FIAT_600_AAI_1558,
+    VW_GOL_G2_SAE_1024,
+    LADA_IID_SAR_7642,
+    REN_SYMBOL_OAB_5040,
+    REN_DUSTER_OAB_8918,
+    CHEV_CORSA2_AAK_2396,
+    NISS_720_MAB_8279,
+    CHEV_MONTANA_SBK9812,
+    BMW_323_SAN_9067,
+    CHEV_SONIC_SBP_7745,
+    NISS_NOTE_AAO_9723,
 ];
 export default vehicles;
 

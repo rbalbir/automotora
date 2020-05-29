@@ -62,8 +62,21 @@ const SALE = {
     BMW_530I_B_590139 : false,
     PEU_3008_AAH_1373 : false,
     FORD_TAU_AAD_5419 : false,
-    VW_VENTO_GLI_SBV4796 : false
+    VW_VENTO_GLI_SBV4796 : false,
 
+    //29-05-2020
+    VW_AMAZON_AAK_2458 : false,
+    BMW_325_BCA_0210 : false,
+    FIAT_600_AAI_1558 : false,
+    VW_GOL_G2_SAE_1024 : false,
+    LADA_IID_SAR_7642 : false,
+    REN_SYMBOL_OAB_5040 : false,
+    REN_DUSTER_OAB_8918 : false,
+    CHEV_CORSA2_AAK_2396 : false,
+    NISS_720_MAB_8279 : false,
+    CHEV_MONTANA_SBK9812 : false,
+    CHEV_SONIC_SBP_7745 : false,
+    NISS_NOTE_AAO_9723 : false,
 }
 
 export default SALE;
